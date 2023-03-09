@@ -1,0 +1,11 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="4233" viewBox="0 0 1920 4233">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.372" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6d6875"/>
+      <stop offset="1" stop-color="#ffcdb2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.485" y1="0.582" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <rect id="Background-2" data-name="Background" width="1920" height="2125" fill="url(#linear-gradient)"/>
+  <rect id="Background-3" data-name="Background" width="1920" height="2125" transform="translate(0 2108)" fill="url(#linear-gradient-2)"/>
+</svg>

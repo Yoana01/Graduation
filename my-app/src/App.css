@@ -1,0 +1,13 @@
+.nav{
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+#nav-link{
+  text-decoration: none;
+  color:white;
+  font-size: 22px;
+}
