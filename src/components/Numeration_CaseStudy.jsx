@@ -4,8 +4,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
-import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
+import { Column, Row, InfoBox} from "./styleComponents/container.Style"
+import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
@@ -21,15 +21,17 @@ function Numeration_CaseStudy() {
   return (
     <div>
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-      <VerticalTimelineElement
+      <Link to='#Understanding'>
+        <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
         iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
-        contentArrowStyle={ {border: "none" }}>
+        contentArrowStyle={ {border: "none" }}
+        > 
       <Slide right cascade>
-    <Row small>
+    <Row small id="Understanding">
     <InfoBox>
           <Title>Understanding</Title> 
           <SmallInfo> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
@@ -51,8 +53,9 @@ function Numeration_CaseStudy() {
     
      </Slide>
        
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+        </VerticalTimelineElement>
+      </Link>
+        <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
@@ -81,8 +84,8 @@ function Numeration_CaseStudy() {
     </Row>
     
      </Slide>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
@@ -112,8 +115,8 @@ function Numeration_CaseStudy() {
     </Row>
     
      </Slide>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
@@ -131,10 +134,9 @@ function Numeration_CaseStudy() {
     </Row>
     
      </Slide>
-  </VerticalTimelineElement>
-</VerticalTimeline>
-
-    </div>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </div>  
        
    )
 }

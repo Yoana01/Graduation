@@ -3,15 +3,12 @@ import BigPic from "./Image6.png"
 import DesignMethod from "./Image7.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
-import { Button } from "./styleComponents/button.Style"
-import Sample from "./dummyImg.jpg"
 import Numeration_CaseStudy from './Numeration_CaseStudy'
-import { DarkLine } from './styleComponents/lines.Style'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+
 function CaseStudy_Portfolio() {
   return (
     <div>

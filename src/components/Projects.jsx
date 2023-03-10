@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { Button } from "./styleComponents/button.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
-import { Column, Row, InfoBox, StyledComponent  } from "./styleComponents/container.Style"
+import { Column, Row, InfoBox  } from "./styleComponents/container.Style"
 import Sample from "./dummyImg.jpg"
 import BigPic from "./Image6.png"
 import Project01 from "./Image8.png"
