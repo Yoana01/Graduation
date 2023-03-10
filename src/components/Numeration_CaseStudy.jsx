@@ -11,33 +11,14 @@ import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
 import Moscow from "./MoSCoW.jpg"
-// import { useEffect } from "react";
-// import { useLocation } from "react-router-dom";
 
-// export const ScrollHandler = ({ children}) => {
-//     const { pathname, hash } = useLocation()
-//     const handleScroll = () => {
-//         const element = document.getElementById(hash.replace("#", ""));
-//         setTimeout(() => {
-//             window.scrollTo({
-//                 behavior: element ? "smooth" : "auto",
-//                 top: element ? element.offsetTop : 0
-//                 });
-//             }, 100);
-//         };
-//         useEffect(() => {
-//             handleScroll()
-//         }, [pathname, hash])
-//         return children
-//     }
+
 
 function Numeration_CaseStudy() {
 
   return (
     <div>
-   
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-      {/* <Link to='#Understanding'> */}
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
@@ -47,7 +28,7 @@ function Numeration_CaseStudy() {
         contentArrowStyle={ {border: "none" }}
         > 
       <Slide right cascade>
-    <Row small id="Understanding">
+    <Row small id="understanding">
     <InfoBox>
           <Title>Understanding</Title> 
           <SmallInfo> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
