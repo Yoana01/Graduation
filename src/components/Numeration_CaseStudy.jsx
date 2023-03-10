@@ -11,17 +11,33 @@ import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
 import Moscow from "./MoSCoW.jpg"
+// import { useEffect } from "react";
+// import { useLocation } from "react-router-dom";
 
-
-// import { DarkLine } from './styleComponents/lines.Style'
-// import {CircleBox} from "./styleComponents/container.Style"
+// export const ScrollHandler = ({ children}) => {
+//     const { pathname, hash } = useLocation()
+//     const handleScroll = () => {
+//         const element = document.getElementById(hash.replace("#", ""));
+//         setTimeout(() => {
+//             window.scrollTo({
+//                 behavior: element ? "smooth" : "auto",
+//                 top: element ? element.offsetTop : 0
+//                 });
+//             }, 100);
+//         };
+//         useEffect(() => {
+//             handleScroll()
+//         }, [pathname, hash])
+//         return children
+//     }
 
 function Numeration_CaseStudy() {
 
   return (
     <div>
+   
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-      <Link to='#Understanding'>
+      {/* <Link to='#Understanding'> */}
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
@@ -54,7 +70,7 @@ function Numeration_CaseStudy() {
      </Slide>
        
         </VerticalTimelineElement>
-      </Link>
+      {/* </Link> */}
         <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
