@@ -11,6 +11,7 @@ import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
 import Moscow from "./MoSCoW.jpg"
+import C4model from "./C4model.png"
 
 
 
@@ -106,8 +107,11 @@ function Numeration_CaseStudy() {
               in a structured way.
         </SmallInfo>
         </InfoBox>
-      <Zoom> 
-          <img src={Moscow} alt="" style={{'width': '450px', 'height': '450px'}}/>
+      <Zoom>
+        <Column>
+          <img src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
+          <img src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
+        </Column> 
         </Zoom>
     </Row>
     

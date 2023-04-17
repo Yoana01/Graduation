@@ -3,38 +3,40 @@ import { Link } from "react-router-dom";
 import { Button } from "./styleComponents/button.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Column, Row, InfoBox  } from "./styleComponents/container.Style"
-import BigPic from "./Image6.png"
-import Project01 from "./Image8.png"
+import Project01 from "./Image6.png"
+import Project02 from "./Logo.jpg"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
 function Projects() {
   return (
     <Column>
-    <Fade right cascade>
+     <Fade left cascade>
       <Row small>
         <Zoom cascade>
-        <img src={BigPic} alt="" style={{'width': '400px', 'height': '250px'}}/>
+        <img src={Project02} alt="" style={{'width': '300px', 'height': '300px'}}/>
         </Zoom>
         <InfoBox small>
-          <Title>Portfolio</Title> 
-          <SmallInfo>If you want to understand more about how I have created this portfolio, you can click the button.</SmallInfo>
-          <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
+          <Title>Onboarding Process Simac</Title> 
+          <SmallInfo>If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.</SmallInfo>
+          <Link to={'/caseStudySimac'}> <Button>Read More</Button></Link>
         </InfoBox>       
       </Row>
       </Fade>
-      <Fade left cascade>
+    <Fade right cascade>
       <Row small>
-        <InfoBox small>
-          <Title>Simac Project</Title> 
-          <SmallInfo>The aim of this project was to create a PWA for 4 weeks as we were focusing on the meaningful, gamified and to be user-friendly.</SmallInfo>
-          <Button>Read More</Button>
-        </InfoBox>
+      <InfoBox small>
+          <Title>Portfolio</Title> 
+          <SmallInfo>If you want to understand more about how I have created this portfolio, you can click the button.</SmallInfo>
+          <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
+        </InfoBox>  
         <Zoom cascade>
-        <img src={Project01} alt="" style={{'width': '500px', 'height': '250px'}}/>
+        <img src={Project01} alt="" style={{'width': '400px', 'height': '250px'}}/>
         </Zoom>
+           
       </Row>
-      </Fade>
+    </Fade>
+     
     </Column>
   )
 }

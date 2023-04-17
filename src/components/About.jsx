@@ -15,6 +15,7 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import Carosel from './Carosel'
+import NumerationExperiences from "./Numeration_Experiences"
 
 function About() {
   
@@ -55,12 +56,13 @@ function About() {
     </Fade>
  
   </Column>
+  <NumerationExperiences></NumerationExperiences>
   <Title>Feedback</Title>
   <Zoom cascade>
 
       <Carosel/>
   </Zoom>
-   
+  
     <Column>
     <Title>5 things I love</Title>
       <Row small>

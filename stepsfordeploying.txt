@@ -1,6 +1,7 @@
 having build and add in the gitignore file
 
 _redirect in public folder
+
  Log in to Netlify
 Choose your app and click on Site settings
 Navigate to Build & Deploy
