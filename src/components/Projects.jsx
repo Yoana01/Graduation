@@ -13,11 +13,9 @@ function Projects() {
     <Column>
      <Fade left cascade>
       <Row small>
-        <Zoom cascade>
         <img src={Project02} alt="" style={{'width': '300px', 'height': '300px'}}/>
-        </Zoom>
         <InfoBox small>
-          <Title>Onboarding Process Simac</Title> 
+          <Title>Onboarding Simac</Title> 
           <SmallInfo>If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.</SmallInfo>
           <Link to={'/caseStudySimac'}> <Button>Read More</Button></Link>
         </InfoBox>       
@@ -30,10 +28,7 @@ function Projects() {
           <SmallInfo>If you want to understand more about how I have created this portfolio, you can click the button.</SmallInfo>
           <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
         </InfoBox>  
-        <Zoom cascade>
-        <img src={Project01} alt="" style={{'width': '400px', 'height': '250px'}}/>
-        </Zoom>
-           
+        <img src={Project01} alt="" style={{'width': '400px', 'height': '250px'}}/>     
       </Row>
     </Fade>
      

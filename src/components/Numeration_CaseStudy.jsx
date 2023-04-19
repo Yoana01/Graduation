@@ -28,7 +28,7 @@ function Numeration_CaseStudy() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         > 
-      <Slide right cascade>
+      {/* <Slide right cascade> */}
     <Row small id="understanding">
     <InfoBox>
           <Title>Understanding</Title> 
@@ -44,12 +44,12 @@ function Numeration_CaseStudy() {
               playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
               Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
         </InfoBox>
-        <Zoom>
+        {/* <Zoom> */}
           <img src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
-        </Zoom>
+        {/* </Zoom> */}
     </Row>
     
-     </Slide>
+     {/* </Slide> */}
        
         </VerticalTimelineElement>
       {/* </Link> */}
@@ -60,7 +60,7 @@ function Numeration_CaseStudy() {
     iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
-  <Slide right cascade>
+  {/* <Slide right cascade> */}
     <Row small>
     <InfoBox>
           <Title>Exploring</Title> 
@@ -70,18 +70,17 @@ function Numeration_CaseStudy() {
             <SmallInfo> Another method that I used is the <span style={{color:"#6D6875"}}>UI Architecture</span> as again and 
             here I went through different iterations before going to the final version of my structure for the design. 
             I did and small brand style guide which to help with the components of my design.</SmallInfo>
-            <a href="https://stichtingfontys-my.sharepoint.com/:f:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio?csf=1&web=1&e=U6fcJh" target="_blank"> <Button> See more</Button> </a>
+            <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
-        <Zoom>
+        {/* <Zoom> */}
           <Column>
           <img src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
           <img src={UIArch} alt="" style={{'width': '300px', 'height': '450px'}}/>
-          </Column>
-        
-        </Zoom>
+          </Column>  
+        {/* </Zoom> */}
     </Row>
     
-     </Slide>
+     {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -90,7 +89,7 @@ function Numeration_CaseStudy() {
     iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
-  <Slide right cascade>
+  {/* <Slide right cascade> */}
     <Row small>
     <InfoBox>
           <Title>Materializing</Title> 
@@ -107,15 +106,15 @@ function Numeration_CaseStudy() {
               in a structured way.
         </SmallInfo>
         </InfoBox>
-      <Zoom>
+      {/* <Zoom> */}
         <Column>
           <img src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
           <img src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
         </Column> 
-        </Zoom>
+        {/* </Zoom> */}
     </Row>
     
-     </Slide>
+     {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -124,7 +123,7 @@ function Numeration_CaseStudy() {
     iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
-    <Slide right cascade>
+    {/* <Slide right cascade> */}
     <Row small conclusion>
     <InfoBox>
           <Title>Conclusion</Title> 
@@ -134,7 +133,7 @@ function Numeration_CaseStudy() {
         </InfoBox>
     </Row>
     
-     </Slide>
+     {/* </Slide> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>  

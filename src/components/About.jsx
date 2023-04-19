@@ -66,9 +66,7 @@ function About() {
     <Column>
     <Title>5 things I love</Title>
       <Row small>
-        <Zoom>
            <img src={Music} alt="" style={{ 'height': '450px', mixBlendMode:'luminosity'}}/>
-        </Zoom>
         <Slide right cascade>
         <InfoBox>
           <Title>Music</Title> 
@@ -88,15 +86,10 @@ function About() {
           </SmallInfo>
         </InfoBox>
         </Slide>
-        <Zoom>
          <img src={Movies} alt="" style={{'width': '350px', 'height': '350px', mixBlendMode:'luminosity'}}/>
-        </Zoom>
-       
       </Row>
       <Row small>
-        <Zoom>
            <img src={Gym} alt="" style={{'width': '350px', 'height': '450px',  mixBlendMode:'luminosity'}}/>
-        </Zoom>
         <Slide right cascade>
         <InfoBox>
           <Title>Gym</Title> 
@@ -115,15 +108,10 @@ function About() {
           </SmallInfo>
         </InfoBox>
         </Slide>
-        <Zoom>
-        <img src={Cake} alt="" style={{'width': '180px', 'height': '300px', mixBlendMode:'luminosity'}}/>
-        </Zoom>
-    
+        <img src={Cake} alt="" style={{'width': '180px', 'height': '300px', mixBlendMode:'luminosity'}}/>    
       </Row>
       <Row small>
-        <Zoom>
           <img src={Nature} alt="" style={{'width': '450px', 'height': '250px', mixBlendMode:'luminosity'}}/>
-        </Zoom>
        <Slide right>
        <InfoBox>
           <Title>Nature</Title> 
@@ -134,7 +122,7 @@ function About() {
         </InfoBox>
        </Slide>
       </Row>
-    </Column>
+     </Column> 
     </Column>
   )
 }

@@ -17,11 +17,9 @@ function CaseStudy_Portfolio() {
     <div>
       {/* <ScrollHandle/>
    <Link to={'/caseStudyPortfolio#understanding'}> ggg </Link> */}
-      <Fade cascade>
+      {/* <Fade cascade> */}
         <Row small>
-          <Zoom>
-          <img src={Theme} alt="" style={{'width': '500px', 'height': '680px', mixBlendMode:'luminosity'}}/>
-          </Zoom>
+          <img src={Theme} alt="" style={{'width': '500px', 'height': '680px'}}/>
             <Slide right cascade>
             <InfoBox small> 
                 <Title>Onboarding process Simac</Title>
@@ -66,14 +64,10 @@ function CaseStudy_Portfolio() {
       </Slide>
    </Column>
    <Column>
-   <Zoom>
         <img src={DesignMethod} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
-     </Zoom>  
    </Column>
 
      <Numeration_CaseStudy/>
-     </Fade>
-     <Link to='#Understanding'>fff</Link>
      </div>
     
   

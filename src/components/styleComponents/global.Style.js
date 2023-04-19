@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0px;
         padding: 0px;
         color: #ffffff;
-        font-family: 'Open Sans';
+        font-family: 'Lato-Light', sans-serif;
+        line-height: 22px;
         padding-bottom: 56px;
     }
    
