@@ -9,7 +9,7 @@ import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import 'react-vertical-timeline-component/style.min.css';
 import { Link } from "react-router-dom";
-import ScrollHandle from "./ScrollHandle";
+import ScrollToTopButton from "./ScrollToTop"
 import Project02 from "./Logo.jpg"
 import Theme from "./Project Theme.jpg"
 function CaseStudy_Portfolio() {
@@ -68,6 +68,12 @@ function CaseStudy_Portfolio() {
    </Column>
 
      <Numeration_CaseStudy/>
+     <Row>
+      <div></div>
+      <div></div>
+      <div></div>
+      <ScrollToTopButton></ScrollToTopButton>
+    </Row>
      </div>
     
   

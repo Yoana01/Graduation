@@ -16,6 +16,7 @@ import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import Carosel from './Carosel'
 import NumerationExperiences from "./Numeration_Experiences"
+import ScrollToTopButton from "./ScrollToTop"
 
 function About() {
   
@@ -123,6 +124,7 @@ function About() {
        </Slide>
       </Row>
      </Column> 
+     <ScrollToTopButton></ScrollToTopButton>
     </Column>
   )
 }

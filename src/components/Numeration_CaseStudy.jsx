@@ -12,6 +12,7 @@ import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
 import Moscow from "./MoSCoW.jpg"
 import C4model from "./C4model.png"
+import ScrollToTopButton from "./ScrollToTop"
 
 
 
@@ -131,8 +132,8 @@ function Numeration_CaseStudy() {
             I believe they stuck to the project plan, but I understand the fact that projects can be unpredictable, so it's important to not make big 
             promises to stakeholders. Moreover, I developed both programming and design skills over these four weeks. </SmallInfo>
         </InfoBox>
+        
     </Row>
-    
      {/* </Slide> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
