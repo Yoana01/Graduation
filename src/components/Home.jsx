@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {Column, Row, QuoteBox, CardBox } from "./styleComponents/container.Style"
 import BigPic from "./Image5.svg"
 import Pic from "./Image6.png"
-import { Title} from "./styleComponents/text.Style"
+import { Title, SubTitle, SmallInfo} from "./styleComponents/text.Style"
 import { Button} from "./styleComponents/button.Style"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -22,38 +22,44 @@ function Home() {
        </Slide> 
        </Fade>
     </Row>
-
-    {/* <Title>About Me</Title> */}
-   
     <Column home>
+      <br />
     <Title>Projects</Title>
     <Zoom cascade>
     <Column>
     <Row small>
     <CardBox small>
     <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
-    <Title>Portfolio</Title>
+    <SubTitle>Portfolio</SubTitle>
+   <SmallInfo CardText> 
    If you want to understand more about how I have created this portfolio, you can click the button.
+   </SmallInfo>
    <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
     </CardBox>
     <CardBox small>
     <img src={Project02} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
-    <Title>Onboarding Simac</Title>
+    <SubTitle>Onboarding Simac</SubTitle>
+    <SmallInfo CardText>
     If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.
+    </SmallInfo>
     <Button>Read More</Button>
     </CardBox>
     </Row>
     <Row small>
      <CardBox small>
     <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
-    <Title>Portfolio</Title>
+    <SubTitle>Portfolio</SubTitle>
+    <SmallInfo CardText>
     If you want to understand more about how I have created this portfolio, you can click the button.
+    </SmallInfo>
     <Button>Read More</Button>
     </CardBox>
     <CardBox small>
     <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
-    <Title>Portfolio</Title>
-    If you want to understand more about how I have created this portfolio, you can click the button.
+    <SubTitle>Portfolio</SubTitle>
+    <SmallInfo CardText>
+       If you want to understand more about how I have created this portfolio, you can click the button.
+    </SmallInfo>
     <Button>Read More</Button>
     </CardBox>
     </Row>

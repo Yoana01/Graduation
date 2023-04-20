@@ -80,18 +80,21 @@ export const Box = styled.div `
     /* margin:auto; */
 `
 export const FeedbackBox = styled.div `
-    background: rgb(181,131,141, 0.39);
+    /* background: rgb(181,131,141, 0.39);
     /* opacity: 0.39; */
-    box-shadow: 11px 5px 3px rgba(0, 0, 0, 0.160784);
-    background: #EDE9EF;
+    /* box-shadow: 11px 5px 3px rgba(0, 0, 0, 0.160784); */ 
+    background: rgb(245,245,245, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    /* background: #EDE9EF; */
     border-radius: 32px;
+    color:#FFFFFF;
     width: 500px;
     height: 250px;
     align-items: center;
     display: flex;
     /* height: 100%; */
     padding:16px;
-    color: black;
+    /* color: black; */
     margin-bottom: 24px;
     /* margin:auto; */
 `
@@ -114,14 +117,14 @@ export const CircleBox = styled.div`
 `
 export const QuoteBox = styled.div`
     /* background: rgb(181,131,141, 0.39);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 32px;  */
+    font-family: 'Lato Light';
+    width: 500px;
     height: 100%;
     padding: 16px;
-    border-radius: 32px;
-    font-size: 22px;
-    font-weight: 200;
-    text-decoration: italic;
+    font-size: 26px;
+    line-height: 46px;
     font-style: italic;
     transform: rotateY(34deg);
 
@@ -131,7 +134,7 @@ export const CardBox = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     border-radius: 16px;
     width: 400px;
-    height: 470px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     text-align: center;

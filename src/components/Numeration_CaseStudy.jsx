@@ -24,7 +24,7 @@ function Numeration_CaseStudy() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
-        iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+        iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         > 
@@ -33,13 +33,13 @@ function Numeration_CaseStudy() {
     <InfoBox>
           <Title>Understanding</Title> 
           <SmallInfo> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
-            <span style={{color:"#6D6875"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
+            <span style={{color:"#F1C3AC"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
             would not look old-fashion. Also, one designer needs to 
             know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
             Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
             them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
             They are different opinions about them, but they are still being used.</SmallInfo>
-          <SmallInfo>Another method that I used is a  <span style={{color:"#6D6875"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
+          <SmallInfo>Another method that I used is a  <span style={{color:"#F1C3AC"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
              in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
               playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
               Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
@@ -57,7 +57,7 @@ function Numeration_CaseStudy() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
-    iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+    iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
   {/* <Slide right cascade> */}
@@ -65,9 +65,9 @@ function Numeration_CaseStudy() {
     <InfoBox>
           <Title>Exploring</Title> 
           <SmallInfo>Since I was not sure how exactly my will look my design as well as the limited time of the project, 
-            I started directly to <span style={{color:"#6D6875"}}>prototyping</span> digital versions of the design. I got through some until I got to the point
+            I started directly to <span style={{color:"#F1C3AC"}}>prototyping</span> digital versions of the design. I got through some until I got to the point
             where I believe it is closest to what I wanted to have. You can download to see the final version.</SmallInfo>
-            <SmallInfo> Another method that I used is the <span style={{color:"#6D6875"}}>UI Architecture</span> as again and 
+            <SmallInfo> Another method that I used is the <span style={{color:"#F1C3AC"}}>UI Architecture</span> as again and 
             here I went through different iterations before going to the final version of my structure for the design. 
             I did and small brand style guide which to help with the components of my design.</SmallInfo>
             <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
@@ -86,7 +86,7 @@ function Numeration_CaseStudy() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
-    iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+    iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
   {/* <Slide right cascade> */}

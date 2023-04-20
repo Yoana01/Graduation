@@ -25,7 +25,7 @@ function Numeration_Experiences() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
           position={ 'right' }
-          iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+          iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
           textClassName = {'1'}
           contentArrowStyle={ {border: "none" }} >
           <Row small>
@@ -43,7 +43,7 @@ function Numeration_Experiences() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
-        iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+        iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}> 
     <Row small id="understanding">
@@ -60,7 +60,7 @@ function Numeration_Experiences() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
     position={ 'right' }
-    iconStyle={{ background: '#6D6875', color: '#fff', WebkitBoxShadow: "none" }}
+    iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
     <Row small>
