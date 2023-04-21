@@ -32,3 +32,18 @@
 img{
   border-radius: 12px;
 }
+.fancyNav{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 20px;
+  padding-top:16px;
+  padding-bottom: 24px;
+  color: black;
+  text-decoration: none;
+}
+.fancyNav:hover{
+  color:#6D6875;
+}
+ .fancyNav:active{
+  color: red !important;
+}

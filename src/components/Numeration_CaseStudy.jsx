@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { createRef, useContext } from 'react';
 import React, { useState, useEffect } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -14,6 +14,7 @@ import Moscow from "./MoSCoW.jpg"
 import C4model from "./C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
+import FancyNav from "./FancyNav"
 
 
 function Numeration_CaseStudy() {
@@ -40,10 +41,10 @@ function Numeration_CaseStudy() {
       <br /> <br />
       <Scrollspy items={['understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
       <SubNavBar isSticky={isSticky}>
-        <SubTitle>Understanding</SubTitle>
-        <SubTitle>Exploring</SubTitle>
-        <SubTitle>Materializing</SubTitle>
-        <SubTitle>Conclusion</SubTitle>
+        <FancyNav href="#understanding"  text="Understanding" ref={createRef()}></FancyNav> 
+        <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
+        <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav> 
+        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav> 
       </SubNavBar>
       </Scrollspy>
       <br /> <br />

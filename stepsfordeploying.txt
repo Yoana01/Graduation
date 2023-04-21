@@ -8,3 +8,7 @@ Navigate to Build & Deploy
 Under Continuous Deployment select Edit settings
 Update Build command to
 CI=false npm run build //OP mentioned below in comments
+
+
+Important links:
+https://codesandbox.io/s/lieunguyenvn-test123-2nbr6?file=/src/components/FancyButton.js:0-278
