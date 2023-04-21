@@ -1,25 +1,52 @@
 import { Link } from "react-router-dom";
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
-import { Title, SmallInfo } from "./styleComponents/text.Style"
+import { Title,SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
 import Moscow from "./MoSCoW.jpg"
 import C4model from "./C4model.png"
-import ScrollToTopButton from "./ScrollToTop"
-
+import { SubNavBar } from "./styleComponents/navBar.Style";
+import Scrollspy from 'react-scrollspy';
 
 
 function Numeration_CaseStudy() {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 1450) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
 
   return (
     <div>
+      <br /> <br />
+      <Scrollspy items={['understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
+      <SubNavBar isSticky={isSticky}>
+        <SubTitle>Understanding</SubTitle>
+        <SubTitle>Exploring</SubTitle>
+        <SubTitle>Materializing</SubTitle>
+        <SubTitle>Conclusion</SubTitle>
+      </SubNavBar>
+      </Scrollspy>
+      <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -62,7 +89,7 @@ function Numeration_CaseStudy() {
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
   {/* <Slide right cascade> */}
-    <Row small>
+    <Row small id="exploring"> 
     <InfoBox>
           <Title>Exploring</Title> 
           <SmallInfo>Since I was not sure how exactly my will look my design as well as the limited time of the project, 
@@ -91,7 +118,7 @@ function Numeration_CaseStudy() {
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
   {/* <Slide right cascade> */}
-    <Row small>
+    <Row small id="materializing">
     <InfoBox>
           <Title>Materializing</Title> 
           <SmallInfo>I did a <span style={{color:"#F1C3AC"}}>peer reviews</span> with couple of my fellow students which gave me a feedback for my design. Based on this method, 
@@ -125,7 +152,7 @@ function Numeration_CaseStudy() {
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
     {/* <Slide right cascade> */}
-    <Row small conclusion>
+    <Row small conclusion id="conclusion">
     <InfoBox>
           <Title>Conclusion</Title> 
           <SmallInfo>In conclusion, I am proud of what they accomplished in a short amount of time, but I acknowledge that the project is still a work in progress and some components may change over time. 
@@ -137,6 +164,7 @@ function Numeration_CaseStudy() {
      {/* </Slide> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
+      
     </div>  
        
    )
