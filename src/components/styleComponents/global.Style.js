@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0px;
         color: #ffffff;
         font-family: 'Lato-Light', sans-serif;
-        line-height: 22px;
+        /* line-height: 22px; */
         padding-bottom: 56px;
     }
    

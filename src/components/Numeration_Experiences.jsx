@@ -6,15 +6,12 @@ import 'react-vertical-timeline-component/style.min.css';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
-import { Title, SmallInfo } from "./styleComponents/text.Style"
+import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import ZoomImage from './ZoomImages';
-import Versions from "./versions.png"
-import MooodBoard from "./moodboardV3.png"
-import UIArch from "./uiarch.png"
 import PullAndBear from "./PullAndBear.png"
 import Bosch from "./Bosch.png"
 import Promoter from "./Promoter.jpg"
-import ProxyVideo from "./ProxyVideo.mp4"
+import ProxyVideo from "./Proxy.mp4"
 
 
 
@@ -33,8 +30,8 @@ function Numeration_Experiences() {
           <Row small>
           <InfoBox>
                 <Title>Promoter</Title> 
-                2019-2020
-                Working as a promoter for different brand
+                <SubTitle>2019-2020 </SubTitle>
+                <SmallInfo>Working as a promoter for different brands</SmallInfo>
               </InfoBox>
                 <Column>
                 <ZoomImage src={Promoter} alt="" style={{'width': '250px', 'height': '325px'}}/>
@@ -51,11 +48,16 @@ function Numeration_Experiences() {
     <Row small id="understanding">
     <InfoBox>
     <Title>PR AT FONTYS UNIVERSITY</Title> 
-        2021 - PRESENT
-        - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up
-        - Organizing Open days
+       <SubTitle>2021 - PRESENT</SubTitle> 
+       <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       - Organizing Open days <br />
+        - Helping with Social Media</SmallInfo>
         </InfoBox>
-          <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
+        <div id="VideoDiv">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8RitzmtguBk?start=1" 
+              title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+              picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -68,8 +70,9 @@ function Numeration_Experiences() {
     <Row small>
     <InfoBox>
           <Title> PULL AND BEAR</Title> 
-          JUN 2022 - AUG 2022
-          Working as a sale assistant
+          <SubTitle>JUN 2022 - AUG 2022</SubTitle>
+          <SmallInfo>  Working as a sale assistant</SmallInfo>
+        
         </InfoBox>
           <ZoomImage src={PullAndBear} alt="" style={{'width': '500px', 'height': '350px'}}/>
     </Row>
@@ -84,10 +87,10 @@ function Numeration_Experiences() {
     <Row small conclusion>
     <InfoBox>
           <Title>BOSCH SECURITY AND SAFETY SYSTEMS</Title> 
-          AUG 2022 - JAN 2023
-          Intern as a UX/UI Designer and Front-End developer
+          <SubTitle>AUG 2022 - JAN 2023</SubTitle> 
+          <SmallInfo>Intern as a UX/UI Designer and Front-End developer for Conference and Discussion Department for Video Switching Feature</SmallInfo> 
         </InfoBox>
-        <img src={Bosch} alt="" style={{'width': '500px', 'height': '450px'}}/>
+        <ZoomImage src={Bosch} alt="" style={{'width': '400px', 'height': '450px'}}/>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -99,21 +102,25 @@ function Numeration_Experiences() {
     contentArrowStyle={ {border: "none" }} >
     <Row small conclusion>
     <InfoBox><Title>PROXY STUDENT ASSOSIATION</Title> 
-          OCT 2022 - PRESENT
-          - Head of Internal department
+     <SubTitle>OCT 2022 - PRESENT</SubTitle>    
+    <SmallInfo>
+          - Head of Internal department <br></br>
           - Vice Presedient of the organisation
+      </SmallInfo>  
         </InfoBox>
-       
-    </Row>
-    <div id="VideoDiv">
-          {/* <iframe
+        <div id="VideoDiv">
+          <iframe
+                width="300" 
+                height="315"
                 id="videoFrame"
                 src={ProxyVideo}
-                allow="autoplay muted; encrypted-media"
+                allow="autoplay; encrypted-media"
                 allowFullScreen
                 title="video"
-              /> */}
+              />
          </div>
+    </Row>
+   
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>  

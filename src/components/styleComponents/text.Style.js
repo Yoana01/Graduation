@@ -8,8 +8,7 @@ export const  Title = styled.div`
    padding-bottom: 32px;
   `;
 export const  SubTitle = styled.div`
-  font-family: 'Lato';
-  font-weight: 600;
+  font-family: 'Lato Regular';
   font-size: 20px;
   padding-top:16px;
   padding-bottom: 24px;
