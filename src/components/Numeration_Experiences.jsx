@@ -7,11 +7,13 @@ import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
-import { Button } from "./styleComponents/button.Style"
+import ZoomImage from './ZoomImages';
 import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
 import UIArch from "./uiarch.png"
-import PullAndBear from "./pullandbear.jpg"
+import PullAndBear from "./PullAndBear.png"
+import Bosch from "./Bosch.png"
+import Promoter from "./Promoter.jpg"
 import ProxyVideo from "./ProxyVideo.mp4"
 
 
@@ -35,7 +37,7 @@ function Numeration_Experiences() {
                 Working as a promoter for different brand
               </InfoBox>
                 <Column>
-                <img src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
+                <ZoomImage src={Promoter} alt="" style={{'width': '250px', 'height': '325px'}}/>
                 </Column>
           </Row>
         </VerticalTimelineElement>
@@ -53,7 +55,7 @@ function Numeration_Experiences() {
         - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up
         - Organizing Open days
         </InfoBox>
-          <img src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
+          <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -69,7 +71,7 @@ function Numeration_Experiences() {
           JUN 2022 - AUG 2022
           Working as a sale assistant
         </InfoBox>
-          <img src={PullAndBear} alt="" style={{'width': '250px', 'height': '150px'}}/>
+          <ZoomImage src={PullAndBear} alt="" style={{'width': '500px', 'height': '350px'}}/>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -85,6 +87,7 @@ function Numeration_Experiences() {
           AUG 2022 - JAN 2023
           Intern as a UX/UI Designer and Front-End developer
         </InfoBox>
+        <img src={Bosch} alt="" style={{'width': '500px', 'height': '450px'}}/>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -103,13 +106,13 @@ function Numeration_Experiences() {
        
     </Row>
     <div id="VideoDiv">
-          <iframe
+          {/* <iframe
                 id="videoFrame"
                 src={ProxyVideo}
                 allow="autoplay muted; encrypted-media"
                 allowFullScreen
                 title="video"
-              />
+              /> */}
          </div>
         </VerticalTimelineElement>
       </VerticalTimeline>

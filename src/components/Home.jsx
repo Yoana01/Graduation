@@ -8,7 +8,7 @@ import { Button} from "./styleComponents/button.Style"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-import Project02 from "./Logo.jpg"
+import Project02 from "./Logo.png"
 
 function Home() {
   return (
@@ -42,7 +42,7 @@ function Home() {
     <SmallInfo CardText>
     If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.
     </SmallInfo>
-    <Button>Read More</Button>
+    <Link to={'/caseStudySimac'}><Button>Read More</Button></Link>
     </CardBox>
     </Row>
     <Row small>

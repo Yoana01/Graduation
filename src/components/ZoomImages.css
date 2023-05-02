@@ -1,0 +1,38 @@
+.zoomable-image {
+    position: relative;
+  }
+  
+  .zoomable-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }

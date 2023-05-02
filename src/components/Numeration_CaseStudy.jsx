@@ -15,6 +15,8 @@ import C4model from "./C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
+import {NavLink} from "react-router-dom";
+import ZoomImage from './ZoomImages';
 
 
 function Numeration_CaseStudy() {
@@ -35,17 +37,21 @@ function Numeration_CaseStudy() {
       setSticky(false);
     }
   };
-
+  let activeStyle = {
+    color: "#FFCDB2", 
+    textDecoration : "underline"
+  }
   return (
     <div>
       <br /> <br />
       <Scrollspy items={['understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
       <SubNavBar isSticky={isSticky}>
-        <FancyNav href="#understanding"  text="Understanding" ref={createRef()}></FancyNav> 
+        <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
         <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
-        <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav> 
-        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav> 
+        <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
+        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
       </SubNavBar>
+    
       </Scrollspy>
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
@@ -74,7 +80,8 @@ function Numeration_CaseStudy() {
               Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
         </InfoBox>
         {/* <Zoom> */}
-          <img src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
+        <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
+          {/* <img /> */}
         {/* </Zoom> */}
     </Row>
     
@@ -103,8 +110,8 @@ function Numeration_CaseStudy() {
         </InfoBox>
         {/* <Zoom> */}
           <Column>
-          <img src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
-          <img src={UIArch} alt="" style={{'width': '300px', 'height': '450px'}}/>
+          <ZoomImage src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
+          <ZoomImage src={UIArch} alt="" style={{'width': '300px', 'height': '450px'}}/>
           </Column>  
         {/* </Zoom> */}
     </Row>
@@ -137,8 +144,8 @@ function Numeration_CaseStudy() {
         </InfoBox>
       {/* <Zoom> */}
         <Column>
-          <img src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
-          <img src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
+          <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
+          <ZoomImage src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
         </Column> 
         {/* </Zoom> */}
     </Row>

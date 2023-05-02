@@ -10,13 +10,13 @@ import Slide from 'react-reveal/Slide';
 import 'react-vertical-timeline-component/style.min.css';
 import { Link } from "react-router-dom";
 import ScrollToTopButton from "./ScrollToTop"
-import Project02 from "./Logo.jpg"
+import Project02 from "./Logo.png"
 import Theme from "./Project Theme.jpg"
+import ZoomImage from './ZoomImages';
+
 function CaseStudy_Portfolio() {
   return (
     <div>
-      {/* <ScrollHandle/>
-   <Link to={'/caseStudyPortfolio#understanding'}> ggg </Link> */}
       {/* <Fade cascade> */}
         <Row small>
           <img src={Theme} alt="" style={{'width': '500px', 'height': '680px'}}/>
@@ -64,7 +64,7 @@ function CaseStudy_Portfolio() {
       </Slide>
    </Column>
    <Column>
-        <img src={DesignMethod} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
+   <ZoomImage src={DesignMethod} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
    </Column>
 
      <Numeration_CaseStudy/>
