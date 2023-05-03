@@ -19,10 +19,10 @@ function CaseStudy_Portfolio() {
     <div>
       {/* <Fade cascade> */}
         <Row small>
-          <img src={Theme} alt="" style={{'width': '500px', 'height': '680px'}}/>
+          <img src={Theme} alt="" className="SimacImg"/>
             <Slide right cascade>
             <InfoBox small> 
-                <Title>Onboarding process Simac</Title>
+                <Title RespT>Onboarding process Simac</Title>
                 <SubTitle>Company:</SubTitle>
                 <SmallInfo>Simac IT NL</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
