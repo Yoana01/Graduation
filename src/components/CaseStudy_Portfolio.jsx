@@ -49,7 +49,7 @@ function CaseStudy_Portfolio() {
         <Column sum>
         <Slide cascade>
         <Title>Summary</Title>
-        <SmallInfo sumText>Our teachers gave us the assignment to create a portfolio for the first four weeks.
+        <SmallInfo sumText small>Our teachers gave us the assignment to create a portfolio for the first four weeks.
          This is something important for me because I would like to present myself in the best possible way in 
          front of the world and show my capabilities. The question that best represents what my portfolio 
          represents as well as the goal of this semester is: <span style={{color:"#F1C3AC"}}>"What kind of IT professional do I want to be?" </span> 
@@ -65,7 +65,7 @@ function CaseStudy_Portfolio() {
       </Slide>
    </Column>
    <Column> 
-   <ZoomImage src={DesignMethod} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
+   <ZoomImage src={DesignMethod} alt="" className="sumImg"/>
    </Column>
      <Numeration_CaseStudy/>
     <Row>

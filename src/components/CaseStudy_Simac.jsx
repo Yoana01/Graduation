@@ -48,7 +48,7 @@ function CaseStudy_Portfolio() {
         <Column sum>
         <Slide cascade>
         <Title>Summary</Title>
-        <SmallInfo sumText>
+        <SmallInfo sumText small>
         This was a group assignment that involved six individuals with different backgrounds. 
         Our shared passion for UX/UI and the problem we needed to solve brought us together. 
         Our client was <span style={{color:"#F1C3AC"}}>Simac</span>, a Dutch-based company in Veldhoven, with two assignments to choose from. 
@@ -66,7 +66,7 @@ function CaseStudy_Portfolio() {
       </Slide>
    </Column>
    <Column>
-   <ZoomImage src={Project} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
+   <ZoomImage src={Project} alt="" className="sumImg"/>
    </Column>
 
      <Numeration_Simac/>
