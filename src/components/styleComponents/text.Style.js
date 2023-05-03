@@ -25,8 +25,11 @@ export const SmallInfo = styled.div`
      font-size: 18px;
   `}
    ${props => props.CardText && css`
-     width: auto;
+     width: auto;Resp
      padding:16px;
+  `}
+  ${props => props.Resp && css`
+     width: auto;
   `}
 `
 export const SpecialText = styled.div`

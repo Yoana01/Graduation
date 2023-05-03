@@ -71,7 +71,7 @@ function About() {
         <Slide right cascade>
         <InfoBox>
           <Title>Music</Title> 
-          <SmallInfo>Since I was little I remember myself how I am dancing and singing on some music. The music is my heeling
+          <SmallInfo Resp>Since I was little I remember myself how I am dancing and singing on some music. The music is my heeling
             peel because she is always there to get out me from my darkest periods.
           </SmallInfo>
         </InfoBox>
@@ -81,7 +81,7 @@ function About() {
       <Slide left cascade>
         <InfoBox>
           <Title>Movies & TV shows</Title> 
-          <SmallInfo>In my free days and especially when it is cold outside I love watching movies or TV series.Moreover, I even
+          <SmallInfo Resp>In my free days and especially when it is cold outside I love watching movies or TV series.Moreover, I even
             more interested in the actors lifestyle and more how they shoot it. Even I created an Instagram page where I did reviews
             on movies as well as sharing new and favorite songs.
           </SmallInfo>
@@ -94,7 +94,7 @@ function About() {
         <Slide right cascade>
         <InfoBox>
           <Title>Gym</Title> 
-          <SmallInfo>Since I came in the Netherlands, I started going to the gym. This helps me to
+          <SmallInfo Resp>Since I came in the Netherlands, I started going to the gym. This helps me to
             stay fit and to being motivated and remove the negative energy.
           </SmallInfo>
         </InfoBox>
@@ -104,7 +104,7 @@ function About() {
         <Slide left cascade>
         <InfoBox>
           <Title>Cooking sweetings things</Title> 
-          <SmallInfo>The first thing that I have learned to cook was a cake. From that day on I love cooking cakes, muffinins to my
+          <SmallInfo Resp>The first thing that I have learned to cook was a cake. From that day on I love cooking cakes, muffinins to my
             beloved ones.
           </SmallInfo>
         </InfoBox>
@@ -116,7 +116,7 @@ function About() {
        <Slide right>
        <InfoBox>
           <Title>Nature</Title> 
-          <SmallInfo>As every person I need some space where I need to recharge myself and be with my toughts. 
+          <SmallInfo Resp>As every person I need some space where I need to recharge myself and be with my toughts. 
             The place that makes me feel like this is the nature. As I like being in my home country, Bulgaria since
             we have a lot of mountains, but also I open and for place in a mysterious country.
           </SmallInfo>
