@@ -45,8 +45,16 @@ img{
   color:#6D6875;
 }
 
+.cardImg{
+  width: 400px;
+  height: 250px;
+  borderRadius: 16px;
+}
 
-
- /* .fancyNav:active{
-  color: red !important;
-} */
+@media only screen and (max-width: 600px) {
+  .cardImg {
+    width: 300px;
+    height: 200px;
+    /* width: fit-content; */
+  }
+}

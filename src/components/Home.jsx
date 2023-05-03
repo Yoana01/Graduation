@@ -29,7 +29,7 @@ function Home() {
     <Column>
     <Row small>
     <CardBox small>
-    <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
+    <img src={Pic} alt=""  className="cardImg"/>
     <SubTitle>Portfolio</SubTitle>
    <SmallInfo CardText> 
    If you want to understand more about how I have created this portfolio, you can click the button.
@@ -37,7 +37,7 @@ function Home() {
    <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
     </CardBox>
     <CardBox small>
-    <img src={Project02} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
+    <img src={Project02} alt="" className="cardImg" />
     <SubTitle>Onboarding Simac</SubTitle>
     <SmallInfo CardText>
     If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.
@@ -47,7 +47,7 @@ function Home() {
     </Row>
     <Row small>
      <CardBox small>
-    <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
+    <img src={Pic} alt="" className="cardImg"/>
     <SubTitle>Portfolio</SubTitle>
     <SmallInfo CardText>
     If you want to understand more about how I have created this portfolio, you can click the button.
@@ -55,7 +55,7 @@ function Home() {
     <Button>Read More</Button>
     </CardBox>
     <CardBox small>
-    <img src={Pic} alt="" style={{'width': '400px', 'height': '250px', "borderRadius": "16px"}}/>
+    <img src={Pic} alt="" className="cardImg"/>
     <SubTitle>Portfolio</SubTitle>
     <SmallInfo CardText>
        If you want to understand more about how I have created this portfolio, you can click the button.

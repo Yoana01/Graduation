@@ -145,7 +145,7 @@ export const CardBox = styled.div`
         margin:auto;
         width:300px;
         height: auto;
-        padding: 16px;
+        padding: 0px 0px 16px 0px;
     }
   `}
 `
