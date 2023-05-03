@@ -37,6 +37,7 @@ export const Row = styled.div `
       justify-content: center;
       align-items: center;
       padding:16px;
+      width:300px;
     }
   `}
   ${props => props.about && css`
