@@ -60,7 +60,7 @@ function Numeration_Simac() {
     <Row small id="planning">
     <InfoBox>
           <Title>Set up and Planning</Title> 
-          <SmallInfo> I have a strong passion for organizing my life and daily activities, which is why I aspire to lead and organize 
+          <SmallInfo Resp> I have a strong passion for organizing my life and daily activities, which is why I aspire to lead and organize 
             people around me by planning and executing successful events. To achieve this, I conducted   <span style={{color:"#F1C3AC"}}>
             literature research on project management methodologies </span> that would best suit our project needs and goals. After careful consideration,
             I determined that Scrum-ban was the ideal approach as it allows for flexibility and adjustments throughout the project,
@@ -89,7 +89,7 @@ function Numeration_Simac() {
     <Row small id="exploration">
     <InfoBox>
           <Title>Exploration</Title> 
-          <SmallInfo> Our team has decided to conduct  <span style={{color:"#F1C3AC"}}>literature research </span>
+          <SmallInfo Resp> Our team has decided to conduct  <span style={{color:"#F1C3AC"}}>literature research </span>
           on the topic before presenting it to the end stakeholders to be prepared for what is out there. 
           Each team member has been assigned a specific topic, and mine was to <span style={{color:"#F1C3AC"}}>understand the current onboarding process at Simac</span>. 
           To achieve this, I conducted a literature review of the documents provided by Simac. One of the documents was a feedback survey 
@@ -98,12 +98,12 @@ function Numeration_Simac() {
           first day due to the many tasks they need to complete. Another interesting finding was that many employees do not use SimacWeb.
           However, the company is doing some things right, such as personalizing the onboarding process based on individuals and assigning
          a "buddy" for the first few days. These insights provided our team with valuable information to guide our project. </SmallInfo>
-         <SmallInfo> As there are various steps involved in the onboarding process over several months, we created a
+         <SmallInfo Resp> As there are various steps involved in the onboarding process over several months, we created a
          <span style={{color:"#F1C3AC"}}>customer journey map </span>
             to visualize it. The map includes a general overview, as well as two more specific maps detailing the first day and 
             first week at work. Since many actions are happening these days, our team decided to create the maps early on. 
             We can make changes later based on the inputs we receive from the interviews. </SmallInfo>
-            <SmallInfo> I participated in <span style={{color:"#F1C3AC"}}> expert interviews </span> to gain insights into how Simac and other companies conduct their onboarding.
+            <SmallInfo Resp> I participated in <span style={{color:"#F1C3AC"}}> expert interviews </span> to gain insights into how Simac and other companies conduct their onboarding.
                  An interesting fact that was confirmed is that employees are not aware of the full capabilities of SimacWeb, 
                  and there are too many Word documents involved in the Simac onboarding process. 
                  Another company we talked to mentioned that they switched their company language from Dutch to English. They emphasized the 
@@ -124,14 +124,14 @@ function Numeration_Simac() {
     <Row small id="definition">
     <InfoBox>
           <Title>Definition</Title> 
-          <SmallInfo> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
+          <SmallInfo Resp> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
             <span style={{color:"#F1C3AC"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
             would not look old-fashion. Also, one designer needs to 
             know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
             Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
             them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
             They are different opinions about them, but they are still being used.</SmallInfo>
-          <SmallInfo>Another method that I used is a  <span style={{color:"#F1C3AC"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
+          <SmallInfo Resp>Another method that I used is a  <span style={{color:"#F1C3AC"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
              in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
               playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
               Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>

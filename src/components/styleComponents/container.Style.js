@@ -49,9 +49,9 @@ export const Row = styled.div `
       justify-content: center;
       align-items: center;
       /* padding:16px; */
-      max-width:400px;
+      /* max-width:380px;
       width: auto;
-      height: 100%;
+      height: 100%; */
     }
   `}
   ${props => props.about && css`
