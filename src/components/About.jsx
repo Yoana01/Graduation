@@ -114,7 +114,7 @@ function About() {
         <img src={Cake} alt="" style={{'width': '180px', 'height': '300px', mixBlendMode:'luminosity'}}/>    
       </Row>
       <Row small>
-          <img src={Nature} alt="" style={{'width': '400px', 'height': '250px', mixBlendMode:'luminosity'}}/>
+          <img src={Nature} alt=""className="cardImg" style={{mixBlendMode:'luminosity'}}/>
        <Slide right>
        <InfoBox>
           <Title>Nature</Title> 

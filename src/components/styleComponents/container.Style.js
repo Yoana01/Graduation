@@ -23,7 +23,11 @@ export const Column = styled.div `
   gap:0px;
   align-items: flex-start;
     align-content: space-around;
-    margin:auto
+    @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
   `}
 `;
 export const Row = styled.div `
