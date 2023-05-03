@@ -25,13 +25,16 @@ function About() {
     <Fade >
     <Row small>
       <Slide left cascade>
-      <Box> <SubTitle> Hey there! </SubTitle> 
-       It's great to see you! My name is Yoana Churkina and I'm a 21-year-old student originally from Sofia, 
+      <Box smallBox> <SubTitle> Hey there! </SubTitle> 
+      <SmallInfo Resp>
+      It's great to see you! My name is Yoana Churkina and I'm a 21-year-old student originally from Sofia, 
        Bulgaria – the capital city of the country. For the past three years, I've been living in Eindhoven, 
        the Netherlands, where I'm pursuing my studies. I'm currently in my third year at Fontys University of
        Applied Science in the Media Design Stream, and I absolutely love it! My goal for the future is to 
        become a web developer/designer, with a special focus on UX/UI – it is an exciting and dynamic
         field with plenty of opportunities to create innovative and user-friendly designs.
+      </SmallInfo>
+       
           </Box></Slide>
       <Zoom>
         <FancyPic>
@@ -65,7 +68,7 @@ function About() {
   </Zoom>
   
     <Column>
-    <Title>5 things I love</Title>
+    <Title RespT>5 things I love</Title>
       <Row small>
            <img src={Music} alt="" style={{ 'height': '450px', mixBlendMode:'luminosity'}}/>
         <Slide right cascade>

@@ -33,6 +33,7 @@ export const Row = styled.div `
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       gap:24px;
       justify-content: center;
       align-items: center;
@@ -71,34 +72,35 @@ export const InfoBox = styled.div `
 `
 
 export const Box = styled.div `
-    /* background: rgb(181,131,141, 0.61);
-    box-shadow: 11px 5px 3px rgba(0, 0, 0, 0.160784); */
-    backdrop-filter: blur(1px);/* Note: backdrop-filter has minimal browser support */
-    border-radius: 32px;
     width:524px;
     height:250px;
     padding:32px;
-    /* margin:auto; */
+    ${props => props.smallBox && css`
+    @media (max-width: 768px) {
+        height: 100%;
+        width:400px;
+    }
+  `}
 `
 export const FeedbackBox = styled.div `
-    /* background: rgb(181,131,141, 0.39);
-    /* opacity: 0.39; */
-    /* box-shadow: 11px 5px 3px rgba(0, 0, 0, 0.160784); */ 
     background: rgb(245,245,245, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    /* background: #EDE9EF; */
     border-radius: 32px;
     color:#FFFFFF;
     width: 500px;
     height: 250px;
     align-items: center;
     display: flex;
-    /* height: 100%; */
     padding:16px;
-    /* color: black; */
     margin-bottom: 24px;
-    /* margin:auto; */
 `
+/* background: rgb(181,131,141, 0.39);
+/* opacity: 0.39; */
+/* box-shadow: 11px 5px 3px rgba(0, 0, 0, 0.160784); */ 
+/* background: #EDE9EF; */
+/* color: black; */
+/* margin:auto; */
+/* height: 100%; */
 
 export const CircleBox = styled.div`
   background: #FFFFFF;

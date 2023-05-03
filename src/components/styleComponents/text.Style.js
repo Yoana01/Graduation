@@ -34,6 +34,7 @@ export const SmallInfo = styled.div`
   ${props => props.Resp && css`
     max-width: 400px;
      width:auto;
+     height: 100%;
   `}
 `
 export const SpecialText = styled.div`
