@@ -19,7 +19,7 @@ function CaseStudy_Portfolio() {
       {/* <ScrollHandle/>
    <Link to={'/caseStudyPortfolio#understanding'}> ggg </Link> */}
         <Row small>
-          <img src={BigPic} alt="" style={{'width': '500px', 'height': '450px'}}/>
+          <img src={BigPic} alt="" className="PortfolioImg" />
             <Slide right cascade>
             <InfoBox small> 
                 <Title>Portfolio</Title>

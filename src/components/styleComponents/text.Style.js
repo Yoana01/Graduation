@@ -8,6 +8,8 @@ export const  Title = styled.div`
    padding-bottom: 32px;
    ${props => props.RespT && css`
     text-align: center;
+    width:285px;
+    height: 100%;
   `}
   `;
 export const  SubTitle = styled.div`
