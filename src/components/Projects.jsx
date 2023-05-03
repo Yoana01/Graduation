@@ -13,7 +13,7 @@ function Projects() {
     <Column>
      <Fade left cascade>
       <Row small>
-        <img src={Project02} alt="" style={{'width': '400px', 'height': '250px'}}/>
+        <img src={Project02} alt="" className="cardImg"/>
         <InfoBox small>
           <Title>Onboarding Simac</Title> 
           <SmallInfo Resp>If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.</SmallInfo>
@@ -28,7 +28,7 @@ function Projects() {
           <SmallInfo Resp>If you want to understand more about how I have created this portfolio, you can click the button.</SmallInfo>
           <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
         </InfoBox>  
-        <img src={Project01} alt="" style={{'width': '400px', 'height': '250px'}}/>     
+        <img src={Project01} alt="" className="cardImg" />     
       </Row>
     </Fade>
      
