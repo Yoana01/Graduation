@@ -32,7 +32,7 @@ export const SmallInfo = styled.div`
      padding:16px;
   `}
   ${props => props.Resp && css`
-    max-width: 400px;
+    max-width: 350px;
      width:auto;
      height: 100%;
   `}
