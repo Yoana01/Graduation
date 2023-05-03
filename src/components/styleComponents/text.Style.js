@@ -7,9 +7,10 @@ export const  Title = styled.div`
    font-size: 32px;
    padding-bottom: 32px;
    ${props => props.RespT && css`
+   @media (max-width: 768px) {
     text-align: center;
     width:285px;
-    height: 100%;
+    height: 100%;}
   `}
   `;
 export const  SubTitle = styled.div`
@@ -34,9 +35,10 @@ export const SmallInfo = styled.div`
      padding:16px;
   `}
   ${props => props.Resp && css`
+  @media (max-width: 768px) {
     max-width: 350px;
      width:auto;
-     height: 100%;
+     height: 100%;}
   `}
 `
 export const SpecialText = styled.div`

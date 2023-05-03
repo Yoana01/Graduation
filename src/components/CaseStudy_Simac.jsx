@@ -66,7 +66,7 @@ function CaseStudy_Portfolio() {
       </Slide>
    </Column>
    <Column>
-   <ZoomImage src={Project} alt="" className="sumImg"/>
+   <ZoomImage src={Project} alt="" id="sumImg"/>
    </Column>
 
      <Numeration_Simac/>
