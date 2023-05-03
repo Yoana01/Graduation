@@ -49,14 +49,13 @@ function About() {
       
     </Row>
     </Fade>
-  <Column>
-    
+  <Column aboutCon>
     <Title RespT>Get In Touch</Title>
     <Fade left cascade>
       <SubTitle>Contact</SubTitle>  
-      <Row about><PhoneIcon></PhoneIcon> <SmallInfo>+359 897 397 297</SmallInfo></Row>
-      <Row about><EmailIcon></EmailIcon> <SmallInfo>yonichrurkina@gmail.com</SmallInfo></Row>
-      <Row about><LinkedInIcon></LinkedInIcon> <SmallInfo>https://www.linkedin.com/in/yoana-churkina-9408a1234/</SmallInfo></Row>
+      <Row about><PhoneIcon></PhoneIcon> <SmallInfo Resp>+359 897 397 297</SmallInfo></Row>
+      <Row about><EmailIcon></EmailIcon> <SmallInfo Resp>yonichrurkina@gmail.com</SmallInfo></Row>
+      <Row about><LinkedInIcon></LinkedInIcon> <SmallInfo Resp>https://www.linkedin.com/in/yoana-churkina-9408a1234/</SmallInfo></Row>
     </Fade>
  
   </Column>
@@ -115,7 +114,7 @@ function About() {
         <img src={Cake} alt="" style={{'width': '180px', 'height': '300px', mixBlendMode:'luminosity'}}/>    
       </Row>
       <Row small>
-          <img src={Nature} alt="" style={{'width': '450px', 'height': '250px', mixBlendMode:'luminosity'}}/>
+          <img src={Nature} alt="" style={{'width': '400px', 'height': '250px', mixBlendMode:'luminosity'}}/>
        <Slide right>
        <InfoBox>
           <Title>Nature</Title> 

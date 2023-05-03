@@ -19,6 +19,12 @@ export const Column = styled.div `
       flex-wrap: nowrap;
       margin-left: 70px;
   `}
+  ${props => props.aboutCon && css`
+  gap:0px;
+  align-items: flex-start;
+    align-content: space-around;
+    margin:auto
+  `}
 `;
 export const Row = styled.div `
     height:auto;
