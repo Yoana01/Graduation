@@ -29,7 +29,8 @@ export const SmallInfo = styled.div`
      padding:16px;
   `}
   ${props => props.Resp && css`
-     width: auto;
+    max-width: 325px;
+     width:auto;
   `}
 `
 export const SpecialText = styled.div`
