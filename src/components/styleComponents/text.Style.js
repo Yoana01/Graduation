@@ -6,6 +6,9 @@ export const  Title = styled.div`
   font-family: 'Lato Black';
    font-size: 32px;
    padding-bottom: 32px;
+   ${props => props.RespT && css`
+    text-align: center;
+  `}
   `;
 export const  SubTitle = styled.div`
   font-family: 'Lato Regular';
@@ -25,7 +28,7 @@ export const SmallInfo = styled.div`
      font-size: 18px;
   `}
    ${props => props.CardText && css`
-     width: auto;Resp
+     width: auto;
      padding:16px;
   `}
   ${props => props.Resp && css`

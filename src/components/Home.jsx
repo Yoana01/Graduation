@@ -17,14 +17,14 @@ function Home() {
     <Fade top>
     <img src={BigPic} alt="" style={{'width': '300px', 'height': '550px', mixBlendMode:'luminosity'}}/>
    <Slide right>
-    <QuoteBox>My signature touch should be evident in every website or app I create, designing and developing
+    <QuoteBox small>My signature touch should be evident in every website or app I create, designing and developing
         experiences that simplify people's lives.</QuoteBox>
        </Slide> 
        </Fade>
     </Row>
     <Column home>
       <br />
-    <Title>Projects</Title>
+    <Title RespT>Projects</Title>
     <Zoom cascade>
     <Column>
     <Row small>

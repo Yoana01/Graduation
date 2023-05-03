@@ -36,8 +36,8 @@ export const Row = styled.div `
       gap:24px;
       justify-content: center;
       align-items: center;
-      padding:16px;
-      width:420px;
+      /* padding:16px; */
+      /* width:420px; */
     }
   `}
   ${props => props.about && css`
@@ -128,6 +128,11 @@ export const QuoteBox = styled.div`
     line-height: 46px;
     font-style: italic;
     transform: rotateY(34deg);
+    ${props => props.small && css`
+    @media (max-width: 768px) {
+        width:auto;
+    }
+  `}
 
 `
 export const CardBox = styled.div`

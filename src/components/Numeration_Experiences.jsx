@@ -29,7 +29,7 @@ function Numeration_Experiences() {
           contentArrowStyle={ {border: "none" }} >
           <Row small>
           <InfoBox>
-                <Title>Promoter</Title> 
+                <Title RespT>Promoter</Title> 
                 <SubTitle>2019-2020 </SubTitle>
                 <SmallInfo>Working as a promoter for different brands</SmallInfo>
               </InfoBox>
@@ -47,7 +47,7 @@ function Numeration_Experiences() {
         contentArrowStyle={ {border: "none" }}> 
     <Row small id="understanding">
     <InfoBox>
-    <Title>PR AT FONTYS UNIVERSITY</Title> 
+    <Title RespT>PR AT FONTYS UNIVERSITY</Title> 
        <SubTitle>2021 - PRESENT</SubTitle> 
        <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       - Organizing Open days <br />
         - Helping with Social Media</SmallInfo>
@@ -69,7 +69,7 @@ function Numeration_Experiences() {
     contentArrowStyle={ {border: "none" }} >
     <Row small>
     <InfoBox>
-          <Title> PULL AND BEAR</Title> 
+          <Title RespT> PULL AND BEAR</Title> 
           <SubTitle>JUN 2022 - AUG 2022</SubTitle>
           <SmallInfo>  Working as a sale assistant</SmallInfo>
         
@@ -86,7 +86,7 @@ function Numeration_Experiences() {
     contentArrowStyle={ {border: "none" }} >
     <Row small conclusion>
     <InfoBox>
-          <Title>BOSCH SECURITY AND SAFETY SYSTEMS</Title> 
+          <Title RespT>BOSCH SECURITY AND SAFETY SYSTEMS</Title> 
           <SubTitle>AUG 2022 - JAN 2023</SubTitle> 
           <SmallInfo>Intern as a UX/UI Designer and Front-End developer for Conference and Discussion Department for Video Switching Feature</SmallInfo> 
         </InfoBox>
@@ -101,7 +101,7 @@ function Numeration_Experiences() {
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
     <Row small conclusion>
-    <InfoBox><Title>PROXY STUDENT ASSOSIATION</Title> 
+    <InfoBox><Title RespT>PROXY STUDENT ASSOSIATION</Title> 
      <SubTitle>OCT 2022 - PRESENT</SubTitle>    
     <SmallInfo>
           - Head of Internal department <br></br>

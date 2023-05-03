@@ -48,7 +48,7 @@ function About() {
     </Fade>
   <Column>
     
-    <Title>Get In Touch</Title>
+    <Title RespT>Get In Touch</Title>
     <Fade left cascade>
       <SubTitle>Contact</SubTitle>  
       <Row about><PhoneIcon></PhoneIcon> <SmallInfo>+359 897 397 297</SmallInfo></Row>
