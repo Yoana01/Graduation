@@ -78,7 +78,7 @@ export const Box = styled.div `
     ${props => props.smallBox && css`
     @media (max-width: 768px) {
         height: 100%;
-        width:400px;
+        width:380px;
     }
   `}
 `
