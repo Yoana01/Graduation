@@ -25,7 +25,7 @@ export const Row = styled.div `
     display: flex;
     gap:${(props) => props.homeR ? '0px' : props.homeR1 ? '150px' :  '100px'};
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     /* justify-content: space-evenly; */
     justify-content: ${(props) => props.conclusion ? 'space-between' :  'space-evenly'};;

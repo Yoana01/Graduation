@@ -1,11 +1,9 @@
-import { createRef, useContext } from 'react';
+import { createRef } from 'react';
 import React, { useState, useEffect } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
-import { Title,SubTitle, SmallInfo } from "./styleComponents/text.Style"
+import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import Versions from "./versions.png"
 import MooodBoard from "./moodboardV3.png"
@@ -15,9 +13,9 @@ import C4model from "./C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
-import {NavLink} from "react-router-dom";
 import ZoomImage from './ZoomImages';
-
+// import Zoom from 'react-reveal/Zoom';
+// import Slide from 'react-reveal/Slide';
 
 function Numeration_CaseStudy() {
   const [isSticky, setSticky] = useState(false);

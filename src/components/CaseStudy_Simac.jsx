@@ -1,9 +1,9 @@
 import React from 'react'
 import BigPic from "./Image6.png"
-import DesignMethod from "./Image7.png"
+import Project from "./ProjectbreakdownSIMAC.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
-import Numeration_CaseStudy from './Numeration_CaseStudy'
+import Numeration_Simac from './Numeration_Simac'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
@@ -48,26 +48,28 @@ function CaseStudy_Portfolio() {
         <Column sum>
         <Slide cascade>
         <Title>Summary</Title>
-        <SmallInfo sumText>Our teachers gave us the assignment to create a portfolio for the first four weeks.
-         This is something important for me because I would like to present myself in the best possible way in 
-         front of the world and show my capabilities. The question that best represents what my portfolio 
-         represents as well as the goal of this semester is: <span style={{color:"#F1C3AC"}}>"What kind of IT professional do I want to be?" </span> 
-         <br></br>
-         For these four weeks, I was using the <span style={{color:"#F1C3AC"}}>Agile methodology</span> in this way because this helped me 
-         to be flexible during the project.
+        <SmallInfo sumText>
+        This was a group assignment that involved six individuals with different backgrounds. 
+        Our shared passion for UX/UI and the problem we needed to solve brought us together. 
+        Our client was <span style={{color:"#F1C3AC"}}>Simac</span>, a Dutch-based company in Veldhoven, with two assignments to choose from. 
+        We opted to tackle the challenge of onboarding non-Dutch people into the company. Currently, the majority of employees at Simac
+        IT NL are Dutch, while the job market is providing more and more international and qualified candidates. Our team members had 
+        experience dealing with cultural differences in Dutch workplaces, and we believed we could leverage our knowledge and experience
+         to help Simac address this problem. <br></br>
+         <span style={{color:"#F1C3AC"}}>It's worth noting that the broad nature of the project is what defines the assignment. </span> There 
+         are no specific requirements expected by the stakeholders, but they do wish to deeply explore and validate a hook.
+         Our research question, <span style={{color:"#F1C3AC"}}>"How can Simac become more attractive to non-Dutch people?"</span> 
+         encapsulates the project's goal. Our team will focus on the onboarding process, which can be a sometimes dull and overwhelming
+        experience, particularly for international individuals who don't speak Dutch and face cultural differences.
          <br />
-         Since the project is pretty dynamic. I chose to use the <span style={{color:"#F1C3AC"}}>Design Thinking Method</span> because I can do 
-         different iterations and if something did not go as I planned it or it needs more research I could
-         easily go one step back. The methods that I used were the <span style={{color:"#F1C3AC"}}>CMD</span> ones. They are based on the <span style={{color:"#F1C3AC"}}>DOT framework</span>,
-          but there are more relatable to the UX/UI methods.
-         </SmallInfo>
+      </SmallInfo>
       </Slide>
    </Column>
    <Column>
-   <ZoomImage src={DesignMethod} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
+   <ZoomImage src={Project} alt="" style={{ 'height': '350px', 'margin': "auto"}}/>
    </Column>
 
-     <Numeration_CaseStudy/>
+     <Numeration_Simac/>
      <Row>
       <div></div>
       <div></div>

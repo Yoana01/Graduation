@@ -35,7 +35,7 @@ ${(props) =>
     position: fixed;
     top:20px;
     display:flex;
-    z-index: 999;
+    z-index: 2;
     margin-left: 400px;
    
   `}
