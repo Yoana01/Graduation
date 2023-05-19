@@ -13,7 +13,7 @@ export const  Button = styled.button`
     text-decoration: underline;
     color: #E5989B;
     font-size: 20px;
-    font-family: Lato Regular;
+    font-family: 'Lato Regular';
    &:hover {
       /* background-color: transparent;
       border: 2px solid #E5989B; */

@@ -7,7 +7,7 @@ function ZoomImage(props) {
 
   return (
     <div className="zoomable-image">
-      <img src={props.src} alt={props.alt} style={props.style} onClick={toggleModal} />
+      <img src={props.src} alt={props.alt} style={props.style} id={props.id} onClick={toggleModal} />
       {isOpen && (
         <div className="modal">
           <span className="close" onClick={toggleModal}>&times;</span>

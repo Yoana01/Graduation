@@ -63,6 +63,10 @@ img{
   height: 350px;
   margin: auto;
 }
+.IntrImg{
+  width:550px;
+  height: 550px;
+}
 @media only screen and (max-width: 780px) {
   .cardImg {
     width: 300px;
@@ -80,5 +84,10 @@ img{
   }
   #sumImg{
     width:300px;
+  }
+  .IntrImg{
+    width:330px;
+    height: 330px;
+    margin: auto;
   }
 }

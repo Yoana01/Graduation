@@ -20,7 +20,7 @@ export const  SubTitle = styled.div`
   padding-bottom: 24px;
  `;
 export const SmallInfo = styled.div`
-    font-family: 'Lato Light';
+    font-family: 'Lato Regular';
     max-width: 550px;
     width: 450px;
     padding-bottom:${(props) => props.learning ? '0px' : '16px'};

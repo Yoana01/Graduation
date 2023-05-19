@@ -7,6 +7,7 @@ import { GlobalStyle } from "./components/styleComponents/global.Style";
 import About from "./components/About";
 import CaseStudy_Portfolio from "./components/CaseStudy_Portfolio";
 import CaseStudy_Simac from "./components/CaseStudy_Simac";
+import CaseStudy_InterWeek from "./components/CaseStudy_InterWeek";
 import HomePage from'./components/Home';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
            <Route path="/about"  element={<About />} /> 
            <Route path="/caseStudyPortfolio"  element={<CaseStudy_Portfolio />} /> 
            <Route path="/caseStudySimac"  element={<CaseStudy_Simac />} /> 
+           <Route path="/caseStudyInterWeek"  element={<CaseStudy_InterWeek />} />
            <Route path="/home"  element={<HomePage />} /> 
          </Route>
       </Routes> 
