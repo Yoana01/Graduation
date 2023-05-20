@@ -21,7 +21,7 @@ justify-content: center;
 gap:45px;
 align-items: center;
 margin: auto;
-width:700px;
+width: 850px;
 height: auto;
 border-radius: 32px;
 color:black;

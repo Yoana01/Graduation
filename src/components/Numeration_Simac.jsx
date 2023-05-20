@@ -9,6 +9,7 @@ import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
+import ProjectManagement from './Monday.png';
 // import Zoom from 'react-reveal/Zoom';
 // import Slide from 'react-reveal/Slide';
 
@@ -57,7 +58,7 @@ function Numeration_Simac() {
         contentArrowStyle={ {border: "none" }}
         > 
       {/* <Slide right cascade> */}
-    <Row small id="planning">
+    <Row small conclusion id="planning">
     <InfoBox>
           <Title>Set up and Planning</Title> 
           <SmallInfo Resp> I have a strong passion for organizing my life and daily activities, which is why I aspire to lead and organize 
@@ -66,14 +67,16 @@ function Numeration_Simac() {
             I determined that Scrum-ban was the ideal approach as it allows for flexibility and adjustments throughout the project,
              particularly when there are no concrete user requirements as in the case of our project.
              To further my knowledge and skills in this area, I completed several Scrum courses for Scrum Master. This experience provided me with valuable 
-            insight into the role of a project manager and helped me determine if this is a career path I would like to pursue in the future.</SmallInfo>
+            insight into the role of a project manager and helped me determine if this is a career path I would like to pursue in the future. <br></br>
+            Also, I was scrum master for the second sprint. This was one the most important moments for our project because
+            we gather the most valuable information - the one from the users. Because we were relying on their schedule 
+            it was really tricky if we could manage to achieve the goal for the sprint. However, we manage to succeed
+            the sprint goal. This was because me as scrum master try to be realistic when I was giving the task between 
+            each other. Moreover, putting small targets and deadlines helps us to achieve this. The picture represents
+            the management in the second sprint. </SmallInfo>
         </InfoBox>
-        {/* <Zoom> */}
-        {/* <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/> */}
-          {/* <img /> */}
-        {/* </Zoom> */}
-    </Row>
-    
+        <ZoomImage src={ProjectManagement} alt="" style={{'width': '850px', 'height': '550px'}}/>
+    </Row> 
      {/* </Slide> */}
        
         </VerticalTimelineElement>

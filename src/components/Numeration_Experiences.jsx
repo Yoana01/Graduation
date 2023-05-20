@@ -28,14 +28,35 @@ function Numeration_Experiences() {
           textClassName = {'1'}
           contentArrowStyle={ {border: "none" }} >
           <Row small>
-          <InfoBox>
+            <InfoBox>
                 <Title RespT>Promoter</Title> 
                 <SubTitle>2019-2020 </SubTitle>
                 <SmallInfo>Working as a promoter for different brands</SmallInfo>
               </InfoBox>
-                <Column>
                 <ZoomImage src={Promoter} alt="" style={{'width': '250px', 'height': '325px'}}/>
-                </Column>
+          </Row>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
+          position={ 'right' }
+          iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
+          textClassName = {'1'}
+          contentArrowStyle={ {border: "none" }} >
+          <Row small>
+            <InfoBox>
+                <Title RespT>PR AT FONTYS UNIVERSITY</Title> 
+                <SubTitle>2021 - PRESENT</SubTitle>
+                <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       
+                  - Organizing Open days <br />
+                  - Helping with Social Media</SmallInfo>
+              </InfoBox>
+              <div id="VideoDiv">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8RitzmtguBk?start=1" 
+              title="YouTube video player" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+              picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
           </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -45,19 +66,15 @@ function Numeration_Experiences() {
         iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}> 
-    <Row small id="understanding">
+    <Row small >
     <InfoBox>
     <Title RespT>PR AT FONTYS UNIVERSITY</Title> 
        <SubTitle>2021 - PRESENT</SubTitle> 
-       <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       - Organizing Open days <br />
+       <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       
+       - Organizing Open days <br />
         - Helping with Social Media</SmallInfo>
         </InfoBox>
-        <div id="VideoDiv">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/8RitzmtguBk?start=1" 
-              title="YouTube video player" 
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-              picture-in-picture; web-share" allowfullscreen></iframe>
-         </div>
+        
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -72,7 +89,6 @@ function Numeration_Experiences() {
           <Title RespT> PULL AND BEAR</Title> 
           <SubTitle>JUN 2022 - AUG 2022</SubTitle>
           <SmallInfo>  Working as a sale assistant</SmallInfo>
-        
         </InfoBox>
           <ZoomImage src={PullAndBear} alt="" style={{'width': '500px', 'height': '350px'}}/>
     </Row>
@@ -84,7 +100,7 @@ function Numeration_Experiences() {
     iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
-    <Row small conclusion>
+    <Row small>
     <InfoBox>
           <Title RespT>BOSCH SECURITY AND SAFETY SYSTEMS</Title> 
           <SubTitle>AUG 2022 - JAN 2023</SubTitle> 
@@ -100,7 +116,7 @@ function Numeration_Experiences() {
     iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
     textClassName = {'1'}
     contentArrowStyle={ {border: "none" }} >
-    <Row small conclusion>
+    <Row small >
     <InfoBox><Title RespT>PROXY STUDENT ASSOSIATION</Title> 
      <SubTitle>OCT 2022 - PRESENT</SubTitle>    
     <SmallInfo>

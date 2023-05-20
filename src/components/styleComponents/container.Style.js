@@ -36,9 +36,9 @@ export const Row = styled.div `
     display: flex;
     gap:${(props) => props.homeR ? '0px' : props.homeR1 ? '150px' :  '100px'};
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    /* justify-content: space-evenly; */
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    /* justify-content: space-between; */
     justify-content: ${(props) => props.conclusion ? 'space-between' :  'space-evenly'};;
     ${props => props.small && css`
     @media (max-width: 768px) {

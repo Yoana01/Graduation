@@ -86,16 +86,15 @@ function Numeration_CaseStudy() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-      {/* </Link> */}
         <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
-  {/* <Slide right cascade> */}
-    <Row small id="exploring"> 
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}
+        > 
+    <Row small  id="exploring"> 
     <InfoBox>
           <Title>Exploring</Title> 
           <SmallInfo Resp>Since I was not sure how exactly my will look my design as well as the limited time of the project, 
@@ -106,15 +105,11 @@ function Numeration_CaseStudy() {
             I did and small brand style guide which to help with the components of my design.</SmallInfo>
             <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
-        {/* <Zoom> */}
           <Column>
           <ZoomImage src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
           <ZoomImage src={UIArch} alt="" style={{'width': '300px', 'height': '450px'}}/>
           </Column>  
-        {/* </Zoom> */}
     </Row>
-    
-     {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -140,12 +135,10 @@ function Numeration_CaseStudy() {
               in a structured way.
         </SmallInfo>
         </InfoBox>
-      {/* <Zoom> */}
         <Column>
           <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
           <ZoomImage src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
         </Column> 
-        {/* </Zoom> */}
     </Row>
     
      {/* </Slide> */}

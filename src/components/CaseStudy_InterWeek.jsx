@@ -60,7 +60,7 @@ function CaseStudy_Portfolio() {
          period of the day.  A negative effect is a decline in motor and social skills.
          In addition, 15.5% of all elementary school children are overweight.
          Our solution was based on Sustainable Development goals. So, if I have to define the project in one sentence,
-        it would sound like this: <span style={{color:"#F1C3AC"}}>"How can the integration of synthetic media, mixed reality, artificial intelligence, 
+        it would sound like this:<span style={{color:"#F1C3AC"}}>"How can the integration of synthetic media, mixed reality, artificial intelligence, 
         and/or big data in the design of Schoolplein14 and its surrounding environment effectively encourage children 
         and young people to engage in outdoor play and physical activities?”</span>
         
