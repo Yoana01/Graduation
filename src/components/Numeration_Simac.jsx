@@ -9,7 +9,9 @@ import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
-import ProjectManagement from './Monday.png';
+import ProjectManagement from './Images/Monday.png';
+import CustomerJourneyMap from './Images/CustomerJourney Map.jpg';
+import Expert from './Images/expert.jpg';
 // import Zoom from 'react-reveal/Zoom';
 // import Slide from 'react-reveal/Slide';
 
@@ -75,8 +77,8 @@ function Numeration_Simac() {
             each other. Moreover, putting small targets and deadlines helps us to achieve this. The picture represents
             the management in the second sprint. </SmallInfo>
         </InfoBox>
-        <ZoomImage src={ProjectManagement} alt="" style={{'width': '850px', 'height': '550px'}}/>
     </Row> 
+    <ZoomImage src={ProjectManagement} alt="" style={{'width': '800px', 'height': '500px'}}/>
      {/* </Slide> */}
        
         </VerticalTimelineElement>
@@ -101,18 +103,22 @@ function Numeration_Simac() {
           first day due to the many tasks they need to complete. Another interesting finding was that many employees do not use SimacWeb.
           However, the company is doing some things right, such as personalizing the onboarding process based on individuals and assigning
          a "buddy" for the first few days. These insights provided our team with valuable information to guide our project. </SmallInfo>
-         <SmallInfo Resp> As there are various steps involved in the onboarding process over several months, we created a
-         <span style={{color:"#F1C3AC"}}>customer journey map </span>
+         <SmallInfo Resp> As there are various steps involved in the onboarding process over several months, we created a          <span style={{color:"#F1C3AC"}}>customer journey map </span>
             to visualize it. The map includes a general overview, as well as two more specific maps detailing the first day and 
             first week at work. Since many actions are happening these days, our team decided to create the maps early on. 
             We can make changes later based on the inputs we receive from the interviews. </SmallInfo>
+            <a href="https://miro.com/app/board/uXjVMXm3hSE=/?share_link_id=14839500130" target="_blank"> <Button> See more</Button> </a>
+            <br/><br/>
             <SmallInfo Resp> I participated in <span style={{color:"#F1C3AC"}}> expert interviews </span> to gain insights into how Simac and other companies conduct their onboarding.
                  An interesting fact that was confirmed is that employees are not aware of the full capabilities of SimacWeb, 
                  and there are too many Word documents involved in the Simac onboarding process. 
                  Another company we talked to mentioned that they switched their company language from Dutch to English. They emphasized the 
                  importance of everyone feeling like an expert in their role and taking initiative. </SmallInfo>
     </InfoBox>
-        {/* <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/> */}
+    <Column>
+    <ZoomImage src={CustomerJourneyMap} alt="" style={{'width': '550px', 'height': '350px'}}/>
+        <ZoomImage src={Expert} alt="" style={{'width': '550px', 'height': '350px'}}/>
+    </Column>Images/
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement

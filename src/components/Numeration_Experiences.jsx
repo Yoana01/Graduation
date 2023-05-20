@@ -8,10 +8,10 @@ import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import ZoomImage from './ZoomImages';
-import PullAndBear from "./PullAndBear.png"
-import Bosch from "./Bosch.png"
-import Promoter from "./Promoter.jpg"
-import ProxyVideo from "./Proxy.mp4"
+import PullAndBear from "./Images/PullAndBear.png"
+import Bosch from "./Images/Bosch.png"
+import Promoter from "./Images/Promoter.jpg"
+import ProxyVideo from "./Images/Proxy.mp4"
 
 
 

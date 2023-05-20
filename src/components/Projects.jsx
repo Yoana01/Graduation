@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Button } from "./styleComponents/button.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Column, Row, InfoBox  } from "./styleComponents/container.Style"
-import Project01 from "./Image6.png"
-import Project02 from "./Logo.png"
-import Project03 from "./Eindhoven.jpg"
+import Project01 from "./Images/Image6.png"
+import Project02 from "./Images/Logo.png"
+import Project03 from "./Images/Eindhoven.jpg"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 

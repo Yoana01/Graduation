@@ -5,11 +5,11 @@ import 'react-vertical-timeline-component/style.min.css';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
-import Versions from "./versions.png"
-import MooodBoard from "./moodboardV3.png"
-import UIArch from "./uiarch.png"
-import Moscow from "./MoSCoW.jpg"
-import C4model from "./C4model.png"
+import Versions from "./Images/versions.png"
+import MooodBoard from "./Images/moodboardV3.png"
+import UIArch from "./Images/uiarch.png"
+import Moscow from "./Images/MoSCoW.jpg"
+import C4model from "./Images/C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
 import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"

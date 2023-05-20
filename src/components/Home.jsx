@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import {Column, Row, QuoteBox, CardBox } from "./styleComponents/container.Style"
-import BigPic from "./Image5.svg"
-import Pic from "./Image6.png"
+import BigPic from "./Images/Image5.svg"
+import Pic from "./Images/Image6.png"
 import { Title, SubTitle, SmallInfo} from "./styleComponents/text.Style"
 import { Button} from "./styleComponents/button.Style"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-import Project02 from "./Logo.png"
+import Project02 from "./Images/Logo.png"
 
 function Home() {
   return (

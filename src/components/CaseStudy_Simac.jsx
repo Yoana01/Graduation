@@ -1,6 +1,6 @@
 import React from 'react'
-import BigPic from "./Image6.png"
-import Project from "./ProjectbreakdownSIMAC.png"
+import BigPic from "./Images/Image6.png"
+import Project from "./Images/ProjectbreakdownSIMAC.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import Numeration_Simac from './Numeration_Simac'
@@ -10,8 +10,8 @@ import Slide from 'react-reveal/Slide';
 import 'react-vertical-timeline-component/style.min.css';
 import { Link } from "react-router-dom";
 import ScrollToTopButton from "./ScrollToTop"
-import Project02 from "./Logo.png"
-import Theme from "./Project Theme.jpg"
+import Project02 from "./Images/Logo.png"
+import Theme from "./Images/Project Theme.jpg"
 import ZoomImage from './ZoomImages';
 
 function CaseStudy_Portfolio() {

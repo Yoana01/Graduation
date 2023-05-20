@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from "./sdgs.png"
+import Project from "./Images/sdgs.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import Numeration_Inter from './Numeration_Inter'
@@ -8,9 +8,9 @@ import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import 'react-vertical-timeline-component/style.min.css';
 import ScrollToTopButton from "./ScrollToTop"
-import Theme from "./Animation.gif"
+import Theme from "./Images/Animation.gif"
 import ZoomImage from './ZoomImages';
-import DesignMethod from "./Image7.png"
+import DesignMethod from "./Images/Image7.png"
 
 function CaseStudy_Portfolio() {
   return (

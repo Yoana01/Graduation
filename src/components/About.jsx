@@ -2,12 +2,12 @@ import React from 'react'
 import { Box, Column, Row,FeedbackBox, InfoBox, FancyPic } from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo, SpecialText } from "./styleComponents/text.Style"
 import { Image } from "./styleComponents/image.Style"
-import BigPic from "./Image5.svg"
-import Music from "./music.jpg"
-import Movies from "./movies.jpg"
-import Gym from "./gym.jpeg"
-import Cake from "./cake.jpeg"
-import Nature from "./nature.jpeg"
+import BigPic from "./Images/Image5.svg"
+import Music from "./Images/music.jpg"
+import Movies from "./Images/movies.jpg"
+import Gym from "./Images/gym.jpeg"
+import Cake from "./Images/cake.jpeg"
+import Nature from "./Images/nature.jpeg"
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

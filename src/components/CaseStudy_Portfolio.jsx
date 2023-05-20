@@ -1,6 +1,6 @@
 import React from 'react'
-import BigPic from "./Image6.png"
-import DesignMethod from "./Image7.png"
+import BigPic from "./Images/Image6.png"
+import DesignMethod from "./Images/Image7.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import Numeration_CaseStudy from './Numeration_CaseStudy'
