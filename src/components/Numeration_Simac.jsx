@@ -12,6 +12,9 @@ import ZoomImage from './ZoomImages';
 import ProjectManagement from './Images/Monday.png';
 import CustomerJourneyMap from './Images/CustomerJourney Map.jpg';
 import Expert from './Images/expert.jpg';
+import Interviews from './Images/Interviews.jpg';
+import Empathy from './Images/Empatymap.png';
+import Affinity from './Images/SIMAC Affinity map 1.png';
 // import Zoom from 'react-reveal/Zoom';
 // import Slide from 'react-reveal/Slide';
 
@@ -118,7 +121,7 @@ function Numeration_Simac() {
     <Column>
     <ZoomImage src={CustomerJourneyMap} alt="" style={{'width': '550px', 'height': '350px'}}/>
         <ZoomImage src={Expert} alt="" style={{'width': '550px', 'height': '350px'}}/>
-    </Column>Images/
+    </Column>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -133,21 +136,47 @@ function Numeration_Simac() {
     <Row small id="definition">
     <InfoBox>
           <Title>Definition</Title> 
-          <SmallInfo Resp> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
-            <span style={{color:"#F1C3AC"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
-            would not look old-fashion. Also, one designer needs to 
-            know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
-            Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
-            them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
-            They are different opinions about them, but they are still being used.</SmallInfo>
-          <SmallInfo Resp>Another method that I used is a  <span style={{color:"#F1C3AC"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
-             in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
-              playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
-              Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
+          <SmallInfo Resp> After the research that we made we decided to go to the real user and understand how their
+           onboarding process was as our main target audience is people who are non-Dutch since this our main users,
+          but it does not mean that our solution is excluding the Dutch people. In total we conducted 6 <span style={{color:"#F1C3AC"}}>interviews</span> as
+          3 external and 3 from Simac. Each of us was supposed to conduct one interview and to be a chairperson of 
+          another way. In this way we were doing different roles in one observing the users and what he says and the
+          other one is asking the questions that we prepared. After that we were supposed to analyze it.
+          </SmallInfo>
+          <SmallInfo Resp>Based on the interviews, my task was to create an <span style={{color:"#F1C3AC"}}> empathy map </span>. After that we realize that  
+          <span style={{color:"#F1C3AC"}}> affinity map </span> will be more efficient. After it we realized what we need to do. An example, we thought that 
+          there is a huge language barrier, but after the interviews NADSCY find out different. That gave us a 
+          starting point for our brainstorming sessions. </SmallInfo>
         </InfoBox>
-        {/* <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/> */}
+        <Column>
+        <ZoomImage src={Empathy} alt="" style={{'width': '450px', 'height': '350px'}}/>
+        <ZoomImage src={Affinity} alt="" style={{'width': '550px', 'height': '400px'}}/>
+        </Column>
+       
     </Row>
     
+     {/* </Slide> */}
+       
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}
+        > 
+      {/* <Slide right cascade> */}
+    <Row small conclusion id="planning">
+    <InfoBox>
+          <Title>Ideation and Solution</Title> 
+          <SmallInfo Resp>I was participating in <span style={{color:"#F1C3AC"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method … . The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
+          <SmallInfo Resp>The second brainstorming session me the rest of the NADSCY used the <span style={{color:"#F1C3AC"}}>Dark-Side method</span> where we need to see the problem for the negative side of the problem. At the end there were different groups of same ideas that we combined and at the end the group voted on the one that we feel that we are the most important for solving the problem.</SmallInfo>  
+          <SmallInfo Resp> The third one was after we conducted the interviews, we decided what we are going to develop as topic – socializing and from there each of the members were supposed to create concept. If you want to understand my concept, click on the button.</SmallInfo>       
+          <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
+        </InfoBox>
+    </Row> 
+    <ZoomImage src={ProjectManagement} alt="" style={{'width': '800px', 'height': '500px'}}/>
      {/* </Slide> */}
        
         </VerticalTimelineElement>
