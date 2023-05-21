@@ -1,5 +1,5 @@
 import { createRef } from 'react';
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
@@ -12,14 +12,23 @@ import ZoomImage from './ZoomImages';
 import ProjectManagement from './Images/Monday.png';
 import CustomerJourneyMap from './Images/CustomerJourney Map.jpg';
 import Expert from './Images/expert.jpg';
-import Interviews from './Images/Interviews.jpg';
 import Empathy from './Images/Empatymap.png';
 import Affinity from './Images/SIMAC Affinity map 1.png';
+import Model from './Images/3dModel.webm';
+import BrainstormingOne from './Images/Brainstorming1.mp4';
+import BrainstormingTwo from './Images/Brainstorming2.mp4';
+import { FaxRounded } from '@mui/icons-material';
+
 // import Zoom from 'react-reveal/Zoom';
 // import Slide from 'react-reveal/Slide';
 
 function Numeration_Simac() {
   const [isSticky, setSticky] = useState(false);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    videoRef.current.play();
+  }, []);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -40,6 +49,9 @@ function Numeration_Simac() {
     color: "#FFCDB2", 
     textDecoration : "underline"
   }
+ 
+
+
   return (
     <div>
       <br /> <br />
@@ -79,7 +91,9 @@ function Numeration_Simac() {
             the sprint goal. This was because me as scrum master try to be realistic when I was giving the task between 
             each other. Moreover, putting small targets and deadlines helps us to achieve this. The picture represents
             the management in the second sprint. </SmallInfo>
+            <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/%D0%9Cethodology.docx?d=wf6e641bb63a44e7ca7823d7bb316029c&csf=1&web=1&e=0ervoT" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
+       
     </Row> 
     <ZoomImage src={ProjectManagement} alt="" style={{'width': '800px', 'height': '500px'}}/>
      {/* </Slide> */}
@@ -105,7 +119,10 @@ function Numeration_Simac() {
           Based on these documents, I discovered that there are four stages of onboarding, and most employees feel overwhelmed on their 
           first day due to the many tasks they need to complete. Another interesting finding was that many employees do not use SimacWeb.
           However, the company is doing some things right, such as personalizing the onboarding process based on individuals and assigning
-         a "buddy" for the first few days. These insights provided our team with valuable information to guide our project. </SmallInfo>
+         a "buddy" for the first few days. These insights provided our team with valuable information to guide our project.
+         </SmallInfo>
+         <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Simac%20-Lit%20Study.pdf?csf=1&web=1&e=8YCl43" target="_blank"> <Button> See more</Button> </a> <br />
+
          <SmallInfo Resp> As there are various steps involved in the onboarding process over several months, we created a          <span style={{color:"#F1C3AC"}}>customer journey map </span>
             to visualize it. The map includes a general overview, as well as two more specific maps detailing the first day and 
             first week at work. Since many actions are happening these days, our team decided to create the maps early on. 
@@ -143,6 +160,7 @@ function Numeration_Simac() {
           another way. In this way we were doing different roles in one observing the users and what he says and the
           other one is asking the questions that we prepared. After that we were supposed to analyze it.
           </SmallInfo>
+          <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Interview%20Analysis.docx?d=w591cef0b87aa44ea9c161650ec7b8851&csf=1&web=1&e=di7Rkb" target="_blank"> <Button> See more</Button> </a> <br />
           <SmallInfo Resp>Based on the interviews, my task was to create an <span style={{color:"#F1C3AC"}}> empathy map </span>. After that we realize that  
           <span style={{color:"#F1C3AC"}}> affinity map </span> will be more efficient. After it we realized what we need to do. An example, we thought that 
           there is a huge language barrier, but after the interviews NADSCY find out different. That gave us a 
@@ -173,10 +191,25 @@ function Numeration_Simac() {
           <SmallInfo Resp>I was participating in <span style={{color:"#F1C3AC"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method … . The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
           <SmallInfo Resp>The second brainstorming session me the rest of the NADSCY used the <span style={{color:"#F1C3AC"}}>Dark-Side method</span> where we need to see the problem for the negative side of the problem. At the end there were different groups of same ideas that we combined and at the end the group voted on the one that we feel that we are the most important for solving the problem.</SmallInfo>  
           <SmallInfo Resp> The third one was after we conducted the interviews, we decided what we are going to develop as topic – socializing and from there each of the members were supposed to create concept. If you want to understand my concept, click on the button.</SmallInfo>       
-          <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
+          <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Pitch%20Idea%20Simac.docx?d=w15115621618d4547b075146282c42b85&csf=1&web=1&e=B5LBJ7" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
+        <Column>
+        <video   ref={videoRef} autoPlay controls  style={{'width': '330px', 'height': '400px'}}>
+        <source src={BrainstormingOne} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        <video   ref={videoRef} autoPlay  controls style={{'width': '550px', 'height': '400px'}}>
+        <source src={Model} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video   ref={videoRef} autoPlay controls style={{'width': '330px', 'height': '400px'}}>
+        <source src={BrainstormingTwo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        </Column>
+        
     </Row> 
-    <ZoomImage src={ProjectManagement} alt="" style={{'width': '800px', 'height': '500px'}}/>
+   
      {/* </Slide> */}
        
         </VerticalTimelineElement>

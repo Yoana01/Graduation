@@ -44,7 +44,10 @@ img{
 .fancyNav:hover{
   color:#6D6875;
 }
-
+.video{
+  width:500px;
+  height:500px;
+}
 .cardImg{
   width: 400px;
   height: 250px;
