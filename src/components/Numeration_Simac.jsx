@@ -55,11 +55,12 @@ function Numeration_Simac() {
   return (
     <div>
       <br /> <br />
-      <Scrollspy items={['planning','exploration','definition', 'materializing', 'conclusion']} currentClassName="active">
+      <Scrollspy items={['planning','exploration','definition', 'ideation', 'materializing', 'conclusion']} currentClassName="active">
       <SubNavBar isSticky={isSticky}>
         <FancyNav href="#planning"  text="Planning" ref={createRef()} ></FancyNav>
         <FancyNav href="#exploration" text="Exploring" ref={createRef()}></FancyNav> 
         <FancyNav href="#definition" text="Defining" ref={createRef()}></FancyNav>
+        <FancyNav href="#ideation" text="Ideation" ref={createRef()}></FancyNav>
         <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
       </SubNavBar>
     
@@ -127,7 +128,7 @@ function Numeration_Simac() {
             to visualize it. The map includes a general overview, as well as two more specific maps detailing the first day and 
             first week at work. Since many actions are happening these days, our team decided to create the maps early on. 
             We can make changes later based on the inputs we receive from the interviews. </SmallInfo>
-            <a href="https://miro.com/app/board/uXjVMXm3hSE=/?share_link_id=14839500130" target="_blank"> <Button> See more</Button> </a>
+            <a href="https://miro.com/app/board/uXjVMXm3hSE=/?share_link_id=77056691624" target="_blank"> <Button> See more</Button> </a>
             <br/><br/>
             <SmallInfo Resp> I participated in <span style={{color:"#F1C3AC"}}> expert interviews </span> to gain insights into how Simac and other companies conduct their onboarding.
                  An interesting fact that was confirmed is that employees are not aware of the full capabilities of SimacWeb, 
@@ -185,10 +186,10 @@ function Numeration_Simac() {
         contentArrowStyle={ {border: "none" }}
         > 
       {/* <Slide right cascade> */}
-    <Row small conclusion id="planning">
+    <Row small conclusion id="ideation">
     <InfoBox>
           <Title>Ideation and Solution</Title> 
-          <SmallInfo Resp>I was participating in <span style={{color:"#F1C3AC"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method … . The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
+          <SmallInfo Resp>I was participating in <span style={{color:"#F1C3AC"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method <span style={{color:"#F1C3AC"}}>Design Sprint</span>. The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
           <SmallInfo Resp>The second brainstorming session me the rest of the NADSCY used the <span style={{color:"#F1C3AC"}}>Dark-Side method</span> where we need to see the problem for the negative side of the problem. At the end there were different groups of same ideas that we combined and at the end the group voted on the one that we feel that we are the most important for solving the problem.</SmallInfo>  
           <SmallInfo Resp> The third one was after we conducted the interviews, we decided what we are going to develop as topic – socializing and from there each of the members were supposed to create concept. If you want to understand my concept, click on the button.</SmallInfo>       
           <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Pitch%20Idea%20Simac.docx?d=w15115621618d4547b075146282c42b85&csf=1&web=1&e=B5LBJ7" target="_blank"> <Button> See more</Button> </a>
