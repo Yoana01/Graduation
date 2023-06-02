@@ -134,6 +134,12 @@ function Numeration_CaseStudy() {
               This makes my work look cleaner and more professional and if someone wants to see my code it would be presented 
               in a structured way.
         </SmallInfo>
+        <SmallInfo Resp> 
+Based on a <span style={{color:"#F1C3AC"}}>360-degree feedback
+</span> from my fellow students, I received positive feedback for my planning skills, structured approach, timely delivery, research documentation, and empathy in design. However, there are areas for improvement, such as creating more minimalistic plans, highlighting key research points, being open to change in group work, thinking beyond limitations in problem-solving, and not taking feedback personally. Overall, I have good qualities but need to be more flexible and open-minded.
+              <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/360%20Feedback.docx?d=w531d685c0e434fd3b498a423fda062ea&csf=1&web=1&e=F0HFOK" target="_blank"> <Button> See more</Button> </a>
+        </SmallInfo>
+      
         </InfoBox>
         <Column>
           <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
