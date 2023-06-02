@@ -49,19 +49,7 @@ function CaseStudy_Portfolio() {
         <Slide cascade>
         <Title>Summary</Title>
         <SmallInfo sumText small>
-        This was a group assignment that involved six individuals with different backgrounds. 
-        Our shared passion for UX/UI and the problem we needed to solve brought us together. 
-        Our client was <span style={{color:"#F1C3AC"}}>Simac</span>, a Dutch-based company in Veldhoven, with two assignments to choose from. 
-        We opted to tackle the challenge of onboarding non-Dutch people into the company. Currently, the majority of employees at Simac
-        IT NL are Dutch, while the job market is providing more and more international and qualified candidates. Our team members had 
-        experience dealing with cultural differences in Dutch workplaces, and we believed we could leverage our knowledge and experience
-         to help Simac address this problem. <br></br>
-         <span style={{color:"#F1C3AC"}}>It's worth noting that the broad nature of the project is what defines the assignment. </span> There 
-         are no specific requirements expected by the stakeholders, but they do wish to deeply explore and validate a hook.
-         Our research question, <span style={{color:"#F1C3AC"}}>"How can Simac become more attractive to non-Dutch people?"</span> 
-         encapsulates the project's goal. Our team will focus on the onboarding process, which can be a sometimes dull and overwhelming
-        experience, particularly for international individuals who don't speak Dutch and face cultural differences.
-         <br />
+        Our group assignment brought together six individuals with diverse backgrounds, sharing a passion for UX/UI. We partnered with <span style={{color:"#F1C3AC"}}>Simac</span>, a Dutch company in Veldhoven, and chose to address the onboarding of non-Dutch employees. Our goal is to <span style={{color:"#F1C3AC"}}> make Simac more attractive to international candidates by improving the onboarding process, considering language barriers and cultural differences.</span>
       </SmallInfo>
       </Slide>
    </Column>

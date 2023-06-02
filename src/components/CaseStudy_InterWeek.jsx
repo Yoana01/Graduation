@@ -49,20 +49,7 @@ function CaseStudy_Portfolio() {
         <Slide cascade>
         <Title>Summary</Title>
         <SmallInfo sumText small>
-        The Dutch Design Charrette was one week where different schools from all over Europe to work on a project.
-        There were in total 9 groups that were divided into 3 projects. My project was given from Handpicked Agencies and
-        The Cruyff Foundation. <br/> <br />
-        The assignment was about <span style={{color:"#F1C3AC"}}>The Cruyff Foundation</span>. They have in total three different type of playgrounds, 
-        but we focused on their Schoolyard 14. There are 14 games, and we were supposed to <span style={{color:"#F1C3AC"}}>create a new game, 
-        a fifth one that needs to be innovative and involves some technology. The games need to be reached by any 
-        kid which mean and disabled kid (physical problem, poverty, etc.)</span> Research shows that 25% of all children do
-         not exercise enough. This is supported by research showing that the school period is the most inactive 
-         period of the day.  A negative effect is a decline in motor and social skills.
-         In addition, 15.5% of all elementary school children are overweight.
-         Our solution was based on Sustainable Development goals. So, if I have to define the project in one sentence,
-        it would sound like this:<span style={{color:"#F1C3AC"}}>"How can the integration of synthetic media, mixed reality, artificial intelligence, 
-        and/or big data in the design of Schoolplein14 and its surrounding environment effectively encourage children 
-        and young people to engage in outdoor play and physical activities?”</span>
+        During the Dutch Design Charrette, our group was assigned a project by Handpicked Agencies and <span style={{color:"#F1C3AC"}}>The Cruyff Foundation</span>. Our focus was on The Cruyff Foundation's Schoolyard 14, which consists of 14 different games. Our task was to <span style={{color:"#F1C3AC"}}>create an innovative fifth game that incorporates technology and can be accessed by all children, including those with disabilities or facing challenges such as poverty</span>. Addressing the issue of insufficient physical activity among children, which negatively impacts their motor and social skills. Our solution aimed to integrate synthetic media, mixed reality, artificial intelligence, and/or big data into the design of Schoolplein14 and its surrounding environment, effectively encouraging outdoor play and physical activities.
         
       </SmallInfo>
       </Slide>
