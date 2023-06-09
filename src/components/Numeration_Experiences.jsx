@@ -21,12 +21,12 @@ function Numeration_Experiences() {
     <div>
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
       <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-          position={ 'right' }
-          iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
-          textClassName = {'1'}
-          contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
           <Row small>
             <InfoBox>
                 <Title RespT>Promoter</Title> 
@@ -37,12 +37,12 @@ function Numeration_Experiences() {
           </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-          position={ 'right' }
-          iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
-          textClassName = {'1'}
-          contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
           <Row small>
             <InfoBox>
                 <Title RespT>PR AT FONTYS UNIVERSITY</Title> 
@@ -61,29 +61,11 @@ function Numeration_Experiences() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
-        iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
-        contentArrowStyle={ {border: "none" }}> 
-    <Row small >
-    <InfoBox>
-    <Title RespT>PR AT FONTYS UNIVERSITY</Title> 
-       <SubTitle>2021 - PRESENT</SubTitle> 
-       <SmallInfo> - Helping in the intro week, where I was supposed to show around the city and Help the new students to set up <br/>       
-       - Organizing Open days <br />
-        - Helping with Social Media</SmallInfo>
-        </InfoBox>
-        
-    </Row>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#F1C3AC', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+        contentArrowStyle={ {border: "none" }}>
     <Row small>
     <InfoBox>
           <Title RespT> PULL AND BEAR</Title> 
@@ -94,12 +76,12 @@ function Numeration_Experiences() {
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
     <Row small>
     <InfoBox>
           <Title RespT>BOSCH SECURITY AND SAFETY SYSTEMS</Title> 
@@ -110,12 +92,12 @@ function Numeration_Experiences() {
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
     <Row small >
     <InfoBox><Title RespT>PROXY STUDENT ASSOSIATION</Title> 
      <SubTitle>OCT 2022 - PRESENT</SubTitle>    

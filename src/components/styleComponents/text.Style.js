@@ -3,7 +3,7 @@ import styled, {
 }from 'styled-components'
 
 export const  Title = styled.div`
-  font-family: 'Lato Black';
+  font-family: 'Poppins SemiBold';
    font-size: 32px;
    padding-bottom: 32px;
    ${props => props.RespT && css`
@@ -14,13 +14,13 @@ export const  Title = styled.div`
   `}
   `;
 export const  SubTitle = styled.div`
-  font-family: 'Lato Regular';
+  font-family: 'Poppins Regular';
   font-size: 20px;
   padding-top:16px;
   padding-bottom: 24px;
  `;
 export const SmallInfo = styled.div`
-    font-family: 'Lato Regular';
+    font-family: 'Poppins Regular';
     max-width: 550px;
     width: 450px;
     padding-bottom:${(props) => props.learning ? '0px' : '16px'};
@@ -43,7 +43,8 @@ export const SmallInfo = styled.div`
 `
 export const SpecialText = styled.div`
     font-size: 36px;
-    font-family: 'Lato Black';
+    font-family: 'Poppins SemiBold';
+    font-weight: 500;
     margin-bottom: -137px;
     line-height: 45px;
     margin-left: 18px;

@@ -22,7 +22,13 @@ function Home() {
        </Slide> 
        </Fade>
     </Row>
-    <Column home>
+    <Column>
+    <Title RespT>Projects</Title>
+    <Row small>
+      
+    </Row>
+    </Column>
+    {/* <Column home>
       <br />
     <Title RespT>Projects</Title>
     <Zoom cascade>
@@ -65,7 +71,7 @@ function Home() {
     </Row>
     </Column>
     </Zoom>
-    </Column>
+    </Column> */}
     
    
     </div>

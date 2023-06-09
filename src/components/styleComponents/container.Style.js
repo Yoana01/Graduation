@@ -5,7 +5,7 @@ import styled, {
 export const Column = styled.div `
     display: flex;
     flex-direction: column;
-    gap:${(props) => props.home ? '0px' : '75px'};
+    gap:${(props) => props.home ? '0px' : '45px'};
     /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
@@ -101,7 +101,7 @@ export const FeedbackBox = styled.div `
     background: rgb(245,245,245, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     border-radius: 32px;
-    color:#FFFFFF;
+    color:#151322;
     width: 500px;
     height: 250px;
     align-items: center;
@@ -124,7 +124,7 @@ export const CircleBox = styled.div`
   height: 42px;
   padding:4px;
   border-radius: 16px;
-  color:black;
+  color:#151322;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -137,7 +137,7 @@ export const QuoteBox = styled.div`
     /* background: rgb(181,131,141, 0.39);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      border-radius: 32px;  */
-    font-family: 'Lato Light';
+    font-family: 'Popins Light';
     width: 500px;
     height: 100%;
     padding: 16px;

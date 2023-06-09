@@ -8,7 +8,7 @@ import Logo from "../Logo.png"
 function NavBar() {
 
 let activeStyle = {
-  color: "#FFCDB2", 
+  color: "#7c6aa6", 
   textDecoration : "underline"
 }
 

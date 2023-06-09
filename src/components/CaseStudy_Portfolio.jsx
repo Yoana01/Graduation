@@ -48,25 +48,19 @@ function CaseStudy_Portfolio() {
         </Row>
         <Column sum>
         <Slide cascade>
-        <Title>Summary</Title>
-        <SmallInfo sumText small>Our teachers gave us the assignment to create a portfolio for the first four weeks.
-         This is something important for me because I would like to present myself in the best possible way in 
-         front of the world and show my capabilities. The question that best represents what my portfolio 
-         represents as well as the goal of this semester is: <span style={{color:"#F1C3AC"}}>"What kind of IT professional do I want to be?" </span> 
-         <br></br>
-         For these four weeks, I was using the <span style={{color:"#F1C3AC"}}>Agile methodology</span> in this way because this helped me 
-         to be flexible during the project.
-         <br />
-         Since the project is pretty dynamic. I chose to use the <span style={{color:"#F1C3AC"}}>Design Thinking Method</span> because I can do 
-         different iterations and if something did not go as I planned it or it needs more research I could
-         easily go one step back. The methods that I used were the <span style={{color:"#F1C3AC"}}>CMD</span> ones. They are based on the <span style={{color:"#F1C3AC"}}>DOT framework</span>,
-          but there are more relatable to the UX/UI methods.
+          <Row>
+            <Column home>
+            <Title>Summary</Title>
+        <SmallInfo  small>
+The assignment is to create a portfolio for the first four weeks, which is important for presenting oneself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments. These methods align more with UX/UI practices.
          </SmallInfo>
+            </Column>
+            <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
+          </Row>
+        
       </Slide>
    </Column>
-   <Column> 
-   <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
-   </Column>
+  
      <Numeration_CaseStudy/>
     <Row>
       <div></div>

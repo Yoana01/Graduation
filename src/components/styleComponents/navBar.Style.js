@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const  NavigationBar = styled.nav`
    padding : 16px;
    text-decoration: none;
-   color: white;
+   color: #151322;
    text-align: right;
    display: flex;
    justify-content: flex-end;
@@ -24,7 +24,7 @@ margin: auto;
 width: 850px;
 height: auto;
 border-radius: 32px;
-color:black;
+color: #7c6aa6;;
 background: rgb(255, 205, 178, 0.65);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: all 0.3s ease-in-out;

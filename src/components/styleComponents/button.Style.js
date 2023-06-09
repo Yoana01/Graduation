@@ -11,12 +11,13 @@ export const  Button = styled.button`
    background: transparent;
     border: none;
     text-decoration: underline;
-    color: #E5989B;
+    /* color: #E5989B; */
+    color: #7C6AA6;
     font-size: 20px;
-    font-family: 'Lato Regular';
+    font-family: 'Poppins Regular';
    &:hover {
       /* background-color: transparent;
       border: 2px solid #E5989B; */
-      color:#FFCDB2;
+      color:#ded6d1;
     }
   `;
