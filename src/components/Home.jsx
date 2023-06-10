@@ -9,6 +9,7 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import Project02 from "./Images/Logo.png"
+import Project03 from "./Images/Eindhoven.jpg"
 
 function Home() {
   return (
@@ -25,54 +26,33 @@ function Home() {
     <Column>
     <Title RespT>Projects</Title>
     <Row small>
-      
-    </Row>
-    </Column>
-    {/* <Column home>
-      <br />
-    <Title RespT>Projects</Title>
-    <Zoom cascade>
-    <Column>
-    <Row small>
-    <CardBox small>
+    <div className='card'>
     <img src={Pic} alt=""  className="cardImg"/>
     <SubTitle>Portfolio</SubTitle>
    <SmallInfo CardText> 
    If you want to understand more about how I have created this portfolio, you can click the button.
    </SmallInfo>
    <Link to={'/caseStudyPortfolio'}> <Button>Read More</Button></Link>
-    </CardBox>
-    <CardBox small>
+    </div>
+    <div className='card'>
     <img src={Project02} alt="" className="cardImg" />
     <SubTitle>Onboarding Simac</SubTitle>
     <SmallInfo CardText>
     If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.
     </SmallInfo>
     <Link to={'/caseStudySimac'}><Button>Read More</Button></Link>
-    </CardBox>
-    </Row>
-    <Row small>
-     <CardBox small>
-    <img src={Pic} alt="" className="cardImg"/>
-    <SubTitle>Portfolio</SubTitle>
+    </div>
+    <div className='card'>
+    <img src={Project03} alt="" className="cardImg" />
+    <SubTitle>Dutch Design Charrette</SubTitle>
     <SmallInfo CardText>
-    If you want to understand more about how I have created this portfolio, you can click the button.
+    This was one incredible week of working where we worked with people from different
+          university and create project for The Cruyff Foundation, you can click the button.
     </SmallInfo>
-    <Button>Read More</Button>
-    </CardBox>
-    <CardBox small>
-    <img src={Pic} alt="" className="cardImg"/>
-    <SubTitle>Portfolio</SubTitle>
-    <SmallInfo CardText>
-       If you want to understand more about how I have created this portfolio, you can click the button.
-    </SmallInfo>
-    <Button>Read More</Button>
-    </CardBox>
+    <Link to={'/caseStudySimac'}><Button>Read More</Button></Link>
+    </div>
     </Row>
     </Column>
-    </Zoom>
-    </Column> */}
-    
    
     </div>
   )

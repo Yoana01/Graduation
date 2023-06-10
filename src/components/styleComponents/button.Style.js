@@ -18,6 +18,6 @@ export const  Button = styled.button`
    &:hover {
       /* background-color: transparent;
       border: 2px solid #E5989B; */
-      color:#ded6d1;
+      color:#bdb2cf;
     }
   `;

@@ -109,13 +109,13 @@ I recognized the importance of exploring different technologies, considering the
        
         </VerticalTimelineElement>
       {/* </Link> */}
-        <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#bdb2cf', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
   {/* <Slide right cascade> */}
     <Row small id="exploring"> 
     <InfoBox>
@@ -136,12 +136,12 @@ I recognized the importance of exploring different technologies, considering the
      {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#bdb2cf', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
   {/* <Slide right cascade> */}
     <Row small id="materializing">
     <InfoBox>
@@ -165,12 +165,12 @@ I recognized the importance of exploring different technologies, considering the
      {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'none', color: '#fff', border:'none', WebkitBoxShadow: "none" }}
-    position={ 'right' }
-    iconStyle={{ background: '#FFCDB2', color: '#fff', WebkitBoxShadow: "none" }}
-    textClassName = {'1'}
-    contentArrowStyle={ {border: "none" }} >
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}>
     {/* <Slide right cascade> */}
     <Row small conclusion id="conclusion">
     <InfoBox>

@@ -9,6 +9,7 @@ export const  NavigationBar = styled.nav`
    justify-content: flex-end;
    flex-direction: row;
    gap:16px;
+   font-family: "Poppins Regular"
   `;
 
 export const  StyledLink = styled.link`
@@ -25,10 +26,10 @@ width: 850px;
 height: auto;
 border-radius: 32px;
 color: #7c6aa6;;
-background: rgb(255, 205, 178, 0.65);
+background: rgb(222, 214, 209, 0.65);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: all 0.3s ease-in-out;
-
+font-family: "Poppins Medium";
 ${(props) =>
   props.isSticky &&
   css`

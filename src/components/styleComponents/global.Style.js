@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0px;
         padding: 0px;
         color: #151322;
-        font-family: 'Poppins-Light', sans-serif;
+        font-family: 'Poppins-Light';
         /* line-height: 22px; */
         padding-bottom: 56px;
     }

@@ -137,13 +137,12 @@ export const QuoteBox = styled.div`
     /* background: rgb(181,131,141, 0.39);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      border-radius: 32px;  */
-    font-family: 'Popins Light';
+    font-family: 'Dekko';
     width: 500px;
     height: 100%;
     padding: 16px;
     font-size: 26px;
     line-height: 46px;
-    font-style: italic;
     transform: rotateY(34deg);
     ${props => props.small && css`
     @media (max-width: 768px) {
@@ -153,15 +152,24 @@ export const QuoteBox = styled.div`
 
 `
 export const CardBox = styled.div`
-    background: rgb(245,245,245, 0.19);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    border-radius: 16px;
-    width: 400px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+ box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
     ${props => props.small && css`
     @media (max-width: 768px) {
         margin:auto;
@@ -169,8 +177,21 @@ export const CardBox = styled.div`
         height: auto;
         padding: 0px 0px 16px 0px;
     }
+    ${props =>
+    props.hover &&
+    css`
+     transform: scale(1.05);
+    `}
+    ${props =>
+    props.active &&
+    css`
+   transform: scale(0.95) rotateZ(1.7deg);
+    `}
   `}
 `
+
+
+
 export const FancyPic = styled.div`
     display: flex;
     flex-direction: column;

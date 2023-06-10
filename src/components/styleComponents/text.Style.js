@@ -33,6 +33,7 @@ export const SmallInfo = styled.div`
    ${props => props.CardText && css`
      width: auto;
      padding:16px;
+     font-family: 'Poppins Light';
   `}
   ${props => props.Resp && css`
   @media (max-width: 768px) {

@@ -9,7 +9,8 @@ function NavBar() {
 
 let activeStyle = {
   color: "#7c6aa6", 
-  textDecoration : "underline"
+  // textDecoration : "underline"
+  
 }
 
   return (  
@@ -19,7 +20,7 @@ let activeStyle = {
          <NavLink  id="nav-link"  to={"/home"}    style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }  >Home</NavLink> 
-        <NavLink  id="nav-link"to={"/"}style={({ isActive }) =>
+        <NavLink  id="nav-link" to={"/"}style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }  >Projects</NavLink>
         <NavLink id="nav-link" to={"/about"} style={({ isActive }) =>
