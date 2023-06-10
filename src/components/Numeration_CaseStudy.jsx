@@ -2,7 +2,7 @@ import { createRef } from 'react';
 import React, { useState, useEffect } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Column, Row, InfoBox} from "./styleComponents/container.Style"
+import { Column, Row, InfoBox, Tag} from "./styleComponents/container.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import Versions from "./Images/versions.png"
@@ -65,6 +65,12 @@ function Numeration_CaseStudy() {
     <Row small id="understanding">
     <InfoBox>
           <Title>Understanding</Title> 
+          <Row tag>
+          <Tag>User Interaction</Tag>
+          <Tag>Investigative problem solving</Tag>
+          <Tag>Future-oriented organisation</Tag>
+          </Row>
+         
           <SmallInfo Resp> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
             <span style={{color:"#7c6aa6"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
             would not look old-fashion. Also, one designer needs to 
@@ -97,6 +103,7 @@ function Numeration_CaseStudy() {
     <Row small  id="exploring"> 
     <InfoBox>
           <Title>Exploring</Title> 
+          <Tag>User Interaction</Tag>
           <SmallInfo Resp>Since I was not sure how exactly my will look my design as well as the limited time of the project, 
             I started directly to <span style={{color:"#7c6aa6"}}>prototyping</span> digital versions of the design. I got through some until I got to the point
             where I believe it is closest to what I wanted to have. You can download to see the final version.</SmallInfo>
@@ -106,7 +113,7 @@ function Numeration_CaseStudy() {
             <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
           <Column>
-          <ZoomImage src={Versions} alt="" style={{'width': '500px', 'height': '250px'}}/>
+          <ZoomImage src={Versions} alt="" style={{'width': '350px', 'height': '250px'}}/>
           <ZoomImage src={UIArch} alt="" style={{'width': '300px', 'height': '450px'}}/>
           </Column>  
     </Row>
@@ -123,6 +130,11 @@ function Numeration_CaseStudy() {
     <Row small id="materializing">
     <InfoBox>
           <Title>Materializing</Title> 
+          <Row tag>
+          <Tag>User Interaction</Tag>
+          <Tag>Software design</Tag>
+          <Tag>Personal leadership</Tag>
+          </Row>
           <SmallInfo Resp>I did a <span style={{color:"#7c6aa6"}}>peer reviews</span> with couple of my fellow students which gave me a feedback for my design. Based on this method, 
             I put more white space and removed  some elements that made the design to look more simple and clear. </SmallInfo>
             <SmallInfo Resp>I did a <span style={{color:"#7c6aa6"}}>MosCoW analysis</span>. This was important for me because I wanted to set some goals that I can achieve and not achieve. 
@@ -143,7 +155,7 @@ Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
       
         </InfoBox>
         <Column>
-          <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '350px'}}/>
+          <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '250px'}}/>
           <ZoomImage src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
         </Column> 
     </Row>

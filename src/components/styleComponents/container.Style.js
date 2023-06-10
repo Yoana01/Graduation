@@ -34,12 +34,12 @@ export const Column = styled.div `
 export const Row = styled.div `
     height:auto;
     display: flex;
-    gap:${(props) => props.homeR ? '0px' : props.homeR1 ? '150px' :  '100px'};
+    gap:${(props) => props.homeR ? '0px' : props.homeR1 ? '150px' : props.tag ? '16px' : '100px'};
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: ${(props) => props.homeA ? 'center' :  'flex-start'};
     /* justify-content: space-between; */
-    justify-content: ${(props) => props.conclusion ? 'space-between' :  'space-evenly'};;
+    justify-content: ${(props) => props.even ? 'space-evenly' :  'space-between'};;
     ${props => props.small && css`
     @media (max-width: 768px) {
       display: flex;
@@ -103,11 +103,12 @@ export const FeedbackBox = styled.div `
     border-radius: 32px;
     color:#151322;
     width: 500px;
-    height: 250px;
+    height: 300px;
     align-items: center;
     display: flex;
     padding:16px;
     margin-bottom: 24px;
+    font-family: 'Poppins Light';
 `
 /* background: rgb(181,131,141, 0.39);
 /* opacity: 0.39; */
@@ -133,6 +134,17 @@ export const CircleBox = styled.div`
   font-weight: 600;
 
 `
+export const Tag = styled.div`
+background: rgb(189, 178, 207);
+box-shadow: -1px -1px 2px rgba(208, 196, 228, 0.3), 1px 1px 2px rgba(170, 160, 186, 0.5), inset 5px -5px 10px rgba(170, 160, 186, 0.2), inset -5px 5px 10px rgba(170, 160, 186, 0.2), inset 5px 5px 10px rgba(208, 196, 228, 0.9), inset -5px -5px 13px rgba(170, 160, 186, 0.9);
+border-radius: 8px;
+padding:8px;
+font-family: "Poppins Medium";
+font-size: 12px;
+margin-bottom: 16px;
+text-align: center;
+`
+
 export const QuoteBox = styled.div`
     /* background: rgb(181,131,141, 0.39);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -166,7 +178,7 @@ export const CardBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   user-select: none;
   font-weight: bolder;
   color: black;

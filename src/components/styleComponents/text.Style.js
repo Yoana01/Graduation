@@ -12,6 +12,9 @@ export const  Title = styled.div`
     width:285px;
     height: 100%;}
   `}
+  ${props => props.CTitle && css`
+     text-align: center;
+  `}
   `;
 export const  SubTitle = styled.div`
   font-family: 'Poppins Regular';
@@ -33,7 +36,7 @@ export const SmallInfo = styled.div`
    ${props => props.CardText && css`
      width: auto;
      padding:16px;
-     font-family: 'Poppins Light';
+     font-family:'Poppins Light';
   `}
   ${props => props.Resp && css`
   @media (max-width: 768px) {

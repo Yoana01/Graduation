@@ -18,7 +18,7 @@ function CaseStudy_Portfolio() {
   return (
     <div>
       {/* <Fade cascade> */}
-        <Row small>
+        <Row small even>
           <img src={Theme} alt="" className="SimacImg"/>
             <Slide right cascade>
             <InfoBox small> 
@@ -45,19 +45,19 @@ function CaseStudy_Portfolio() {
             </InfoBox>
             </Slide>
         </Row>
-        <Column sum>
+        {/* <Column sum> */}
         <Slide cascade>
-        <Row>
+        <Row small homeA even>
           <Column home>
           <Title>Summary</Title>
-          <SmallInfo CardText small>
+          <SmallInfo  small>
           Our group assignment brought together six individuals with diverse backgrounds, sharing a passion for UX/UI. We partnered with <span style={{color:"#7c6aa6"}}>Simac</span>, a Dutch company in Veldhoven, and chose to address the onboarding of non-Dutch employees. Our goal is to <span style={{color:"#7c6aa6"}}> make Simac more attractive to international candidates by improving the onboarding process, considering language barriers and cultural differences.</span>
           </SmallInfo>
           </Column>
       <ZoomImage src={Project} alt="" id="sumImg"/>
         </Row>
       </Slide>
-   </Column>
+   {/* </Column> */}
 
      <Numeration_Simac/>
      <Row>

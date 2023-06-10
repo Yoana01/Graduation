@@ -18,7 +18,7 @@ function CaseStudy_Portfolio() {
     <div>
       {/* <ScrollHandle/>
    <Link to={'/caseStudyPortfolio#understanding'}> ggg </Link> */}
-        <Row small>
+        <Row small even>
           <img src={BigPic} alt="" className="PortfolioImg" />
             <Slide right cascade>
             <InfoBox small> 
@@ -46,9 +46,9 @@ function CaseStudy_Portfolio() {
             </InfoBox>
             </Slide>
         </Row>
-        <Column sum>
+        {/* <Column sum> */}
         <Slide cascade>
-          <Row>
+          <Row small homeA even>
             <Column home>
             <Title>Summary</Title>
         <SmallInfo  small>
@@ -59,7 +59,7 @@ The assignment is to create a portfolio for the first four weeks, which is impor
           </Row>
         
       </Slide>
-   </Column>
+   {/* </Column> */}
   
      <Numeration_CaseStudy/>
     <Row>

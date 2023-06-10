@@ -52,7 +52,7 @@ function Numeration_Experiences() {
                   - Helping with Social Media</SmallInfo>
               </InfoBox>
               <div id="VideoDiv">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/8RitzmtguBk?start=1" 
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/8RitzmtguBk?start=1" 
               title="YouTube video player" 
               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
               picture-in-picture; web-share" allowfullscreen></iframe>
@@ -72,7 +72,7 @@ function Numeration_Experiences() {
           <SubTitle>JUN 2022 - AUG 2022</SubTitle>
           <SmallInfo>  Working as a sale assistant</SmallInfo>
         </InfoBox>
-          <ZoomImage src={PullAndBear} alt="" style={{'width': '500px', 'height': '350px'}}/>
+          <ZoomImage src={PullAndBear} alt="" style={{'width': '350px', 'height': '250px'}}/>
     </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -108,8 +108,8 @@ function Numeration_Experiences() {
         </InfoBox>
         <div id="VideoDiv">
           <iframe
-                width="300" 
-                height="315"
+                width="350" 
+                height="250"
                 id="videoFrame"
                 src={ProxyVideo}
                 allow="autoplay; encrypted-media"

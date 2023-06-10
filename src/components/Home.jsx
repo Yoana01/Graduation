@@ -14,17 +14,17 @@ import Project03 from "./Images/Eindhoven.jpg"
 function Home() {
   return (
     <div>
-    <Row small homeR >
+    <Row small homeR homeA even >
     <Fade top>
     <img src={BigPic} alt="" style={{'width': '300px', 'height': '550px', mixBlendMode:'luminosity'}}/>
    <Slide right>
     <QuoteBox small>My signature touch should be evident in every website or app I create, designing and developing
-        experiences that simplify people's lives.</QuoteBox>
+        experiences that <span style={{color:"#7c6aa6"}}>simplify people's lives</span>.</QuoteBox>
        </Slide> 
        </Fade>
     </Row>
     <Column>
-    <Title RespT>Projects</Title>
+    <Title CTitle RespT>Projects</Title>
     <Row small>
     <div className='card'>
     <img src={Pic} alt=""  className="cardImg"/>

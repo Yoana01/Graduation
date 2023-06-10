@@ -68,7 +68,7 @@ function About() {
   
     <Column>
     <Title RespT>5 things I love</Title>
-      <Row small>
+      <Row small homeA>
            <img src={Music} alt="" style={{ 'height': '450px', mixBlendMode:'luminosity'}}/>
         <Slide right cascade>
         <InfoBox>
@@ -79,7 +79,7 @@ function About() {
         </InfoBox>
         </Slide>
       </Row>
-      <Row small>
+      <Row small homeA>
       <Slide left cascade>
         <InfoBox>
           <Title>Movies & TV shows</Title> 
@@ -91,7 +91,7 @@ function About() {
         </Slide>
          <img src={Movies} alt="" style={{'width': '350px', 'height': '350px', mixBlendMode:'luminosity'}}/>
       </Row>
-      <Row small>
+      <Row small homeA>
            <img src={Gym} alt="" style={{'width': '350px', 'height': '450px',  mixBlendMode:'luminosity'}}/>
         <Slide right cascade>
         <InfoBox>
@@ -102,7 +102,7 @@ function About() {
         </InfoBox>
         </Slide>
       </Row>
-      <Row small>
+      <Row small homeA>
         <Slide left cascade>
         <InfoBox>
           <Title>Cooking sweetings things</Title> 
@@ -113,7 +113,7 @@ function About() {
         </Slide>
         <img src={Cake} alt="" style={{'width': '180px', 'height': '300px', mixBlendMode:'luminosity'}}/>    
       </Row>
-      <Row small>
+      <Row small homeA>
           <img src={Nature} alt=""className="cardImg" style={{mixBlendMode:'luminosity'}}/>
        <Slide right>
        <InfoBox>

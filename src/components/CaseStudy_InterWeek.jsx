@@ -16,7 +16,7 @@ function CaseStudy_Portfolio() {
   return (
     <div>
       {/* <Fade cascade> */}
-        <Row small>
+        <Row small even>
           <img src={Theme} alt="" className="IntrImg"/>
             <Slide right cascade>
             <InfoBox small> 
@@ -45,23 +45,20 @@ function CaseStudy_Portfolio() {
             </InfoBox>
             </Slide>
         </Row>
-        <Column sum>
         <Slide cascade>
+        <Row small homeA even>
+        <Column sum>
         <Title>Summary</Title>
-        <SmallInfo sumText small>
+        <SmallInfo  small>
         During the Dutch Design Charrette, our group was assigned a project by Handpicked Agencies and <span style={{color:"#7c6aa6"}}>The Cruyff Foundation</span>. Our focus was on The Cruyff Foundation's Schoolyard 14, which consists of 14 different games. Our task was to <span style={{color:"#7c6aa6"}}>create an innovative fifth game that incorporates technology and can be accessed by all children, including those with disabilities or facing challenges such as poverty</span>. Addressing the issue of insufficient physical activity among children, which negatively impacts their motor and social skills. Our solution aimed to integrate synthetic media, mixed reality, artificial intelligence, and/or big data into the design of Schoolplein14 and its surrounding environment, effectively encouraging outdoor play and physical activities.
-        
-      </SmallInfo>
-      </Slide>
+      </SmallInfo> 
    </Column>
-   <Column>
-   <Row>
+    <Column>
    <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
    <ZoomImage src={Project} alt="" id="sumImg"/>
-   </Row>
-   
    </Column>
-
+   </Row>
+ </Slide>
      <Numeration_Inter/>
      <Row>
       <div></div>

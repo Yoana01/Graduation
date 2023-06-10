@@ -7,7 +7,7 @@ function Carosel() {
   return (
     <div> <Carousel showStatus={false} emulateTouch={true}
      centerMode={true} showArrows={false} dynamicHeight={false}
-     width={'900px'} autoPlay={true} infiniteLoop={true}>
+     width={'900px'} autoPlay={true} infiniteLoop={true} >
     
     <FeedbackBox>Great working with her. She is a great UX/UI designer and taught me a lot about the user experience. She also was really eager to learn more about React and coding in general and she did a wonderful 
       job with the implementation part of the project. I would really want to work with her again in a project!

@@ -2,7 +2,7 @@ import { createRef } from 'react';
 import React, { useState, useEffect, useRef } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Column, Row, InfoBox} from "./styleComponents/container.Style"
+import { Column, Row, InfoBox, Tag} from "./styleComponents/container.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import { SubNavBar } from "./styleComponents/navBar.Style";
@@ -79,12 +79,16 @@ function Numeration_Simac() {
     <Row small conclusion id="planning">
     <InfoBox>
           <Title>Set up and Planning</Title> 
+          <Row tag>
+            <Tag>Investigative problem solving</Tag>
+            <Tag>Future-oriented organisation</Tag>
+          </Row>
           <SmallInfo Resp> I have a passion for organizing and leading people in planning and executing successful events. After conducting a<span style={{color:"#7c6aa6"}}> secondary reserch</span>, I found that Scrum-ban is the ideal project management methodology for our needs. I completed Scrum courses to enhance my skills as a <span style={{color:"#7c6aa6"}}>Scrum Master</span>. During the second sprint, I served as the Scrum Master and successfully achieved our sprint goal by being realistic with task assignments and setting small targets and deadlines, but having and good communication. </SmallInfo>
             <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/%D0%9Cethodology.docx?d=wf6e641bb63a44e7ca7823d7bb316029c&csf=1&web=1&e=0ervoT" target="_blank"> <Button> See more</Button> </a>
         </InfoBox>
-       
+        <ZoomImage src={ProjectManagement} alt="" style={{'width': '350px', 'height': '250px'}}/>
     </Row> 
-    <ZoomImage src={ProjectManagement} alt="" style={{'width': '800px', 'height': '500px'}}/>
+
      {/* </Slide> */}
        
         </VerticalTimelineElement>
@@ -100,6 +104,9 @@ function Numeration_Simac() {
     <Row small id="exploration">
     <InfoBox>
           <Title>Exploration</Title> 
+          <Row tag>
+            <Tag>Personal leadership</Tag>
+          </Row>
           <SmallInfo Resp> Based on my <span style={{color:"#7c6aa6"}}>literature review</span> of Simac's documents, I found that their onboarding process consists of four stages. However, many employees feel overwhelmed on their first day due to the number of tasks they need to complete. It was also noted that some employees do not use SimacWeb. On the positive side, Simac personalizes the onboarding process and assigns a "buddy" to new hires during their initial days. These insights provide valuable information for our project.
          </SmallInfo>
          <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Simac%20-Lit%20Study.pdf?csf=1&web=1&e=8YCl43" target="_blank"> <Button> See more</Button> </a> <br />
@@ -131,6 +138,7 @@ function Numeration_Simac() {
     <Row small id="definition">
     <InfoBox>
           <Title>Definition</Title> 
+          <Tag>User interaction</Tag>
           <SmallInfo Resp> After the research that we made we decided to go to the real user and understand how their onboarding process was. Our main target audience is people who are non-Dutch but it does not mean that our solution is excluding the Dutch people. In total we conducted 6 
           <span style={{color:"#7c6aa6"}}>interviews</span> as 3 external and 3 from Simac. I was supposed to conduct one interview and to be a chairperson of another way. In this way I was doing different roles in one observing the users and what he says and the other one is asking the questions that we prepared. After that I analyzed it.
           </SmallInfo>
@@ -158,7 +166,8 @@ function Numeration_Simac() {
       {/* <Slide right cascade> */}
     <Row small conclusion id="ideation">
     <InfoBox>
-          <Title>Ideation and Solution</Title> 
+          <Title>Ideation and Solution</Title>
+          <Tag>Investigative problem solving</Tag> 
           <SmallInfo Resp>I was participating in <span style={{color:"#7c6aa6"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method <span style={{color:"#7c6aa6"}}>Design Sprint</span>. The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
           <SmallInfo Resp>The second brainstorming session me the rest of the NADSCY used the <span style={{color:"#7c6aa6"}}>Dark-Side method</span> where we need to see the problem for the negative side of the problem. At the end there were different groups of same ideas that we combined and at the end the group voted on the one that we feel that we are the most important for solving the problem.</SmallInfo>  
           <SmallInfo Resp> The third one was after we conducted the interviews, we decided what we are going to develop as topic – socializing and from there each of the members were supposed to create concept. If you want to understand my concept, click on the button.</SmallInfo>       
