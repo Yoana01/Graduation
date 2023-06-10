@@ -20,6 +20,10 @@
   src: url("./fonts/Dekko-Regular.ttf") format("truetype");
   font-style: normal;
 }
+#logo{
+width: 100px;
+height: 100px;
+}
 .nav{
   position: absolute;
   display: flex;

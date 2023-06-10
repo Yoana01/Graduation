@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Routes, Route, Outlet, Link, NavLink } from "react-router-dom";
 import { NavigationBar, StyledLink } from "./styleComponents/navBar.Style"
+import {Row} from "./styleComponents/container.Style"
 import '../App.css';
 import Logo from "../Logo.png"
 // import './navBar.css';
@@ -15,7 +16,8 @@ let activeStyle = {
 
   return (  
     <div  >
-       {/* <img src={Logo} style={{width: '100px', height:"100px" }} /> */}
+      <Row>
+       <img src={Logo} id='logo' />
       <NavigationBar>
          <NavLink  id="nav-link"  to={"/home"}    style={({ isActive }) =>
               isActive ? activeStyle : undefined
@@ -30,6 +32,7 @@ let activeStyle = {
               isActive ? activeStyle : undefined
             }  >me</NavLink> */}
      </NavigationBar>
+     </Row>
        {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
           the child routes we defined above. */}
