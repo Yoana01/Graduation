@@ -3,6 +3,7 @@ import BigPic from "./Images/Image6.png"
 import DesignMethod from "./Images/Image7.png"
 import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
+import { Button } from "./styleComponents/button.Style"
 import Numeration_CaseStudy from './Numeration_CaseStudy'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
@@ -54,6 +55,7 @@ function CaseStudy_Portfolio() {
         <SmallInfo  small>
 The assignment is to create a portfolio for the first four weeks, which is important for presenting oneself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments. These methods align more with UX/UI practices.
          </SmallInfo>
+         <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/Reading%20Guide%20Portfolio.pdf?csf=1&web=1&e=cHHMAp" target="_blank"> <Button> Check reading guide</Button> </a>
             </Column>
             <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
           </Row>
