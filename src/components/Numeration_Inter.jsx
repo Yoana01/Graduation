@@ -115,7 +115,7 @@ I recognized the importance of exploring different technologies, considering the
        
         </VerticalTimelineElement>
       {/* </Link> */}
-      <VerticalTimelineElement
+      <VerticalTimelineElement id="exploring"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -123,7 +123,7 @@ I recognized the importance of exploring different technologies, considering the
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}>
   {/* <Slide right cascade> */}
-    <Row small id="exploring"> 
+    <Row small > 
     <InfoBox>
           <Title>Exploring</Title> 
     <Tag>User Interaction</Tag>

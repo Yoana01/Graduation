@@ -17,52 +17,7 @@ import ZoomImage from './ZoomImages';
 function CaseStudy_Portfolio() {
   return (
     <div>
-      {/* <ScrollHandle/>
-   <Link to={'/caseStudyPortfolio#understanding'}> ggg </Link> */}
-        <Row small even>
-          <img src={BigPic} alt="" className="PortfolioImg" />
-            <Slide right cascade>
-            <InfoBox small> 
-                <Title>Portfolio</Title>
-                <SubTitle>Company:</SubTitle>
-                <SmallInfo>Fontys University of Applied Science</SmallInfo>
-                <SubTitle>Duration:</SubTitle>
-                <SmallInfo>4 weeks</SmallInfo>
-                <SubTitle>Learning Outcomes:</SubTitle>
-                  <Row learningOut>
-                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
-                  </Row>
-                <SubTitle>Contribution and Tools:</SubTitle>
-                <SmallInfo>- Agile <br />
-                        - Design Thinking <br />
-                        - DOT Framework/CMD methods <br />
-                        - UX Research <br />
-                        - UI <br />
-                        - React JavaScript
-                        - Styled-Components</SmallInfo>
-            </InfoBox>
-            </Slide>
-        </Row>
-        {/* <Column sum> */}
-        <Slide cascade>
-          <Row small homeA even>
-            <Column home>
-            <Title>Summary</Title>
-        <SmallInfo  small>
-The assignment is to create a portfolio for the first four weeks, which is important for presenting oneself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments. These methods align more with UX/UI practices.
-         </SmallInfo>
-         <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/Reading%20Guide%20Portfolio.pdf?csf=1&web=1&e=cHHMAp" target="_blank"> <Button> Check reading guide</Button> </a>
-            </Column>
-            <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
-          </Row>
-        
-      </Slide>
-   {/* </Column> */}
-  
+   
      <Numeration_CaseStudy/>
     <Row>
       <div></div>

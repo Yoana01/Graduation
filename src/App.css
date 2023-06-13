@@ -1,6 +1,6 @@
-/* .is-active {
-  color: red !important;
-} */
+.is-active {
+  color:#7c6aa6 !important;
+}
 @font-face {
   font-family: "Poppins";
   src: url("./fonts/Poppins-Black.ttf") format("truetype"),
@@ -71,10 +71,7 @@ height: 100px;
   transition-duration: 400ms;
   transition-property: width, left;
 }
-.active-scroll-spy {
-  background-color: yellowgreen;
-  border-radius: 15px;
-}
+
 /* .active {
   color: red !important;
 } */

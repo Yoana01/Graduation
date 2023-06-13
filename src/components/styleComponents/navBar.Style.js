@@ -17,12 +17,14 @@ export const  StyledLink = styled.link`
   `;
 
 export const  SubNavBar = styled.nav`
+position: fixed;
+top: 10%;
 display: flex;
 justify-content: center;
 gap:45px;
 align-items: center;
 margin: auto;
-width: 850px;
+width: 100vw;
 height: auto;
 border-radius: 32px;
 color: #7c6aa6;;
@@ -30,6 +32,7 @@ background: rgb(222, 214, 209, 0.65);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: all 0.3s ease-in-out;
 font-family: "Poppins Medium";
+z-index: 5;
 ${(props) =>
   props.isSticky &&
   css`
