@@ -9,6 +9,7 @@ import CaseStudy_Portfolio from "./components/CaseStudy_Portfolio";
 import CaseStudy_Simac from "./components/CaseStudy_Simac";
 import CaseStudy_InterWeek from "./components/CaseStudy_InterWeek";
 import HomePage from'./components/Home';
+import Demo1 from "./components/Test";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
            <Route path="/caseStudySimac"  element={<CaseStudy_Simac />} /> 
            <Route path="/caseStudyInterWeek"  element={<CaseStudy_InterWeek />} />
            <Route path="/home"  element={<HomePage />} /> 
+           <Route path="/demo"  element={<Demo1 />} /> 
          </Route>
       </Routes> 
 

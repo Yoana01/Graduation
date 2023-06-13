@@ -12,6 +12,7 @@ import Zoom from 'react-reveal/Zoom';
 function Projects() {
   return (
     <Column>
+
      <Fade left cascade>
       <Row small>
         <img src={Project02} alt="" className="cardImg"/>

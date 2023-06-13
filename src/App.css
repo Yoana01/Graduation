@@ -1,3 +1,6 @@
+.is-active {
+  color: red !important;
+}
 @font-face {
   font-family: "Poppins";
   src: url("./fonts/Poppins-Black.ttf") format("truetype"),
@@ -68,9 +71,13 @@ height: 100px;
   transition-duration: 400ms;
   transition-property: width, left;
 }
-.active {
-  color: red !important;
+.active-scroll-spy {
+  background-color: yellowgreen;
+  border-radius: 15px;
 }
+/* .active {
+  color: red !important;
+} */
 .card {
   box-sizing: border-box;
   width: 350px;

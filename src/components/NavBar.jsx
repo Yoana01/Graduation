@@ -8,26 +8,29 @@ import Logo from "../Logo.png"
 
 function NavBar() {
 
-let activeStyle = {
+const activeStyle = {
   color: "#7c6aa6", 
   // textDecoration : "underline"
   
 }
+
+// style = {{}}
 
   return (  
     <div  >
       <Row>
        <img src={Logo} id='logo' />
       <NavigationBar>
-         <NavLink  id="nav-link"  to={"/home"}    style={({ isActive }) =>
+         <NavLink  id="nav-link"  to={"/home"} style={({ isActive }) =>
               isActive ? activeStyle : undefined
-            }  >Home</NavLink> 
-        <NavLink  id="nav-link" to={"/"}style={({ isActive }) =>
+            }  
+            >Home</NavLink> 
+        <NavLink   id="nav-link" to={"/"} style={({ isActive }) =>
               isActive ? activeStyle : undefined
-            }  >Projects</NavLink>
-        <NavLink id="nav-link" to={"/about"} style={({ isActive }) =>
+            }    >Projects</NavLink>
+        <NavLink  id="nav-link" to={"/about"} style={({ isActive }) =>
               isActive ? activeStyle : undefined
-            }  >About Me</NavLink>
+            }    >About Me</NavLink>
                {/* <NavLink id="nav-link" to={"/caseStudyPortfolio"} style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }  >me</NavLink> */}

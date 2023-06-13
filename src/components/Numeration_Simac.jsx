@@ -6,7 +6,7 @@ import { Column, Row, InfoBox, Tag} from "./styleComponents/container.Style"
 import { Title, SmallInfo } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import { SubNavBar } from "./styleComponents/navBar.Style";
-import Scrollspy from 'react-scrollspy';
+import ScrollspyNav from "react-scrollspy-nav";
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
 import ProjectManagement from './Images/Monday.png';
@@ -55,28 +55,27 @@ function Numeration_Simac() {
   return (
     <div>
       <br /> <br />
-      <Scrollspy items={['planning','exploration','definition', 'ideation', 'materializing', 'conclusion']} currentClassName="active">
+      <ScrollspyNav items={['planning', 'exploration', 'definition']} currentClassName="active" className='ppp'>
       <SubNavBar isSticky={isSticky}>
-        <FancyNav href="#planning"  text="Planning" ref={createRef()}></FancyNav>
-        <FancyNav href="#exploration" text="Exploring" ref={createRef()}></FancyNav> 
-        <FancyNav href="#definition" text="Defining" ref={createRef()}></FancyNav>
-        <FancyNav href="#ideation" text="Ideation" ref={createRef()}></FancyNav>
-        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
-      </SubNavBar>
-    
-      </Scrollspy>
-      <br /> <br />
-      <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-             <VerticalTimelineElement
+        <FancyNav  href="#planning" text="Planning"  />
+        <FancyNav  href="#exploration" text="Exploring"  />
+        <FancyNav href="#definition" text="Defining" /> 
+        </SubNavBar>
+      </ScrollspyNav>
+     
+      <VerticalTimeline animate={ true } layout={ '1-column-left'} > 
+
+        <VerticalTimelineElement  
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
-        >
-      {/* <Slide right cascade> */}
-    <Row small conclusion id="planning">
+       >
+        
+      {/* <Slide right cascade> */}     
+    <Row small conclusion id="planning"> 
     <InfoBox>
           <Title>Set up and Planning</Title> 
           <Row tag>
@@ -92,7 +91,7 @@ function Numeration_Simac() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-             <VerticalTimelineElement
+        <VerticalTimelineElement 
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -101,7 +100,7 @@ function Numeration_Simac() {
         contentArrowStyle={ {border: "none" }}
         >
       {/* <Slide right cascade> */}
-    <Row small id="exploration">
+    <Row small id="exploration" >
     <InfoBox>
           <Title>Exploration</Title> 
           <Row tag>
@@ -126,7 +125,7 @@ function Numeration_Simac() {
     </Column>
     </Row>
         </VerticalTimelineElement>
-             <VerticalTimelineElement
+        <VerticalTimelineElement id="definition"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -135,7 +134,7 @@ function Numeration_Simac() {
         contentArrowStyle={ {border: "none" }}
         >
       {/* <Slide right cascade> */}
-    <Row small id="definition">
+    <Row small >
     <InfoBox>
           <Title>Definition</Title> 
           <Tag>User interaction</Tag>
@@ -155,7 +154,7 @@ function Numeration_Simac() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-             <VerticalTimelineElement
+        <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -194,6 +193,7 @@ function Numeration_Simac() {
        
         </VerticalTimelineElement>
       </VerticalTimeline>
+      
     </div>  
        
    )

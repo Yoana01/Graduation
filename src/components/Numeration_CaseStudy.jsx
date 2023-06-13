@@ -11,7 +11,7 @@ import UIArch from "./Images/uiarch.png"
 import Moscow from "./Images/MoSCoW.jpg"
 import C4model from "./Images/C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
-import Scrollspy from 'react-scrollspy';
+import ScrollspyNav from "react-scrollspy-nav";
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
 // import Zoom from 'react-reveal/Zoom';
@@ -42,7 +42,7 @@ function Numeration_CaseStudy() {
   return (
     <div>
       <br /> <br />
-      <Scrollspy items={['understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
+      <ScrollspyNav scrollTargetIds={['understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active">
       <SubNavBar isSticky={isSticky}>
         <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
         <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
@@ -50,7 +50,7 @@ function Numeration_CaseStudy() {
         <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
       </SubNavBar>
     
-      </Scrollspy>
+      </ScrollspyNav>
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
         <VerticalTimelineElement
