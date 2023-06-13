@@ -45,7 +45,7 @@ function Numeration_Inter() {
   return (
     <div>
       <br /> <br />
-      {/* <Scrollspy items={[ 'preparation', 'understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
+      <Scrollspy items={[ 'preparation', 'understanding', 'exploring', 'materializing', 'conclusion']} currentClassName="active">
       <SubNavBar isSticky={isSticky}>
         <FancyNav href="#preparation" text="Preparation" ref={createRef()}></FancyNav>
         <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
@@ -54,7 +54,7 @@ function Numeration_Inter() {
         <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
       </SubNavBar>
     
-      </Scrollspy> */}
+      </Scrollspy>
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
            <VerticalTimelineElement

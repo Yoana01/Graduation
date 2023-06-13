@@ -53,7 +53,7 @@ function Numeration_CaseStudy() {
       </ScrollspyNav>
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="understanding"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -62,7 +62,7 @@ function Numeration_CaseStudy() {
         contentArrowStyle={ {border: "none" }}
         > 
       {/* <Slide right cascade> */}
-    <Row small id="understanding">
+    <Row small >
     <InfoBox>
           <Title>Understanding</Title> 
           <Row tag>
@@ -92,7 +92,7 @@ function Numeration_CaseStudy() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="exploring"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -100,7 +100,7 @@ function Numeration_CaseStudy() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         >
-    <Row small  id="exploring"> 
+    <Row small  > 
     <InfoBox>
           <Title>Exploring</Title> 
           <Tag>User Interaction</Tag>
@@ -118,7 +118,7 @@ function Numeration_CaseStudy() {
           </Column>  
     </Row>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="materializing"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -127,7 +127,7 @@ function Numeration_CaseStudy() {
         contentArrowStyle={ {border: "none" }}
         >
   {/* <Slide right cascade> */}
-    <Row small id="materializing">
+    <Row small >
     <InfoBox>
           <Title>Materializing</Title> 
           <Row tag>
@@ -162,7 +162,7 @@ Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
     
      {/* </Slide> */}
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="conclusion"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }

@@ -1,6 +1,6 @@
-.is-active {
+/* .is-active {
   color: red !important;
-}
+} */
 @font-face {
   font-family: "Poppins";
   src: url("./fonts/Poppins-Black.ttf") format("truetype"),
