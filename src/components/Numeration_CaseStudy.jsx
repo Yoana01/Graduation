@@ -10,7 +10,7 @@ import UIArch from "./Images/uiarch.png"
 import Moscow from "./Images/MoSCoW.jpg"
 import C4model from "./Images/C4model.png"
 import { SubNavBar } from "./styleComponents/navBar.Style";
-import ScrollspyNav from "react-scrollspy-nav";
+import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
 import BigPic from "./Images/Image6.png"
@@ -41,7 +41,7 @@ function Numeration_CaseStudy(id) {
   }
   return (
     <div>
-      <ScrollspyNav scrollTargetIds={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
+      <Scrollspy items={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
         <SubNavBar RespN >
           <FancyNav href="#generalInfo"  text="Genaral Information" ref={createRef()} ></FancyNav>
           <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
@@ -49,7 +49,7 @@ function Numeration_CaseStudy(id) {
           <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
           <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
        </SubNavBar>
-      </ScrollspyNav>
+      </Scrollspy>
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
         <VerticalTimelineElement id="generalInfo"
@@ -95,7 +95,7 @@ function Numeration_CaseStudy(id) {
         <SmallInfo  small>
 The assignment is to create a portfolio for the first four weeks, which is important for presenting oneself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments. These methods align more with UX/UI practices.
          </SmallInfo>
-         <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/Reading%20Guide%20Portfolio.pdf?csf=1&web=1&e=cHHMAp" target="_blank"> <Button> Check reading guide</Button> </a>
+      
             </Column>
             <ZoomImage src={DesignMethod} alt="" id="sumImg"/>
           </Row>

@@ -18,7 +18,7 @@ export const  StyledLink = styled.link`
 
 export const  SubNavBar = styled.nav`
 position: fixed;
-top: 8%;
+top: 9%;
 display: flex;
 justify-content: center;
 gap:45px;

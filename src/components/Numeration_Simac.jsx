@@ -5,7 +5,7 @@ import { Column, Row, InfoBox, Tag, CircleBox} from "./styleComponents/container
 import { Title, SmallInfo, SubTitle } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import { SubNavBar } from "./styleComponents/navBar.Style";
-import ScrollspyNav from "react-scrollspy-nav";
+import Scrollspy from 'react-scrollspy';
 import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
 import ProjectManagement from './Images/Monday.png';
@@ -60,7 +60,7 @@ function Numeration_Simac() {
   return (
     <div>
       <br /> <br />
-      <ScrollspyNav scrollTargetIds={["gInfo", 'planning', 'exploration', 'definition', 'ideation', "proto",  "conclusion"]} activeNavClass="is-active">
+      <Scrollspy items={["gInfo", 'planning', 'exploration', 'definition', 'ideation', "proto",  "conclusion"]} activeNavClass="is-active">
       <SubNavBar RespN>
       <FancyNav  href="#gInfo" text="General Information"  ref={createRef()} />
         <FancyNav  href="#planning" text="Planning"  ref={createRef()} />
@@ -70,7 +70,7 @@ function Numeration_Simac() {
         <FancyNav href="#proto" text="Prototypes"  ref={createRef()}/>  
         <FancyNav href="#conclusion" text="Conclusion"  ref={createRef()}/> 
         </SubNavBar>
-      </ScrollspyNav>
+      </Scrollspy>
      
       <VerticalTimeline animate={ true } layout={ '1-column-left'} > 
       <VerticalTimelineElement  id="gInfo"
