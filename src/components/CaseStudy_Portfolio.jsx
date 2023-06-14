@@ -1,33 +1,21 @@
 import React from 'react'
-import BigPic from "./Images/Image6.png"
-import DesignMethod from "./Images/Image7.png"
-import { Column, Row, InfoBox, CircleBox} from "./styleComponents/container.Style"
-import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
-import { Button } from "./styleComponents/button.Style"
+import {Row} from "./styleComponents/container.Style"
 import Numeration_CaseStudy from './Numeration_CaseStudy'
-import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 import 'react-vertical-timeline-component/style.min.css';
-import { Link } from "react-router-dom";
 import ScrollToTopButton from "./ScrollToTop"
-import ZoomImage from './ZoomImages';
 
 
 function CaseStudy_Portfolio() {
   return (
     <div>
-   
      <Numeration_CaseStudy/>
-    <Row>
-      <div></div>
-      <div></div>
-      <div></div>
-      <ScrollToTopButton></ScrollToTopButton>
-    </Row>
-     </div>
-    
-  
+      <Row>
+          <div></div>
+          <div></div>
+          <div></div>
+          <ScrollToTopButton></ScrollToTopButton>
+      </Row>
+    </div>
   )
 }
 

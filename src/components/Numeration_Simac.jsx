@@ -1,9 +1,8 @@
-import { createRef } from 'react';
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, createRef } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Column, Row, InfoBox, Tag} from "./styleComponents/container.Style"
-import { Title, SmallInfo } from "./styleComponents/text.Style"
+import { Column, Row, InfoBox, Tag, CircleBox} from "./styleComponents/container.Style"
+import { Title, SmallInfo, SubTitle } from "./styleComponents/text.Style"
 import { Button } from "./styleComponents/button.Style"
 import { SubNavBar } from "./styleComponents/navBar.Style";
 import ScrollspyNav from "react-scrollspy-nav";
@@ -17,65 +16,123 @@ import Affinity from './Images/SIMAC Affinity map 1.png';
 import Model from './Images/3dModel.webm';
 import BrainstormingOne from './Images/Brainstorming1.mp4';
 import BrainstormingTwo from './Images/Brainstorming2.mp4';
-import { FaxRounded } from '@mui/icons-material';
-
-// import Zoom from 'react-reveal/Zoom';
-// import Slide from 'react-reveal/Slide';
+// import BigPic from "./Images/Image6.png"
+import Project from "./Images/ProjectbreakdownSIMAC.png"
+// import Project02 from "./Images/Logo.png"
+import Theme from "./Images/Project Theme.jpg"
+import Slide from 'react-reveal/Slide';
+import { green } from '@mui/material/colors';
+import { HashLink } from 'react-router-hash-link';
 
 function Numeration_Simac() {
-  const [isSticky, setSticky] = useState(false);
+  // const [isSticky, setSticky] = useState(false);
   const videoRef = useRef(null);
+  const gInfo = useRef();
+  const planning = useRef();
+  
 
   useEffect(() => {
     videoRef.current.play();
   }, []);
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
-  const handleScroll = () => {
-    if (window.scrollY > 1450) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-  let activeStyle = {
-    color: "red", 
-    textDecoration : "underline"
-  }
+  // const handleScroll = () => {
+  //   if (window.scrollY > 1450) {
+  //     setSticky(true);
+  //   } else {
+  //     setSticky(false);
+  //   }
+  // };
+  // let activeStyle = {
+  //   color: "red", 
+  //   textDecoration : "underline"
+  // }
  
 
 
   return (
     <div>
       <br /> <br />
-      <ScrollspyNav items={['planning', 'exploration', 'definition']} currentClassName="active" className='ppp'>
-      <SubNavBar isSticky={isSticky}>
-        <FancyNav  href="#planning" text="Planning"  />
-        <FancyNav  href="#exploration" text="Exploring"  />
-        <FancyNav href="#definition" text="Defining" /> 
+      <ScrollspyNav scrollTargetIds={["gInfo", 'planning', 'exploration', 'definition', 'ideation', "proto",  "conclusion"]} activeNavClass="is-active">
+      <SubNavBar RespN>
+      <FancyNav  href="#gInfo" text="General Information"  ref={createRef()} />
+        <FancyNav  href="#planning" text="Planning"  ref={createRef()} />
+        <FancyNav  href="#exploration" text="Exploring"  ref={createRef()} />
+        <FancyNav href="#definition" text="Defining"  ref={createRef()}/> 
+        <FancyNav href="#ideation" text="Ideation"  ref={createRef()}/>  
+        <FancyNav href="#proto" text="Prototypes"  ref={createRef()}/>  
+        <FancyNav href="#conclusion" text="Conclusion"  ref={createRef()}/> 
         </SubNavBar>
       </ScrollspyNav>
      
       <VerticalTimeline animate={ true } layout={ '1-column-left'} > 
-
-        <VerticalTimelineElement  
+      <VerticalTimelineElement  id="gInfo"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
-       >
-        
-      {/* <Slide right cascade> */}     
-    <Row small conclusion id="planning"> 
+       >   
+     <Row small even>
+          <img src={Theme} alt="" className="SimacImg"/>
+            <Slide right cascade>
+            <InfoBox small> 
+                <Title RespT>Onboarding process Simac</Title>
+                <SubTitle>Company:</SubTitle>
+                <SmallInfo>Simac IT NL</SmallInfo>
+                <SubTitle>Duration:</SubTitle>
+                <SmallInfo>12 weeks</SmallInfo>
+                <SubTitle>Learning Outcomes:</SubTitle>
+                  <Row learningOut>
+                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
+                    <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
+                    <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
+                    <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
+                    <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
+                  </Row>
+                <SubTitle>Contribution and Tools:</SubTitle>
+                <SmallInfo>- Agile <br />
+                        - Design Thinking <br />
+                        - DOT Framework/CMD methods <br />
+                        - UX Research <br />
+                        - UI <br />
+                        </SmallInfo>
+            </InfoBox>
+            </Slide>
+        </Row>
+        {/* <Column sum> */}
+        <Slide cascade>
+        <Row small homeA even>
+          <Column home>
+          <Title>Summary</Title>
+          <SmallInfo  small>
+          Our group assignment brought together six individuals with diverse backgrounds, sharing a passion for UX/UI. We partnered with <span style={{color:"#7c6aa6"}}>Simac</span>, a Dutch company in Veldhoven, and chose to address the onboarding of non-Dutch employees. Our goal is to <span style={{color:"#7c6aa6"}}> make Simac more attractive to international candidates by improving the onboarding process, considering language barriers and cultural differences.</span>
+          </SmallInfo>
+          </Column>
+      <ZoomImage src={Project} alt="" id="sumImg"/>
+        </Row>
+      </Slide>
+
+     {/* </Slide> */}
+       
+        </VerticalTimelineElement>
+        <VerticalTimelineElement  id="planning"
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}
+       >   
+    <Row small conclusion > 
     <InfoBox>
           <Title>Set up and Planning</Title> 
           <Row tag>
@@ -91,7 +148,7 @@ function Numeration_Simac() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-        <VerticalTimelineElement 
+        <VerticalTimelineElement  id="exploration"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -99,8 +156,7 @@ function Numeration_Simac() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         >
-      {/* <Slide right cascade> */}
-    <Row small id="exploration" >
+    <Row small >
     <InfoBox>
           <Title>Exploration</Title> 
           <Row tag>
@@ -154,7 +210,7 @@ function Numeration_Simac() {
      {/* </Slide> */}
        
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement id="proto"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -162,14 +218,14 @@ function Numeration_Simac() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         >
-      {/* <Slide right cascade> */}
-    <Row small conclusion id="ideation">
+    <Row small conclusion >
     <InfoBox>
-          <Title>Ideation and Solution</Title>
+          <Title>Prototyping</Title>
           <Tag>Investigative problem solving</Tag> 
-          <SmallInfo Resp>I was participating in <span style={{color:"#7c6aa6"}}>3 brainstorming sessions</span> as they happened in different phases of the project. The first one was at the early stage of the project with the purpose to dive into the context to create the research question. As a method <span style={{color:"#7c6aa6"}}>Design Sprint</span>. The results were that the main problems were cultural differences, mental support, socializing, cultural and language differences.  </SmallInfo>
-          <SmallInfo Resp>The second brainstorming session me the rest of the NADSCY used the <span style={{color:"#7c6aa6"}}>Dark-Side method</span> where we need to see the problem for the negative side of the problem. At the end there were different groups of same ideas that we combined and at the end the group voted on the one that we feel that we are the most important for solving the problem.</SmallInfo>  
-          <SmallInfo Resp> The third one was after we conducted the interviews, we decided what we are going to develop as topic – socializing and from there each of the members were supposed to create concept. If you want to understand my concept, click on the button.</SmallInfo>       
+          <SmallInfo Resp>In the project, my assigned responsibility was to create the Scanning and Congratulating component in high-fidelity. This component utilized image recognition to verify completed tasks. While I found a plugin for image recognition, I acknowledged that it may not be the most accurate option available. To ensure optimal performance, I went through multiple iterations, refining the component's functionality and accuracy.  </SmallInfo>
+          <SmallInfo Resp>Apart from the technical aspect, I also focused on maximizing interactivity within the app. By incorporating interactive elements and designing an intuitive user interface, I aimed to create an engaging and user-friendly experience. Through careful consideration of user feedback and continuous testing, I made efforts to enhance the overall interactivity of the app, promoting seamless user interactions and a positive user experience.</SmallInfo>  
+          <SmallInfo Resp> Upon completion of the project, I conducted extensive testing to evaluate both the design and the concept of the app. The results were highly positive, with the app achieving its goal of being simple and easy-to-navigate. Users who participated in the testing praised the user-friendly interface and rated the app 9 out of 10. This positive feedback indicates a high level of satisfaction with the app's usability and functionality, validating the effectiveness of the design decisions and the successful implementation of the concept.</SmallInfo>  
+          <SmallInfo Resp> The semester coach is pleased with the project and praises the six ladies for their commendable work on a challenging task. While they propose a plausible idea, the absence of testing is a notable gap. The importance of testing and the complexity of delivering tangible products or prototypes in an organizational setting are highlighted. The group is recognized for their professionalism, effective tools, and organizational skills.</SmallInfo>       
           <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Pitch%20Idea%20Simac.docx?d=w15115621618d4547b075146282c42b85&csf=1&web=1&e=B5LBJ7" target="_blank"> <Button> Read more</Button> </a>
         </InfoBox>
         <Column>
@@ -191,6 +247,21 @@ function Numeration_Simac() {
    
      {/* </Slide> */}
        
+        </VerticalTimelineElement>
+        <VerticalTimelineElement id="conclusion"
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+        position={ 'right' }
+        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+        textClassName = {'1'}
+        contentArrowStyle={ {border: "none" }}
+        >
+          <Row small conclusion >
+            <InfoBox>
+               <Title>Conclusion</Title> 
+              <SmallInfo Resp>This project was an amazing opportunity for me. I believe that I grew a lot as a professional and learned many valuable lessons. At the beginning, I was lost and uncertain about my goals, but now I have a clear understanding of my professional aspirations and I am motivated to pursue them relentlessly. I learned that taking risks and stepping out of my comfort zone can lead to great achievements and enhanced creativity. Additionally, my design thinking has evolved to become more simplistic and minimalistic. Overall, this project has been a successful experience, and I am grateful to my team, teachers, and stakeholders.</SmallInfo>
+        </InfoBox>
+        </Row>
         </VerticalTimelineElement>
       </VerticalTimeline>
       

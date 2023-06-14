@@ -1,5 +1,4 @@
-import { createRef } from 'react';
-import React, { useState, useEffect } from 'react'
+import React, { createRef, useState, useEffect } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Column, Row, InfoBox, CircleBox, Tag} from "./styleComponents/container.Style"
@@ -16,7 +15,6 @@ import FancyNav from "./FancyNav"
 import ZoomImage from './ZoomImages';
 import BigPic from "./Images/Image6.png"
 import DesignMethod from "./Images/Image7.png"
-// import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 
 function Numeration_CaseStudy(id) {
@@ -43,24 +41,18 @@ function Numeration_CaseStudy(id) {
   }
   return (
     <div>
-      <br /> <br />
-      <ScrollspyNav scrollTargetIds={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" 
-    >
-      <SubNavBar >
-      
-      <FancyNav href="#generalInfo"  text="Genaral Information" ref={createRef()} ></FancyNav>
-        <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
-        <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
-        <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
-        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
-      </SubNavBar>
-    
+      <ScrollspyNav scrollTargetIds={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
+        <SubNavBar RespN >
+          <FancyNav href="#generalInfo"  text="Genaral Information" ref={createRef()} ></FancyNav>
+          <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
+          <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
+          <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
+          <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
+       </SubNavBar>
       </ScrollspyNav>
-    
-      
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
-      <VerticalTimelineElement id="generalInfo"
+        <VerticalTimelineElement id="generalInfo"
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
         position={ 'right' }
@@ -118,46 +110,41 @@ The assignment is to create a portfolio for the first four weeks, which is impor
         position={ 'right' }
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
-        contentArrowStyle={ {border: "none" }}
-        > 
-      {/* <Slide right cascade> */}
-    <Row small >
-    <InfoBox>
-          <Title>Understanding</Title> 
-          <Row tag>
-          <Tag>User Interaction</Tag>
-          <Tag>Investigative problem solving</Tag>
-          <Tag>Future-oriented organisation</Tag>
-          </Row>
-         
-          <SmallInfo Resp> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
-            <span style={{color:"#7c6aa6"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
-            would not look old-fashion. Also, one designer needs to 
-            know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
-            Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
-            them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
-            They are different opinions about them, but they are still being used.</SmallInfo>
-          <SmallInfo Resp>Another method that I used is a  <span style={{color:"#7c6aa6"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
-             in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
-              playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
-              Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
-        </InfoBox>
-        {/* <Zoom> */}
-        <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
-          {/* <img /> */}
-        {/* </Zoom> */}
-    </Row>
-    
-     {/* </Slide> */}
-       
+        contentArrowStyle={ {border: "none" }}> 
+          <Row small >
+          <InfoBox>
+                <Title>Understanding</Title> 
+                <Row tag>
+                <Tag>User Interaction</Tag>
+                <Tag>Investigative problem solving</Tag>
+                <Tag>Future-oriented organisation</Tag>
+                </Row>
+              
+                <SmallInfo Resp> I inspired myself by the design of other UX/UI designers as looking at their portfolios, I made 
+                  <span style={{color:"#7c6aa6"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
+                  would not look old-fashion. Also, one designer needs to 
+                  know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
+                  Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
+                  them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
+                  They are different opinions about them, but they are still being used.</SmallInfo>
+                <SmallInfo Resp>Another method that I used is a  <span style={{color:"#7c6aa6"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
+                  in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
+                    playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
+                    Also, something that I wanted to have in my design is to have lines in my design. </SmallInfo>
+              </InfoBox>
+              {/* <Zoom> */}
+              <ZoomImage src={MooodBoard} alt="" style={{'width': '350px', 'height': '450px'}}/>
+                {/* <img /> */}
+              {/* </Zoom> */}
+          </Row>       
         </VerticalTimelineElement>
         <VerticalTimelineElement id="exploring"
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
-        position={ 'right' }
-        iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
-        textClassName = {'1'}
-        contentArrowStyle={ {border: "none" }}
+         className="vertical-timeline-element--work"
+         contentStyle={{ background: 'none', color: '#151322', border:'none', WebkitBoxShadow: "none" }}
+         position={ 'right' }
+         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
+         textClassName = {'1'}
+         contentArrowStyle={ {border: "none" }}
         >
     <Row small  > 
     <InfoBox>
@@ -183,10 +170,8 @@ The assignment is to create a portfolio for the first four weeks, which is impor
         position={ 'right' }
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
-        contentArrowStyle={ {border: "none" }}
-        >
-  {/* <Slide right cascade> */}
-    <Row small >
+        contentArrowStyle={ {border: "none" }}>
+          <Row small >
     <InfoBox>
           <Title>Materializing</Title> 
           <Row tag>
@@ -217,9 +202,7 @@ Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
           <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '250px'}}/>
           <ZoomImage src={C4model} alt="" style={{'width': '450px', 'height': '450px'}}/>
         </Column> 
-    </Row>
-    
-     {/* </Slide> */}
+          </Row>
         </VerticalTimelineElement>
         <VerticalTimelineElement id="conclusion"
         className="vertical-timeline-element--work"

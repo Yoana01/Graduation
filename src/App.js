@@ -26,6 +26,7 @@ function App() {
            <Route path="/caseStudyInterWeek"  element={<CaseStudy_InterWeek />} />
            <Route path="/home"  element={<HomePage />} /> 
            <Route path="/demo"  element={<Demo1 />} /> 
+           {/* <Route exact path="/#gInfo" component={gInfo} /> */}
          </Route>
       </Routes> 
 
