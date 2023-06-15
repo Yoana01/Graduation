@@ -61,8 +61,8 @@ function Numeration_Inter() {
                 <SmallInfo>The Cruyff Foundation</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>1 week</SmallInfo>
-                <SubTitle>Learning Outcomes:</SubTitle>
-                  <Row learningOut>
+                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
+                  {/* <Row learningOut>
                     <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
@@ -70,7 +70,7 @@ function Numeration_Inter() {
                     <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>   
                     <CircleBox> <SmallInfo learning learningText>Investigative problem solving</SmallInfo> </CircleBox>
-                  </Row>
+                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo> - Sustainable Development Goals <br />
                         - Design Thinking <br />

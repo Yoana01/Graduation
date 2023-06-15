@@ -121,7 +121,7 @@ export const FeedbackBox = styled.div `
 export const CircleBox = styled.div`
   background: #FFFFFF;
   opacity: 0.84;
-  width: 100px;
+  width: 150px;
   height: 42px;
   padding:4px;
   border-radius: 16px;

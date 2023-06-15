@@ -90,14 +90,14 @@ function Numeration_Simac() {
                 <SmallInfo>Simac IT NL</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>12 weeks</SmallInfo>
-                <SubTitle>Learning Outcomes:</SubTitle>
-                  <Row learningOut>
+                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
+                  {/* <Row learningOut>
                     <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
-                  </Row>
+                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo>- Agile <br />
                         - Design Thinking <br />

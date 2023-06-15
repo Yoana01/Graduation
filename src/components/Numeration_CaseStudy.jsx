@@ -17,28 +17,7 @@ import BigPic from "./Images/Image6.png"
 import DesignMethod from "./Images/Image7.png"
 import Slide from 'react-reveal/Slide';
 
-function Numeration_CaseStudy(id) {
-  // const [isSticky, setSticky] = useState(false);
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  // const handleScroll = () => {
-  //   if (window.scrollY > 1450) {
-  //     setSticky(true);
-  //   } else {
-  //     setSticky(false);
-  //   }
-  // };
-  let activeStyle = {
-    color: "#FFCDB2", 
-    textDecoration : "underline"
-  }
+function Numeration_CaseStudy() {
   return (
     <div>
       <Scrollspy items={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
@@ -69,14 +48,14 @@ function Numeration_CaseStudy(id) {
                 <SmallInfo>Fontys University of Applied Science</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>4 weeks</SmallInfo>
-                <SubTitle>Learning Outcomes:</SubTitle>
-                  <Row learningOut>
+                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
+                  {/* <Row tag>
                     <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
                     <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
-                  </Row>
+                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo>- Agile <br />
                         - Design Thinking <br />
@@ -93,7 +72,7 @@ function Numeration_CaseStudy(id) {
             <Column home>
             <Title>Summary</Title>
         <SmallInfo  small>
-The assignment is to create a portfolio for the first four weeks, which is important for presenting oneself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments. These methods align more with UX/UI practices.
+The assignment is to create a portfolio for the first four weeks, which is important for presenting myself and showcasing capabilities. The main question guiding the portfolio and the semester's goal is about the desired IT professional identity. The Agile methodology was employed for flexibility in the project, while the Design Thinking Method, particularly the CMD approach, allowed for iterations and adjustments as these methods align more with UX/UI practices.
          </SmallInfo>
       
             </Column>
@@ -124,9 +103,7 @@ The assignment is to create a portfolio for the first four weeks, which is impor
                   <span style={{color:"#7c6aa6"}}> trend analysis </span>for 2023. I did this because I wanted to make sure that my design 
                   would not look old-fashion. Also, one designer needs to 
                   know what are the trends right now, but also not put all of them if they are not relevant to the case that he is doing.
-                  Something that at the moment is trendy is the 3-D icons, however, I, personally, do not like them, so I did not include 
-                  them in my design. Nevertheless, I like to have some gradients in the design, that's why I chose to use it. 
-                  They are different opinions about them, but they are still being used.</SmallInfo>
+                 I used colours that are trendy at the moment.</SmallInfo>
                 <SmallInfo Resp>Another method that I used is a  <span style={{color:"#7c6aa6"}}>mood board</span> there I started brainstorming what colours and typefaces, I wanted to have
                   in my design. I was having different versions of what I wanted to look at the end, but at the end I decided to be more
                     playful and represent my creativity and myself. That's why I got to the idea that I want to have some sunset colours. 
@@ -150,13 +127,11 @@ The assignment is to create a portfolio for the first four weeks, which is impor
     <InfoBox>
           <Title>Exploring</Title> 
           <Tag>User Interaction</Tag>
-          <SmallInfo Resp>Since I was not sure how exactly my will look my design as well as the limited time of the project, 
-            I started directly to <span style={{color:"#7c6aa6"}}>prototyping</span> digital versions of the design. I got through some until I got to the point
-            where I believe it is closest to what I wanted to have. You can download to see the final version.</SmallInfo>
+          <SmallInfo Resp>Since I was not sure how exactly my design will look as well as the limited time of the project, I started directly to implement  <span style={{color:"#7c6aa6"}}>high-fidelity prototypes</span>. I got through some until I got to the point where I believe it is closest to what I wanted to have.  In the begging I used gradient as a background, then I did it only purple, but I was feeling that it was crashing, so I kept the purple but I put a white background. Also, I changed a couple of times the typeface until I find the best one.</SmallInfo>
             <SmallInfo Resp> Another method that I used is the <span style={{color:"#7c6aa6"}}>UI Architecture</span> as again and 
             here I went through different iterations before going to the final version of my structure for the design. 
             I did and small brand style guide which to help with the components of my design.</SmallInfo>
-            <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> Read more</Button> </a>
+            <a href="https://stichtingfontys-my.sharepoint.com/:u:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Portfolio.xd?csf=1&web=1&e=fqYXFq" target="_blank"> <Button> Prototype and Architecture</Button> </a>
         </InfoBox>
           <Column>
           <ZoomImage src={Versions} alt="" style={{'width': '350px', 'height': '250px'}}/>
@@ -187,16 +162,14 @@ The assignment is to create a portfolio for the first four weeks, which is impor
             <SmallInfo Resp> I wanted to use <span style={{color:"#7c6aa6"}}>React Bootstrap</span> because they have already made templates. However, when I was brainstorming,
               I realized that my design is specific and it would not work. That's why after some talks with people with software 
               backgrounds, they advised me to use <span style={{color:"#7c6aa6"}}>styled-components</span>. 
-              This is a React-specific CSS-in-JS styling solution that creates a platform for developers to write actual CSS code to style React components.
               This makes my work look cleaner and more professional and if someone wants to see my code it would be presented 
               in a structured way.
         </SmallInfo>
         <SmallInfo Resp> 
 Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
 </span> from my fellow students, I received positive feedback for my planning skills, structured approach, timely delivery, research documentation, and empathy in design. However, there are areas for improvement, such as creating more minimalistic plans, highlighting key research points, being open to change in group work, thinking beyond limitations in problem-solving, and not taking feedback personally. Overall, I have good qualities but need to be more flexible and open-minded.
-              <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/360%20Feedback.docx?d=w531d685c0e434fd3b498a423fda062ea&csf=1&web=1&e=F0HFOK" target="_blank"> <Button> Read more</Button> </a>
         </SmallInfo>
-      
+        <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Portfolio/Documentation/360%20Feedback.docx?d=w531d685c0e434fd3b498a423fda062ea&csf=1&web=1&e=F0HFOK" target="_blank"> <Button>Feedback Document</Button> </a>
         </InfoBox>
         <Column>
           <ZoomImage src={Moscow} alt="" style={{'width': '350px', 'height': '250px'}}/>
@@ -216,9 +189,7 @@ Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
     <Row small conclusion id="conclusion">
     <InfoBox>
           <Title>Conclusion</Title> 
-          <SmallInfo Resp>In conclusion, I am proud of what they accomplished in a short amount of time, but I acknowledge that the project is still a work in progress and some components may change over time. 
-            I believe they stuck to the project plan, but I understand the fact that projects can be unpredictable, so it's important to not make big 
-            promises to stakeholders. Moreover, I developed both programming and design skills over these four weeks. </SmallInfo>
+          <SmallInfo Resp> After reflecting on my journey, I take pride in my accomplishments as a UI designer. My goal of incorporating critical thinking and engaging user interactions has been achieved. I recognize the significance of thorough research in validating concepts and designs. Furthermore, I have learned the importance of balancing my own expectations with the need to please everyone. This transformative process has provided invaluable lessons and a clear sense of direction moving forward.</SmallInfo>
         </InfoBox>
         
     </Row>

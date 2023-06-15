@@ -18,7 +18,7 @@ function Projects() {
         <img src={Project02} alt="" className="cardImg"/>
         <InfoBox small>
           <Title>Onboarding Simac</Title> 
-          <SmallInfo Resp>If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.</SmallInfo>
+          <SmallInfo Resp>  What is the solution for the onboarding process at Simac, you can find here.</SmallInfo>
           <Link to={'/caseStudySimac'}> <Button>Read More</Button></Link>
         </InfoBox>       
       </Row>
@@ -28,7 +28,7 @@ function Projects() {
       <InfoBox small>
           <Title>Dutch Design Charrette</Title> 
           <SmallInfo Resp>This was one incredible week of working where we worked with people from different
-          university and create project for The Cruyff Foundation, you can click the button.</SmallInfo>
+          university and create project for The Cruyff Foundation. How did it go?</SmallInfo>
           <Link to={'/caseStudyInterWeek'}> <Button>Read More</Button></Link>
         </InfoBox>    
         <img src={Project03} alt="" className="cardImg"/>

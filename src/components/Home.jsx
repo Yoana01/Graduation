@@ -38,7 +38,7 @@ function Home() {
     <img src={Project02} alt="" className="cardImg" />
     <SubTitle>Onboarding Simac</SubTitle>
     <SmallInfo CardText>
-    If you want to understand more about what is the solution for the onboarding process at Simac, you can click the button.
+     What is the solution for the onboarding process at Simac, you can find here.
     </SmallInfo>
     <Link to={'/caseStudySimac'}><Button>Read More</Button></Link>
     </div>
@@ -49,7 +49,7 @@ function Home() {
     This was one incredible week of working where we worked with people from different
           university and create project for The Cruyff Foundation, you can click the button.
     </SmallInfo>
-    <Link to={'/caseStudySimac'}><Button>Read More</Button></Link>
+    <Link to={'/caseStudyInterWeek'}><Button>Read More</Button></Link>
     </div>
     </Row>
     </Column>

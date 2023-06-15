@@ -105,7 +105,7 @@ function About() {
       <Row small homeA>
         <Slide left cascade>
         <InfoBox>
-          <Title>Cooking sweetings things</Title> 
+          <Title>Cooking sweet things</Title> 
           <SmallInfo Resp>The first thing that I have learned to cook was a cake. From that day on I love cooking cakes, muffinins to my
             beloved ones.
           </SmallInfo>

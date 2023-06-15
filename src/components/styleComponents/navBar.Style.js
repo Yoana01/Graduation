@@ -23,10 +23,10 @@ display: flex;
 justify-content: center;
 gap:45px;
 align-items: center;
-margin: auto;
-width: 100vw;
+margin-left: -40px;
+width: 100%;
 height: auto;
-/* border-radius: 32px; */
+border-radius: 12px;
 color: #7c6aa6;;
 background: rgb(222, 214, 209, 0.65);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

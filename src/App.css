@@ -1,4 +1,4 @@
-.is-active {
+.is-active:active {
   color:#7c6aa6 !important;
 }
 @font-face {
