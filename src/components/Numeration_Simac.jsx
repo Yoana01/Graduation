@@ -16,13 +16,14 @@ import Affinity from './Images/SIMAC Affinity map 1.png';
 import Model from './Images/3dModel.webm';
 import BrainstormingOne from './Images/Brainstorming1.mp4';
 import BrainstormingTwo from './Images/Brainstorming2.mp4';
-// import BigPic from "./Images/Image6.png"
+import Wireframes from "./Images/wireframes.png"
 import Project from "./Images/ProjectbreakdownSIMAC.png"
-// import Project02 from "./Images/Logo.png"
+import GroupPicture from "./Images/grouppic.jpg"
 import Theme from "./Images/Project Theme.jpg"
 import Slide from 'react-reveal/Slide';
 import { green } from '@mui/material/colors';
 import { HashLink } from 'react-router-hash-link';
+
 
 function Numeration_Simac() {
   // const [isSticky, setSticky] = useState(false);
@@ -229,8 +230,18 @@ function Numeration_Simac() {
           <SmallInfo Resp>Taking a risk and starting the whole concept from scratch was scary since it was the end of the semester. The whole team went through a lot of different interactions until we got to the final one. A challenge-based app for new employees, fostering interaction and collaboration. It includes a world map highlighting cultural diversity within the company. The aim is to create an engaging and inclusive work environment.  This time NADSCY verified the idea after it was approved.  </SmallInfo>
         </InfoBox>
         <Column>
-        <ZoomImage src={Empathy} alt="" style={{'width': '350px', 'height': '250px'}}/>
-        <ZoomImage src={Affinity} alt="" style={{'width': '350px', 'height': '200px'}}/>
+        <video   ref={videoRef} autoPlay controls  style={{'width': '350px', 'height': '250px'}}>
+        <source src={BrainstormingOne} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        <video   ref={videoRef} autoPlay  controls style={{'width': '350px', 'height': '250px'}}>
+        <source src={Model} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video   ref={videoRef} autoPlay controls style={{'width': '350px', 'height': '350px'}}>
+        <source src={BrainstormingTwo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         </Column>
        
     </Row>
@@ -251,23 +262,17 @@ function Numeration_Simac() {
           <Title>Prototyping</Title>
           <Tag>Investigative problem solving</Tag> 
           <SmallInfo Resp>In the project, my assigned responsibility was to create the Scanning and Congratulating component in high-fidelity. This component utilized image recognition to verify completed tasks. While I found a plugin for image recognition, I acknowledged that it may not be the most accurate option available. To ensure optimal performance, I went through multiple iterations, refining the component's functionality and accuracy.  </SmallInfo>
+          <a href="https://www.figma.com/file/7Y1S4hBJzTRaoa37VlbXz9/SIMAC-IN?type=design&node-id=31%3A8148&t=o53rC5i0sfnIWrfU-1" target="_blank"> <Button>Prototype</Button> </a>
+          <br /><br />
           <SmallInfo Resp> Upon completion of the project, I conducted extensive testing to evaluate both the design and the concept of the app. The results were highly positive, with the app achieving its goal of being simple and easy-to-navigate. Users who participated in the testing praised the user-friendly interface and rated the app 9 out of 10. This positive feedback indicates a high level of satisfaction with the app's usability and functionality, validating the effectiveness of the design decisions and the successful implementation of the concept.</SmallInfo>  
-          <SmallInfo Resp> The semester coach is pleased with the project and praises the six ladies for their commendable work on a challenging task. While they propose a plausible idea, the absence of testing is a notable gap. The importance of testing and the complexity of delivering tangible products or prototypes in an organizational setting are highlighted. The group is recognized for their professionalism, effective tools, and organizational skills.</SmallInfo>       
-          <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Pitch%20Idea%20Simac.docx?d=w15115621618d4547b075146282c42b85&csf=1&web=1&e=B5LBJ7" target="_blank"> <Button> Read more</Button> </a>
+          <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Testing.pdf?csf=1&web=1&e=V0mQAe" target="_blank"> <Button>Testing</Button> </a>
+          <br /><br />
+         <SmallInfo Resp> The semester coach is pleased with the project and praises the six ladies for their commendable work on a challenging task. While they propose a plausible idea, the absence of testing is a notable gap. The importance of testing and the complexity of delivering tangible products or prototypes in an organizational setting are highlighted. The group is recognized for their professionalism, effective tools, and organizational skills.</SmallInfo>             
         </InfoBox>
         <Column>
-        <video   ref={videoRef} autoPlay controls  style={{'width': '350px', 'height': '250px'}}>
-        <source src={BrainstormingOne} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-        <video   ref={videoRef} autoPlay  controls style={{'width': '350px', 'height': '250px'}}>
-        <source src={Model} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <video   ref={videoRef} autoPlay controls style={{'width': '350px', 'height': '350px'}}>
-        <source src={BrainstormingTwo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        <ZoomImage src={Wireframes} alt="" style={{'width': '600px', 'height': '380px'}}/>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4isAugIrrt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <ZoomImage src={GroupPicture} alt="" style={{'width': '350px', 'height': '250px'}}/>
         </Column>
         
     </Row> 
