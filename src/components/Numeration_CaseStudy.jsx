@@ -151,8 +151,8 @@ The assignment is to create a portfolio for the first four weeks, which is impor
           <Title>Materializing</Title> 
           <Row tag>
           <Tag>User Interaction</Tag>
-          <Tag>Software design</Tag>
-          <Tag>Personal leadership</Tag>
+          <Tag>Software Design</Tag>
+          <Tag>Personal Leadership</Tag>
           </Row>
           <SmallInfo Resp>I did a <span style={{color:"#7c6aa6"}}>peer reviews</span> with couple of my fellow students which gave me a feedback for my design. Based on this method, 
             I put more white space and removed  some elements that made the design to look more simple and clear. </SmallInfo>
@@ -189,6 +189,7 @@ Based on a <span style={{color:"#7c6aa6"}}>360-degree feedback
     <Row small conclusion id="conclusion">
     <InfoBox>
           <Title>Conclusion</Title> 
+          <Tag>Personal Leadership</Tag>
           <SmallInfo Resp> After reflecting on my journey, I take pride in my accomplishments as a UI designer. My goal of incorporating critical thinking and engaging user interactions has been achieved. I recognize the significance of thorough research in validating concepts and designs. Furthermore, I have learned the importance of balancing my own expectations with the need to please everyone. This transformative process has provided invaluable lessons and a clear sense of direction moving forward.</SmallInfo>
         </InfoBox>
         

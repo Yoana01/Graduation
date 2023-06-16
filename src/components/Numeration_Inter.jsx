@@ -61,16 +61,6 @@ function Numeration_Inter() {
                 <SmallInfo>The Cruyff Foundation</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>1 week</SmallInfo>
-                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
-                  {/* <Row learningOut>
-                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>   
-                    <CircleBox> <SmallInfo learning learningText>Investigative problem solving</SmallInfo> </CircleBox>
-                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo> - Sustainable Development Goals <br />
                         - Design Thinking <br />
@@ -109,7 +99,7 @@ function Numeration_Inter() {
     <Row small >
     <InfoBox>
           <Title>Preparation</Title> 
-          <Tag>Goal-oriented interaction</Tag>
+          <Tag>Goal-oriented Interaction</Tag>
           <SmallInfo Resp>We had one additional week before the actual week, there we still did not know what our project is. This week was
           to get know each other. In our group we were in total 8 people, 5 from Fontys University, 1 – EPHEC (Belgium),
           1- Berliner Hochschule für Technik (Germany), 1 - Nantes l’Ecole Design (France). I learned more about their weakness, strengths and interests.
@@ -134,14 +124,13 @@ function Numeration_Inter() {
     <Title>Understanding</Title> 
       <Row tag>
       <Tag>User Interaction</Tag>
-          <Tag>Future-oriented organisation</Tag>
-          <Tag>Investigative problem solving</Tag>
+          <Tag>Investigative Problem Solving</Tag>
+          <Tag>Future-oriented Oganisation</Tag>
       </Row>
           <SmallInfo Resp>During the first day of the international week, we introduced ourselves and clarified the project details. We conducted <span style={{color:"#7c6aa6"}}>expert interviews</span> to understand the client's needs, including budget limitations and their game selection criteria. This productive start inspired us and gave us a clear direction for the project.</SmallInfo>
           <SmallInfo Resp> The second thing that I did was a <span style={{color:"#7c6aa6"}}>company research</span>. I understood about their 14th rules, more about Johan Cruyff. This helped me even more to understand and inspire myself from this person as well as what game I want to build and what games they have. This was the basis of our brainstorming session.   </SmallInfo>
           <SmallInfo Resp>Another thing that we did is to  <span style={{color:"#7c6aa6"}}>observe</span> one of the yards that they have and to see how it looks like and if it accessible for everyone how the kids are acting. So, what we got as a result is that there is social hierarchy, and they are mixed culture. The yard was a football, so all the kids were males and that it is constantly busy. This provided value information about kids itself. </SmallInfo>  
-          <SmallInfo Resp>
-I recognized the importance of exploring different technologies, considering the advancements and the distinct gaming preferences of the younger generation. My focus was to make <span style={{color:"#7c6aa6"}}>research</span> on AR (Augmented Reality), Haptic feedback, and Motion tracking. I excluded VR (Virtual Reality) due to its limitations in movement. The concept of Haptic feedback was particularly intriguing to me. Understanding the available technologies and their potential applications was beneficial in shaping our project concept. Additionally, considering the feasibility of using projectors for our outdoor game, specifically investigating whether there are projectors strong enough to withstand sunlight.</SmallInfo>      
+          <SmallInfo Resp>I recognized the importance of exploring different technologies, considering the advancements and the distinct gaming preferences of the younger generation. Also, this was one of our <span style={{color:"#7c6aa6"}}>sub-questions in the project plan</span>. My focus was to make <span style={{color:"#7c6aa6"}}>research</span> on AR (Augmented Reality), Haptic feedback, and Motion tracking. I excluded VR (Virtual Reality) due to its limitations in movement. The concept of Haptic feedback was particularly intriguing to me. Understanding the available technologies and their potential applications was beneficial in shaping our project concept. Additionally, considering the feasibility of using projectors for our outdoor game, specifically investigating whether there are projectors strong enough to withstand sunlight.</SmallInfo>      
         </InfoBox>
         <Column>
         <ZoomImage src={Rules} alt="" style={{'width': '380px', 'height': '450px'}}/>
@@ -166,7 +155,6 @@ I recognized the importance of exploring different technologies, considering the
     <Tag>User Interaction</Tag>
     <Tag>Investigative problem solving</Tag>
           <SmallInfo Resp>After the whole information was collected,the next step was creaiting a concept as we had some stuff that was required to have and combining with the research was made. Based on my research we included projectors, avatars and Haptic feedback. </SmallInfo>
-          {/* <SmallInfo Resp><span style={{color:"#7c6aa6"}}>The concept </span>is to have a music game and the kids to have list of songs. Each team can have 4 players and they need to compete between each other. At the end there will be leaderboard. There will be different light sensors on the ground, when some of them is light, the kid needs to jump. We have 4 sections: drums, guitar and piano as they will work with motion tracking. The last one will be a singer they do not need specifically to sing, but also in this way the kids that have difficulties with moving can also join. There will be a screen where the kids can see themselves as it can be a screen. The other thing is that when the kids hear the music can also dance while the players are playing the game. There will be and AI generator for the avatars. Moreover, the AI can be used for creating the difficulty based on each kid. The students will have bracelets, so there will be kept all the information, and this is the way the game to start by identifying them as scanning them on a tablet. </SmallInfo> */}
           <SmallInfo Resp>I did a <span style={{color:"#7c6aa6"}}>high fidelity prototyping</span> since I want to become UX/UI so in this will help me to become achieve my goal for the semester. I did a small brand style guide. As since we are designing for kids I wanted the design to be playful and happy. That’s why I choose these type of color palette and typefaces. I wanted the design to be simple as possible. If you want to see the itereation that we got, you can click the button. </SmallInfo>        
           <a href="https://www.figma.com/file/hM2rTS8Yni3Am977mgAiiB/Avatars-UI?type=design&node-id=0%3A1&t=uiDeKPy1c87Zmkwv-1 " target="_blank"> <Button> Prototype</Button> </a>
         </InfoBox>
@@ -192,6 +180,7 @@ I recognized the importance of exploring different technologies, considering the
     <InfoBox>
           <Title>Materializing</Title> 
           <Row tag>
+          <Tag>User Interaction</Tag>
           <Tag>Software Design</Tag>
           <Tag>Investigative problem solving</Tag>
           <Tag>Personal leadership</Tag>
@@ -220,6 +209,7 @@ I recognized the importance of exploring different technologies, considering the
     <Row small conclusion >
     <InfoBox>
           <Title>Conclusion</Title> 
+          <Tag>Personal Leadership</Tag>
           <SmallInfo Resp>The Dutch Design Charrette was one amazing experience because I really started thinking 
           beyond the screen. I knew that there is architecture and internal design, and they are also doing design 
           things. However, this project taught me that even UX/UI and the technology that we are studying now can 

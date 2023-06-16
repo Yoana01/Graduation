@@ -161,12 +161,12 @@ function Numeration_Simac() {
     <InfoBox>
           <Title>Exploration</Title> 
           <Row tag>
-            <Tag>Personal leadership</Tag>
+          <Tag>Personal leadership</Tag>
+          <Tag>User Interaction</Tag>
           </Row>
           <SmallInfo Resp> Based on my <span style={{color:"#7c6aa6"}}>literature review</span> of Simac's documents, I found that their onboarding process consists of four stages. However, many employees feel overwhelmed on their first day due to the number of tasks they need to complete. It was also noted that some employees do not use SimacWeb. On the positive side, Simac personalizes the onboarding process and assigns a "buddy" to new hires during their initial days. These insights provide valuable information.
          </SmallInfo>
          <a href="https://stichtingfontys-my.sharepoint.com/:b:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Simac%20-Lit%20Study.pdf?csf=1&web=1&e=8YCl43" target="_blank"> <Button> Read more</Button> </a> <br />
-
          <SmallInfo Resp> As there are various steps involved in the onboarding process over several months, I created a <span style={{color:"#7c6aa6"}}>customer journey map </span>to visualize it. The map includes a general overview, as well as two more specific maps detailing the first day and first week at work. </SmallInfo>
             <a href="https://miro.com/app/board/uXjVMXm3hSE=/?share_link_id=77056691624" target="_blank"> <Button> Customer journey map</Button> </a>
             <br/><br/>
@@ -194,7 +194,7 @@ function Numeration_Simac() {
     <Row small >
     <InfoBox>
           <Title>Definition</Title> 
-          <Tag>User interaction</Tag>
+          <Tag>User Interaction</Tag>
           <SmallInfo Resp>After the gathered information, I conducted one <span style={{color:"#7c6aa6"}}>interviews</span>  with non-Dutch employees in Simac and another company to understand their onboarding experience. Surprisingly, language difficulties were not a major concern. Next, I analyzed the interviews and created an  <span style={{color:"#7c6aa6"}}> empathy map </span>to capture users' emotions, feelings, and thoughts. This informed the creation of personas and user requirements by my team members.
           </SmallInfo>
           <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Interview%20Analysis.docx?d=w591cef0b87aa44ea9c161650ec7b8851&csf=1&web=1&e=di7Rkb" target="_blank"> <Button> Read more</Button> </a> <br />
@@ -222,7 +222,8 @@ function Numeration_Simac() {
     <Row small >
     <InfoBox>
           <Title>Ideation</Title> 
-          <Tag>User interaction</Tag>
+          <Tag>User Interaction</Tag>
+          <Tag>Goal-oriented Interaction</Tag> 
           <SmallInfo Resp>After gathering all the necessary information, the project's focus shifted to addressing the socializing aspect. Sometimes, solving a problem requires focusing on a specific part rather than tackling the entire issue. Developing a concept based on these requirements. Inspired by the international week, I initially considered a concept that involved tracking employees, but we realized it was not legally feasible and abandoned the idea. I created sketches and presented them to the team, teachers, and the client during a pitch session.
           </SmallInfo>
           <a href="https://stichtingfontys-my.sharepoint.com/:w:/r/personal/455146_student_fontys_nl/Documents/Portfolio%20Semester%206/Group%20Project/Pitch%20Idea%20Simac.docx?d=w15115621618d4547b075146282c42b85&csf=1&web=1&e=B5LBJ7" target="_blank"> <Button> Read more</Button> </a>
@@ -261,6 +262,8 @@ function Numeration_Simac() {
     <InfoBox>
           <Title>Prototyping</Title>
           <Tag>Investigative problem solving</Tag> 
+          <Tag>Investigative Interaction</Tag> 
+          <Tag>Goal-oriented Interaction</Tag> 
           <SmallInfo Resp>In the project, my assigned responsibility was to create the Scanning and Congratulating component in high-fidelity. This component utilized image recognition to verify completed tasks. While I found a plugin for image recognition, I acknowledged that it may not be the most accurate option available. To ensure optimal performance, I went through multiple iterations, refining the component's functionality and accuracy.  </SmallInfo>
           <a href="https://www.figma.com/file/7Y1S4hBJzTRaoa37VlbXz9/SIMAC-IN?type=design&node-id=31%3A8148&t=o53rC5i0sfnIWrfU-1" target="_blank"> <Button>Prototype</Button> </a>
           <br /><br />
@@ -290,7 +293,8 @@ function Numeration_Simac() {
         >
           <Row small conclusion >
             <InfoBox>
-               <Title>Conclusion</Title> 
+               <Title>Conclusion</Title>
+               <Tag>Personal Leadership</Tag> 
               <SmallInfo Resp>This project was a transformative opportunity for my professional growth. In the begining, but I was uncertain, I gained clarity on my goals and became highly motivated to pursue them. Stepping out of my comfort zone taught me the value of taking risks and fostering creativity. My design thinking has also evolved to be more simplistic and minimalistic. I am grateful to my team, teachers, and stakeholders for making this project a successful and invaluable experience.</SmallInfo>
         </InfoBox>
         </Row>
