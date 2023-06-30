@@ -21,47 +21,18 @@ import Project from "./Images/ProjectbreakdownSIMAC.png"
 import GroupPicture from "./Images/grouppic.jpg"
 import Theme from "./Images/Project Theme.jpg"
 import Slide from 'react-reveal/Slide';
-import { green } from '@mui/material/colors';
-import { HashLink } from 'react-router-hash-link';
 
 
 function Numeration_Simac() {
-  // const [isSticky, setSticky] = useState(false);
   const videoRef = useRef(null);
-  const gInfo = useRef();
-  const planning = useRef();
-  
 
   useEffect(() => {
     videoRef.current.play();
   }, []);
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  // const handleScroll = () => {
-  //   if (window.scrollY > 1450) {
-  //     setSticky(true);
-  //   } else {
-  //     setSticky(false);
-  //   }
-  // };
-  // let activeStyle = {
-  //   color: "red", 
-  //   textDecoration : "underline"
-  // }
- 
-
-
   return (
     <div>
       <br /> <br />
-      <Scrollspy items={["gInfo", 'planning', 'exploration', 'definition', 'ideation', "proto",  "conclusion"]} activeNavClass="is-active">
+      {/* <Scrollspy items={["gInfo", 'planning', 'exploration', 'definition', 'ideation', "proto",  "conclusion"]} activeNavClass="is-active">
       <SubNavBar RespN>
       <FancyNav  href="#gInfo" text="General Information"  ref={createRef()} />
         <FancyNav  href="#planning" text="Planning"  ref={createRef()} />
@@ -71,7 +42,7 @@ function Numeration_Simac() {
         <FancyNav href="#proto" text="Prototypes"  ref={createRef()}/>  
         <FancyNav href="#conclusion" text="Conclusion"  ref={createRef()}/> 
         </SubNavBar>
-      </Scrollspy>
+      </Scrollspy> */}
      
       <VerticalTimeline animate={ true } layout={ '1-column-left'} > 
       <VerticalTimelineElement  id="gInfo"
@@ -91,14 +62,6 @@ function Numeration_Simac() {
                 <SmallInfo>Simac IT NL</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>12 weeks</SmallInfo>
-                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
-                  {/* <Row learningOut>
-                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
-                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo>- Agile <br />
                         - Design Thinking <br />
@@ -109,7 +72,6 @@ function Numeration_Simac() {
             </InfoBox>
             </Slide>
         </Row>
-        {/* <Column sum> */}
         <Slide cascade>
         <Row small homeA even>
           <Column home>
@@ -120,10 +82,7 @@ function Numeration_Simac() {
           </Column>
       <ZoomImage src={Project} alt="" id="sumImg"/>
         </Row>
-      </Slide>
-
-     {/* </Slide> */}
-       
+      </Slide>      
         </VerticalTimelineElement>
         <VerticalTimelineElement  id="planning"
         className="vertical-timeline-element--work"
@@ -145,9 +104,6 @@ function Numeration_Simac() {
         </InfoBox>
         <ZoomImage src={ProjectManagement} alt="" style={{'width': '350px', 'height': '250px'}}/>
     </Row> 
-
-     {/* </Slide> */}
-       
         </VerticalTimelineElement>
         <VerticalTimelineElement  id="exploration"
         className="vertical-timeline-element--work"
@@ -190,7 +146,6 @@ function Numeration_Simac() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         >
-      {/* <Slide right cascade> */}
     <Row small >
     <InfoBox>
           <Title>Definition</Title> 
@@ -206,9 +161,6 @@ function Numeration_Simac() {
         </Column>
        
     </Row>
-    
-     {/* </Slide> */}
-       
         </VerticalTimelineElement>
         <VerticalTimelineElement id="ideation"
         className="vertical-timeline-element--work"
@@ -218,7 +170,6 @@ function Numeration_Simac() {
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}
         >
-      {/* <Slide right cascade> */}
     <Row small >
     <InfoBox>
           <Title>Ideation</Title> 
@@ -243,12 +194,8 @@ function Numeration_Simac() {
         <source src={BrainstormingTwo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-        </Column>
-       
+        </Column>    
     </Row>
-    
-     {/* </Slide> */}
-       
         </VerticalTimelineElement>
         <VerticalTimelineElement id="proto"
         className="vertical-timeline-element--work"
@@ -276,12 +223,8 @@ function Numeration_Simac() {
         <ZoomImage src={Wireframes} alt="" style={{'width': '600px', 'height': '380px'}}/>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/4isAugIrrt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <ZoomImage src={GroupPicture} alt="" style={{'width': '350px', 'height': '250px'}}/>
-        </Column>
-        
+        </Column>    
     </Row> 
-   
-     {/* </Slide> */}
-       
         </VerticalTimelineElement>
         <VerticalTimelineElement id="conclusion"
         className="vertical-timeline-element--work"

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, Column, Row,FeedbackBox, InfoBox, FancyPic } from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo, SpecialText } from "./styleComponents/text.Style"
-import { Image } from "./styleComponents/image.Style"
 import BigPic from "./Images/Image5.svg"
 import Music from "./Images/music.jpg"
 import Movies from "./Images/movies.jpg"
@@ -34,20 +33,17 @@ function About() {
        become a web developer/designer, with a special focus on UX/UI – it is an exciting and dynamic
         field with plenty of opportunities to create innovative and user-friendly designs.
       </SmallInfo>
-       
-          </Box></Slide>
+      </Box>
+      </Slide>
       <Zoom>
         <FancyPic>
         <Slide right cascade>
         <SpecialText>ABOUT <br /> ME</SpecialText>
         </Slide>
-         {/* <Image src="BigPic" alt="Example" /> */}
          <img src={BigPic} alt="" style={{'width': '300px', 'height': '550px'}}/>
-        </FancyPic>
-       
-      </Zoom>
-      
-    </Row>
+        </FancyPic> 
+      </Zoom>  
+   </Row>
     </Fade>
   <Column aboutCon>
     <Title RespT>Get In Touch</Title>
@@ -57,15 +53,12 @@ function About() {
       <Row about><EmailIcon></EmailIcon> <SmallInfo Resp>yonichrurkina@gmail.com</SmallInfo></Row>
       <Row about><LinkedInIcon></LinkedInIcon> <SmallInfo Resp>https://www.linkedin.com/in/yoana-churkina-9408a1234/</SmallInfo></Row>
     </Fade>
- 
   </Column>
   <NumerationExperiences></NumerationExperiences>
   <Title>Feedback</Title>
   <Zoom cascade>
-
       <Carosel/>
-  </Zoom>
-  
+  </Zoom>  
     <Column>
     <Title RespT>5 things I love</Title>
       <Row small homeA>
@@ -132,12 +125,3 @@ function About() {
 }
 
 export default About
-{/* <Row>
-<FeedbackBox>Great working with her. She is a great UX/UI designer and taught me a lot about the user experience. She also was really eager to learn more about React and coding in general and she did a wonderful 
-  job with the implementation part of the project. I would really want to work with her again in a project!</FeedbackBox>
-<FeedbackBox>What I like? <br />
-I think she is very good media designer and frontend developer, and she knows a lot there which helps in
-delivering very quality products. I like that she tries every time to learn new things and improve herself. She is very helpful when someone needs an assistance. She is also very organized and point which helps her having good reputation.</FeedbackBox>
-<FeedbackBox>Amazing working with her. I dare to say that if I was not in a group with her, I would have done worse. Thankful for all the times she wanted me to work harder. She was never late nor to a meeting, nor with handing in or sending something needed. We combined our skills – her design and my software to create nice projects and it work out great. The only improvement I would work in in her place would be to be 
-calmer and more composed – she’s doing a great job and I see no reason for her to worry. If I could, I would with her on every project.</FeedbackBox>
-</Row> */}

@@ -7,7 +7,7 @@ import Project01 from "./Images/Image6.png"
 import Project02 from "./Images/Logo.png"
 import Project03 from "./Images/Eindhoven.jpg"
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
+
 
 function Projects() {
   return (

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 import { Column, Row, InfoBox} from "./styleComponents/container.Style"
 import { Title, SubTitle, SmallInfo } from "./styleComponents/text.Style"
 import ZoomImage from './ZoomImages';

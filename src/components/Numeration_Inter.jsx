@@ -25,22 +25,16 @@ import Slide from 'react-reveal/Slide';
 function Numeration_Inter() {
   return (
     <div>
-      <Scrollspy items={[ 'genInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active">
+      {/* <Scrollspy items={[ 'genInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active">
       <SubNavBar RespN>
-        <FancyNav href="#genInfo" text="General Information">Gen Info</FancyNav>
-        <FancyNav href="#preparation" text="Preparation">Prep</FancyNav>
-        <FancyNav href="#understanding"  text="Understanding" >Under</FancyNav>
-        <FancyNav href="#exploring" text="Exploring">Explo</FancyNav> 
-        <FancyNav href="#materializing" text="Materializing">Mat</FancyNav>
-        <FancyNav href="#conclusion" text="Conclusion">Conc</FancyNav>
-        {/* <FancyNav href="#genInfo" text="General Information" ref={createRef()}></FancyNav>
-        <FancyNav href="#preparation" text="Preparation" ref={createRef()}></FancyNav>
-        <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
-        <FancyNav href="#exploring" text="Exploring" ref={createRef()}></FancyNav> 
-        <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
-        <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav> */}
+        <FancyNav href="#genInfo" text="General Information"  ref={createRef()}></FancyNav>
+        <FancyNav href="#preparation" text="Preparation"  ref={createRef()}></FancyNav>
+        <FancyNav href="#understanding"  text="Understanding"  ref={createRef()}></FancyNav>
+        <FancyNav href="#exploring" text="Exploring"  ref={createRef()}></FancyNav> 
+        <FancyNav href="#materializing" text="Materializing"  ref={createRef()}></FancyNav>
+        <FancyNav href="#conclusion" text="Conclusion"  ref={createRef()}></FancyNav>
       </SubNavBar> 
-      </Scrollspy>
+      </Scrollspy> */}
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
         <div id="genInfo">
@@ -136,10 +130,7 @@ function Numeration_Inter() {
         <ZoomImage src={Rules} alt="" style={{'width': '380px', 'height': '450px'}}/>
         <ZoomImage src={Technology} alt="" style={{'width': '350px', 'height': '250px'}}/>
         </Column>
-    </Row>
-    
-     {/* </Slide> */}
-       
+    </Row> 
         </VerticalTimelineElement>
         <VerticalTimelineElement id="exploring"
         className="vertical-timeline-element--work"
@@ -148,7 +139,6 @@ function Numeration_Inter() {
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}>
-  {/* <Slide right cascade> */}
     <Row small > 
     <InfoBox>
           <Title>Exploring</Title> 
@@ -158,15 +148,12 @@ function Numeration_Inter() {
           <SmallInfo Resp>I did a <span style={{color:"#7c6aa6"}}>high fidelity prototyping</span> since I want to become UX/UI so in this will help me to become achieve my goal for the semester. I did a small brand style guide. As since we are designing for kids I wanted the design to be playful and happy. That’s why I choose these type of color palette and typefaces. I wanted the design to be simple as possible. If you want to see the itereation that we got, you can click the button. </SmallInfo>        
           <a href="https://www.figma.com/file/hM2rTS8Yni3Am977mgAiiB/Avatars-UI?type=design&node-id=0%3A1&t=uiDeKPy1c87Zmkwv-1 " target="_blank"> <Button> Prototype</Button> </a>
         </InfoBox>
-        {/* <Zoom> */}
           <Column>
           <ZoomImage src={Brainstroming} alt="" style={{'width': '350px', 'height': '250px'}}/>
           <ZoomImage src={Branding} alt="" style={{'width': '350px', 'height': '250px'}}/>
           <ZoomImage src={Songs} alt="" style={{'width': '350px', 'height': '250px'}}/>
-          </Column>  
-        {/* </Zoom> */}
+          </Column>    
     </Row>
-     {/* </Slide> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement id="materializing"
         className="vertical-timeline-element--work"
@@ -190,7 +177,6 @@ function Numeration_Inter() {
             <SmallInfo Resp> Another thing that I did is  <span style={{color:"#7c6aa6"}}>take over of Fontys ICT account in Instagram</span>. This was very important because I want to create media content for social medias but also and digital marketing. I learned so many things as that I need to make the content intriguing and to involve people in my story as asking me questions.
         </SmallInfo>
         </InfoBox>
-      {/* <Zoom> */}
         <Column>
           <ZoomImage src={C4model} alt="" style={{'width': '350px'}}></ZoomImage>
           <iframe width="350" height="250" src="https://www.youtube.com/embed/j3AnqXWBJTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -205,7 +191,6 @@ function Numeration_Inter() {
         iconStyle={{ background: '#bdb2cf', color: '#DED6D1', WebkitBoxShadow: "none" }}
         textClassName = {'1'}
         contentArrowStyle={ {border: "none" }}>
-    {/* <Slide right cascade> */}
     <Row small conclusion >
     <InfoBox>
           <Title>Conclusion</Title> 
@@ -221,7 +206,6 @@ function Numeration_Inter() {
         </InfoBox>
         <iframe width="350" height="250" src="https://www.youtube.com/embed/DR2SblG4_mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </Row>
-     {/* </Slide> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
       

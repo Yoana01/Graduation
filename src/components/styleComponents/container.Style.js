@@ -146,9 +146,6 @@ text-align: center;
 `
 
 export const QuoteBox = styled.div`
-    /* background: rgb(181,131,141, 0.39);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     border-radius: 32px;  */
     font-family: 'Dekko';
     width: 500px;
     height: 100%;

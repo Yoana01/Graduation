@@ -6,7 +6,6 @@ import Pic from "./Images/Image6.png"
 import { Title, SubTitle, SmallInfo} from "./styleComponents/text.Style"
 import { Button} from "./styleComponents/button.Style"
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import Project02 from "./Images/Logo.png"
 import Project03 from "./Images/Eindhoven.jpg"

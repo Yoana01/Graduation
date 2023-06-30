@@ -2,8 +2,6 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import { GlobalStyle } from "./components/styleComponents/global.Style";
-// import LogoImage from "./images/Logo.png";
-
 import About from "./components/About";
 import CaseStudy_Portfolio from "./components/CaseStudy_Portfolio";
 import CaseStudy_Simac from "./components/CaseStudy_Simac";
@@ -15,8 +13,6 @@ function App() {
   return (
     <div className="App">
        <GlobalStyle />
-      
-       {/* <Logo src="./components/styleComponents/image.Style" /> */}
        <Routes>
         <Route path="/" element={<NavBar />}>
            <Route index element={<Projects />} /> 
@@ -26,7 +22,6 @@ function App() {
            <Route path="/caseStudyInterWeek"  element={<CaseStudy_InterWeek />} />
            <Route path="/home"  element={<HomePage />} /> 
            <Route path="/demo"  element={<Demo1 />} /> 
-           {/* <Route exact path="/#gInfo" component={gInfo} /> */}
          </Route>
       </Routes> 
 

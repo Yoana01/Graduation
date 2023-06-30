@@ -20,7 +20,7 @@ import Slide from 'react-reveal/Slide';
 function Numeration_CaseStudy() {
   return (
     <div>
-      <Scrollspy items={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
+      {/* <Scrollspy items={['generalInfo', 'understanding', 'exploring', 'materializing', 'conclusion']} activeNavClass="is-active" >
         <SubNavBar RespN >
           <FancyNav href="#generalInfo"  text="Genaral Information" ref={createRef()} ></FancyNav>
           <FancyNav href="#understanding"  text="Understanding" ref={createRef()} ></FancyNav>
@@ -28,7 +28,7 @@ function Numeration_CaseStudy() {
           <FancyNav href="#materializing" text="Materializing" ref={createRef()}></FancyNav>
           <FancyNav href="#conclusion" text="Conclusion" ref={createRef()}></FancyNav>
        </SubNavBar>
-      </Scrollspy>
+      </Scrollspy> */}
       <br /> <br />
       <VerticalTimeline animate={ true } layout={ '1-column-left'} >
         <VerticalTimelineElement id="generalInfo"
@@ -48,14 +48,6 @@ function Numeration_CaseStudy() {
                 <SmallInfo>Fontys University of Applied Science</SmallInfo>
                 <SubTitle>Duration:</SubTitle>
                 <SmallInfo>4 weeks</SmallInfo>
-                {/* <SubTitle>Learning Outcomes:</SubTitle> */}
-                  {/* <Row tag>
-                    <CircleBox> <SmallInfo learning learningText>User interaction</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Software design</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Future-oriented organisation</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Personal leadership</SmallInfo> </CircleBox>
-                    <CircleBox> <SmallInfo learning learningText>Goal-oriented interaction</SmallInfo> </CircleBox>
-                  </Row> */}
                 <SubTitle>Contribution and Tools:</SubTitle>
                 <SmallInfo>- Agile <br />
                         - Design Thinking <br />

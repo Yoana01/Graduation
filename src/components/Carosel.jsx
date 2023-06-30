@@ -23,7 +23,8 @@ function Carosel() {
     calmer and more composed – she’s doing a great job and I see no reason for her to worry. If I could, I would with her on every project.</FeedbackBox>
     
     
-</Carousel></div>
+</Carousel>
+</div>
   )
 }
 
